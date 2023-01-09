@@ -35,27 +35,6 @@ public class MainPage extends Page {
         }
     }
 
-    @Before("@partner")
-    public void startTestPartnerApp() throws Exception {
-        if (myProp.getProperty("platformname").toString().equals("Android")) {
-//            PORT = myProp.getProperty("appiumport");
-//            APP = androidconfig.getProperty("partnerapk");
-//            StartAppiumServer(PORT, APP);
-//            androidDriver(PORT, APP);
-        }
-    }
-
-    @Before("@multiple-apps")
-    public void startTestAndroidMultipleApps() throws Exception {
-        if (myProp.getProperty("platformname").toString().equals("Android")) {
-//            PORT2 = myProp.getProperty("appiumport2");
-//            APP2 = androidconfig.getProperty("partnerapk");
-//            StartAppiumServer(PORT2, APP2);
-//            androidDriver(PORT2, APP2);
-        }
-    }
-
-
     @After("@Web")
     public void afterTest() {
         if (myProp.getProperty("platformname").toString().equals("Web")) {
@@ -75,23 +54,8 @@ public class MainPage extends Page {
     public void iOSDriver() {
     }
 
-
-    @Given("^\\[Main Page] Navigate to the vimient home page$")
-    public void  openWebUrl() {
-        String webUrl = myProp.getProperty("weburl");
-        //driver.get(webUrl);
-        //driver.manage().window().maximize();
-    }
-
-
-
-    @And("^\\[Main Page] Form fields are filled$")
-    public void fillContactForm() throws InterruptedException {
-    }
-
     @When("^\\[Splash screen] Push app in the background")
     public void putAppInBackground() throws IOException {
-
         Initializer.moveAppInBackground(); //moveAppInBackgroundFor10sec
     }
 

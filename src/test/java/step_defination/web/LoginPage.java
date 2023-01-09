@@ -14,7 +14,8 @@ public class LoginPage extends Page {
     }
 
     @When("[Login Page] User click on login button")
-    public void clickOnLoginButton()  {
+    public void clickOnLoginButton() throws InterruptedException {
         getLoginPage().getLoginButton().click();
+        Thread.sleep(3000);
     }
 }
