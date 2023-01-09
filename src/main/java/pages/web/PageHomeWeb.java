@@ -7,10 +7,10 @@ import pages.Page;
 
 public class PageHomeWeb {
 
-    private String XYZ = "div:nth-child(1) > p > a" ;
+    private String HOME_BUTTON_CSS = "div:nth-child(2) > p > a" ;
 
     public PageHomeWeb(Page page) {
     }
 
-    public WebElement GETTXGXG() { return  WebConnector.driver.findElement(By.cssSelector(XYZ)); }
+    public WebElement getHomeButton() { return  WebConnector.driver.findElement(By.cssSelector(HOME_BUTTON_CSS)); }
 }

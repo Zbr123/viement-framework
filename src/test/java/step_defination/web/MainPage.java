@@ -99,7 +99,7 @@ public class MainPage extends Page {
     public static void moveAppInForegrounds(String appName) throws InterruptedException {
     }
 
-    @When("[Main Page] User go the web portal and navigate to the login page")
+    @When("[Main Page] User goes to the web portal and navigate to the login page")
     public static void webBrowser() {
         System.out.println("Vimient Web Page");
     }
