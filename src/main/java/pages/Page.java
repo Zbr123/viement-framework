@@ -14,12 +14,11 @@ public class Page {
     public static Properties androidconfig = ConfigUtil.getConfig("androidconfig");
 
 
-    // Web
+//     Web
     private final PageLoginWeb pageLoginWeb = new PageLoginWeb(this);
-
     protected PageLoginWeb getLoginPage() {
         return pageLoginWeb;
-    }
+   }
 
     private final PageAdminWeb getAdminPage = new PageAdminWeb(this);
 
@@ -32,4 +31,11 @@ public class Page {
     protected PageHomeWeb getHomePage() {
         return getHomePage;
     }
+
+    //Android
+    private final LoginPage getLoginPageAndroid = new LoginPage(this);
+    protected LoginPage getLoginPageAndroid() {return getLoginPageAndroid;}
+
+    private final HomePage pageHomeAndroid = new HomePage(this);
+    protected HomePage getHomePageAndroid() {return pageHomeAndroid;}
 }

@@ -1,7 +1,7 @@
 package core.utils.AndroidCore;
 
-//import io.appium.java_client.android.AndroidDriver;
-//import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
@@ -9,15 +9,13 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.IOException;
 import java.net.ServerSocket;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
 public class AppiumServerRunner {
 
     private static AppiumDriverLocalService service;
     private static AppiumServiceBuilder builder;
     private static DesiredCapabilities cap;
-  //  private static AndroidDriver<AndroidElement> androidDriver;
+    private static AndroidDriver<AndroidElement> androidDriver;
 
 
     public static void startServer() {

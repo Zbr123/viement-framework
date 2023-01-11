@@ -1,5 +1,6 @@
 package pages.web;
 
+import core.utils.AndroidCore.AndroidDriverSetup;
 import core.utils.BrowerConfig.WebConnector;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -17,4 +18,8 @@ public class PageLoginWeb {
     public WebElement getEmail() { return  WebConnector.driver.findElement(By.id(EMAIL_ID)); }
     public WebElement getPassword() { return  WebConnector.driver.findElement(By.id(PASSWORD_ID)); }
     public WebElement getLoginButton() { return  WebConnector.driver.findElement(By.cssSelector(LOGIN_BUTTON_CSS)); }
+
+    public WebElement getLoginButtonAndroid() {
+        return AndroidDriverSetup.getAndroidDriver().findElement(By.id(EMAIL_ID));
+    }
 }

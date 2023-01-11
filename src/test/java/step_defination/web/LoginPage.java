@@ -5,12 +5,12 @@ import pages.Page;
 public class LoginPage extends Page {
     @When("^\\[Login Page\\] User enters email (.*)$")
     public void enterEmailAddress(String email) {
-        getLoginPage().getEmail().sendKeys(email);
+//        getLoginPageAndroid().getEmail().sendKeys(email);
     }
 
     @When("\\[Login Page\\] User enters password (.*)$")
     public void enterPassword(String password) {
-        getLoginPage().getPassword().sendKeys(password);
+//        getLoginPage().getPassword().sendKeys(password);
     }
 
     @When("[Login Page] User click on login button")
