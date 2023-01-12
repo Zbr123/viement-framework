@@ -33,9 +33,7 @@ public class Page {
     }
 
     //Android
-    private final LoginPage getLoginPageAndroid = new LoginPage(this);
-    protected LoginPage getLoginPageAndroid() {return getLoginPageAndroid;}
 
-    private final HomePage pageHomeAndroid = new HomePage(this);
-    protected HomePage getHomePageAndroid() {return pageHomeAndroid;}
+    private final LoginPage pageLoginAndroid = new LoginPage(this);
+    protected LoginPage getLoginPageAndroid() {return pageLoginAndroid;}
 }

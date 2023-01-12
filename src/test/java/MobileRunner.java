@@ -16,7 +16,7 @@ import java.util.Calendar;
         glue = {"src/test/java/step_defination"},
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "json:Reports/cucumber-report/Cucumber.json"},
         monochrome = true,
-        tags = "@Login")
+        tags = "@LoginAndroid")
 
 public class MobileRunner {
 
