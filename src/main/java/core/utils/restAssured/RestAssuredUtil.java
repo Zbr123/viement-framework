@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 public class RestAssuredUtil {
     //Sets Base URI
     public static void setBaseURI() {
-        RestAssured.baseURI = "https://api.mapbox.com/";
+        RestAssured.baseURI = "https://test.vimient.com";
     }
 
     //Sets base path

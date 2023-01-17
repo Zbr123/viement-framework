@@ -1,10 +1,9 @@
-package test;
+package api;
 
-import main.BaseTest;
+import core.utils.restAssured.BaseTest;
 import org.testng.annotations.Test;
-
+import static core.utils.restAssured.RestAssuredUtil.getRequestUrl;
 import static io.restassured.RestAssured.given;
-import static main.RestAssuredUtil.getRequestUrl;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItem;
 

@@ -11,7 +11,7 @@ public class BaseTest {
     public void setup() {
         //Test Setup
         RestAssuredUtil.setBaseURI(); //Setup Base URI
-        RestAssuredUtil.setBasePath("geocoding/v5/mapbox.places/"); //Setup Base Path
+        RestAssuredUtil.setBasePath("/api/users/"); //Setup Base Path
         RestAssuredUtil.setContentType(ContentType.JSON); //Setup Content Type
     }
 
