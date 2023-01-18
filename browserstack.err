@@ -1,1 +1,1 @@
-[object Object]
+[object Object][Wed, 18 Jan 2023 10:41:36 GMT] Error from server Error: listen EADDRINUSE: address already in use \\.\pipe\browserstack\daemonInstance - \\.\pipe\browserstack\daemonInstance

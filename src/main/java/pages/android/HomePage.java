@@ -1,19 +1,19 @@
 package pages.android;
 
-//import core.utils.AndroidCore.AndroidDriverSetup;
 import core.utils.AndroidCore.AndroidDriverSetup;
+//import core.utils.AndroidCore.AndroidDriverSetup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import pages.Page;
 
 //extends BasePage
-public class LoginPage {
+public class HomePage {
 
     private String emailAddress_id = "//android.widget.EditText[@content-desc=\"SignInScreen:EmailInput:email\"]";
     private String password_id = "//android.widget.EditText[@content-desc=\"SignInScreen:PasswordInput:password\"]";
     private String loginButton_id = "//android.view.ViewGroup[@content-desc=\"SignInScreen:SignInButton:signinbutton\"]";
 
-    public LoginPage(Page page) {
+    public HomePage(Page page) {
     }
 
      public WebElement getEmailAddress() {
