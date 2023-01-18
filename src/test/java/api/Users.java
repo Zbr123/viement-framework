@@ -1,13 +1,22 @@
-//package api;
-//
-//import core.utils.restAssured.BaseTest;
-//import io.restassured.http.ContentType;
-//import io.restassured.response.Response;
-//import org.testng.annotations.Test;
-//import static core.utils.restAssured.RestAssuredUtil.getBaseUrl;
-//import static io.restassured.RestAssured.given;
-//import static org.hamcrest.Matchers.equalTo;
-//
+package api;
+
+import core.utils.restAssured.BaseTest;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.testng.annotations.Test;
+import static core.utils.restAssured.RestAssuredUtil.getBaseUrl;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.hasItem;
+
+public class Users extends BaseTest {
+
+
+}
+
+
 //public class Users extends BaseTest {
 //
 //    @Test
