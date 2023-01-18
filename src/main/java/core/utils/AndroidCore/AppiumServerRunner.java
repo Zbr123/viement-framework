@@ -38,13 +38,12 @@ public class AppiumServerRunner {
     public static void startServer(int port) {
         //Set Capabilities
           cap = new DesiredCapabilities();
-        cap.setCapability("noReset", "false");
-
+          cap.setCapability("noReset", "false");
         //Build the Appium service
         builder = new AppiumServiceBuilder();
         builder.withIPAddress("0.0.0.0");
         builder.usingPort(port);
-       builder.withCapabilities(cap);
+        builder.withCapabilities(cap);
         builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
         builder.withArgument(GeneralServerFlag.LOG_LEVEL,"error");
 

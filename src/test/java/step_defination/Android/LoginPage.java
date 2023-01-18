@@ -10,7 +10,7 @@ public class LoginPage extends Page {
 
     @Given("^\\[Login Page] User enters androidEmail (.*)$")
     public void enterAndroidEmailAddress(String email) throws InterruptedException {
-//        Thread.sleep(3000);
+        Thread.sleep(3000);
         getLoginPageAndroid().getEmailAddress().sendKeys(email);
     }
 
