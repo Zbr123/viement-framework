@@ -8,18 +8,18 @@ import java.io.IOException;
 
 public class LoginPage extends Page {
 
-    @Given("^\\[Login Page] User enters email (.*)$")
+    @Given("^\\[Login Page] User enters androidEmail (.*)$")
     public void enterAndroidEmailAddress(String email) throws InterruptedException {
-        Thread.sleep(3000);
+//        Thread.sleep(3000);
         getLoginPageAndroid().getEmailAddress().sendKeys(email);
     }
 
-    @And("^\\[Login Page] User enters passwords (.*)$")
+    @And("^\\[Login Page] User enters androidPasswords (.*)$")
     public void enterAndroidPassword(String password)  {
         getLoginPageAndroid().getPassword().sendKeys(password);
     }
 
-    @And("^\\[Login Page] User click on login button$")
+    @And("^\\[Login Page] User click on signIn button$")
     public void clickOnLoginButton()  {
         getLoginPageAndroid().getLoginButton().click();
     }

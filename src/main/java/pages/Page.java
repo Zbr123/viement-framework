@@ -36,4 +36,7 @@ public class Page {
 
     private final LoginPage pageLoginAndroid = new LoginPage(this);
     protected LoginPage getLoginPageAndroid() {return pageLoginAndroid;}
+
+    private final WelcomePage pageWelcomeAndroid = new WelcomePage(this);
+    protected WelcomePage getPageWelcomeAndroid() {return pageWelcomeAndroid;}
 }
