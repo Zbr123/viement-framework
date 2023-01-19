@@ -7,10 +7,10 @@ import pages.Page;
 
 public class PageAdminWeb {
 
-    private String ADMIN_TAB_CSS = "div:nth-child(1) > p > a" ;
+    private String HOME_TAB_CSS = "div:nth-child(2) > p > a" ;
 
     public PageAdminWeb(Page page) {
     }
 
-    public WebElement getAdminTab() { return  WebConnector.driver.findElement(By.cssSelector(ADMIN_TAB_CSS)); }
+    public WebElement getHomeTab() { return  WebConnector.driver.findElement(By.cssSelector(HOME_TAB_CSS)); }
 }

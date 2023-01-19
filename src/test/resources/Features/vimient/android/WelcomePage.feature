@@ -1,5 +1,6 @@
 Feature: Welcome Page Continue Button
 
+
   @vimient-002 @SmokeAndroidTest @Login @LoginAndroid @android
   Scenario: User should be able to click on Continue button on Welcome Page
     Given [Login Page] App should open successfully

@@ -8,7 +8,8 @@ public class WelcomePage extends Page {
 
 
     @And("^\\[Welcome Page] User clicks on continue button$")
-    public void clickOnContinueButton() {
+    public void clickOnContinueButton() throws InterruptedException {
+        Thread.sleep(3000);
         getPageWelcomeAndroid().getContinueButton().click();
     }
 

@@ -9,22 +9,22 @@ import pages.Page;
 //extends BasePage
 public class LoginPage {
 
-    private String emailAddress_id = "//android.widget.EditText[@content-desc=\"SignInScreen:EmailInput:email\"]";
-    private String password_id = "//android.widget.EditText[@content-desc=\"SignInScreen:PasswordInput:password\"]";
-    private String loginButton_id = "//android.view.ViewGroup[@content-desc=\"SignInScreen:SignInButton:signinbutton\"]";
+    private String emailAddressXpath = "//android.widget.EditText[@content-desc=\"SignInScreen:EmailInput:email\"]";
+    private String passwordXpath = "//android.widget.EditText[@content-desc=\"SignInScreen:PasswordInput:password\"]";
+    private String loginButtonXpath = "//android.view.ViewGroup[@content-desc=\"SignInScreen:SignInButton:signinbutton\"]";
 
     public LoginPage(Page page) {
     }
 
      public WebElement getEmailAddress() {
-         return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(emailAddress_id));
+         return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(emailAddressXpath));
      }
 
     public WebElement getPassword() {
-        return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(password_id));
+        return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(passwordXpath));
     }
 
     public WebElement getLoginButton() {
-        return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(loginButton_id));
+        return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(loginButtonXpath));
     }
 }

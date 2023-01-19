@@ -54,7 +54,6 @@ public class Cognito extends BaseTest {
                 .body("error", equalTo(false));
 
         jwtToken = res.getBody().jsonPath().get("data[0].jwt").toString();
-
     }
 
 

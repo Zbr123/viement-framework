@@ -26,10 +26,10 @@ public class Page {
         return getAdminPage;
     }
 
-    private final PageHomeWeb getHomePage = new PageHomeWeb(this);
+    private final PageHomeWeb getPageHome = new PageHomeWeb(this);
 
-    protected PageHomeWeb getHomePage() {
-        return getHomePage;
+    protected PageHomeWeb getPageHome() {
+        return getPageHome;
     }
 
     //Android
@@ -39,4 +39,7 @@ public class Page {
 
     private final WelcomePage pageWelcomeAndroid = new WelcomePage(this);
     protected WelcomePage getPageWelcomeAndroid() {return pageWelcomeAndroid;}
+
+    private final HomePage pageHomeAndroid = new HomePage(this);
+    protected HomePage getPageHomeAndroid() {return pageHomeAndroid;}
 }

@@ -9,22 +9,21 @@ import pages.Page;
 //extends BasePage
 public class HomePage {
 
-    private String emailAddress_id = "//android.widget.EditText[@content-desc=\"SignInScreen:EmailInput:email\"]";
-    private String password_id = "//android.widget.EditText[@content-desc=\"SignInScreen:PasswordInput:password\"]";
-    private String loginButton_id = "//android.view.ViewGroup[@content-desc=\"SignInScreen:SignInButton:signinbutton\"]";
+    private final String profileIconXpath = "//android.view.ViewGroup[@content-desc=\"HomeScreen:ProfileImageClickEvent:profileimageclickevent\"]/android.view.ViewGroup";
+    private final String careInsightTabXpath = "//android.widget.TextView[@content-desc=\"HomeScreen:CareInsightAlertMessage:careinsightalertmessage\"]";
+    private final String infoButtonHomeXpath = "//android.view.ViewGroup[@content-desc=\"HomeScreen:InfoIcon:infoicon\"]";
+
 
     public HomePage(Page page) {
     }
 
-     public WebElement getEmailAddress() {
-         return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(emailAddress_id));
+     public WebElement getProfileIcon() {
+         return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(profileIconXpath));
      }
-
-    public WebElement getPassword() {
-        return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(password_id));
-    }
-
-    public WebElement getLoginButton() {
-        return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(loginButton_id));
-    }
+     public WebElement getCareInsightTab(){
+        return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(careInsightTabXpath));
+     }
+     public WebElement getInfoButton(){
+         return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(infoButtonHomeXpath));
+     }
 }

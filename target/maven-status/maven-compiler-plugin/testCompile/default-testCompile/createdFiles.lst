@@ -9,3 +9,5 @@ step_defination\Android\AndroidSetup.class
 api\Users.class
 step_defination\web\LoginPage.class
 MobileRunner.class
+step_defination\Android\HomePage.class
+step_defination\web\HomePage.class

@@ -4,8 +4,8 @@ import pages.Page;
 
 public class AdminPage extends Page {
     @When("^\\[Admin Page] User click on home button from admin tab$")
-    public void clickOnAdminTab() throws InterruptedException {
+    public void clickOnHomeTab() throws InterruptedException {
         Thread.sleep(3000);
-        getAdminPage().getAdminTab().click();
+        getAdminPage().getHomeTab().click();
     }
 }
