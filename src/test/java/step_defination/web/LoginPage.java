@@ -13,9 +13,12 @@ public class LoginPage extends Page {
         getLoginPage().getPassword().sendKeys(password);
     }
 
-    @When("[Web Login Page] User click on login button")
-    public void clickOnLoginButton() throws InterruptedException {
+    @When("[Web Login Page] User clicks on login button")
+    public void clickOnLoginButton() {
         getLoginPage().getLoginButton().click();
-        Thread.sleep(3000);
+    }
+    @When("[Web Login Page] User clicks on forgot your password")
+    public void webBrowser() {
+        getLoginPage().getForgotPassword().click();
     }
 }

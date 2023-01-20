@@ -1,6 +1,7 @@
 core\utils\BsLocalHelper.class
 pages\Page.class
 core\utils\BrowerConfig\WebConnector.class
+pages\web\PageAddSeniorWeb.class
 pages\web\PageAdminWeb.class
 pages\android\LoginPage.class
 core\utils\restAssured\TestUtil.class
@@ -10,6 +11,7 @@ core\utils\Wait.class
 pages\ios\LoginPage.class
 core\utils\EmailSender\EmailUtil$1.class
 core\utils\restAssured\BaseTest.class
+pages\web\PageForgotPasswordWeb.class
 pages\web\PageLoginWeb.class
 core\utils\AndroidCore\CapabilitiesGenerator.class
 core\utils\AndroidCore\Initializer.class

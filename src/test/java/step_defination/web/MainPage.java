@@ -37,4 +37,10 @@ public class MainPage extends Page {
     public static void webBrowser() {
         System.out.println("Vimient Web Page");
     }
+
+
+
+//    ("[Main Page] User sees user logged out successfully message at bottom")
 }
+
+//main page user logged out successfully message Xpath = "//*[@id="root"]/div[1]/div"

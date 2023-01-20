@@ -2,9 +2,7 @@ package pages;
 
 import core.utils.ConfigUtil;
 import pages.android.*;
-import pages.web.PageAdminWeb;
-import pages.web.PageHomeWeb;
-import pages.web.PageLoginWeb;
+import pages.web.*;
 
 import java.util.Properties;
 
@@ -20,10 +18,10 @@ public class Page {
         return pageLoginWeb;
    }
 
-    private final PageAdminWeb getAdminPage = new PageAdminWeb(this);
+    private final PageAdminWeb getPageAdmin = new PageAdminWeb(this);
 
-    protected PageAdminWeb getAdminPage() {
-        return getAdminPage;
+    protected PageAdminWeb getPageAdmin() {
+        return getPageAdmin;
     }
 
     private final PageHomeWeb getPageHome = new PageHomeWeb(this);
@@ -31,6 +29,15 @@ public class Page {
     protected PageHomeWeb getPageHome() {
         return getPageHome;
     }
+
+    private final PageAddSeniorWeb getPageAddSenior = new PageAddSeniorWeb(this);
+    protected PageAddSeniorWeb getPageAddSenior() {
+        return getPageAddSenior;
+    }
+
+
+    private final PageForgotPasswordWeb getPageForgotPassword = new PageForgotPasswordWeb(this);
+    protected PageForgotPasswordWeb getPageForgotPassword() { return getPageForgotPassword; }
 
     //Android
 
@@ -42,4 +49,6 @@ public class Page {
 
     private final HomePage pageHomeAndroid = new HomePage(this);
     protected HomePage getPageHomeAndroid() {return pageHomeAndroid;}
+
+
 }

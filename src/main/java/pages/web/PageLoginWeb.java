@@ -11,6 +11,7 @@ public class PageLoginWeb {
     private String EMAIL_ID = "email" ;
     private String PASSWORD_ID= "password";
     private String LOGIN_BUTTON_CSS= "form > button";
+    private String ForgotPasswordCSS = "h6 > a";
 
     public PageLoginWeb(Page page) {
     }
@@ -21,5 +22,8 @@ public class PageLoginWeb {
 
     public WebElement getLoginButtonAndroid() {
         return AndroidDriverSetup.getAndroidDriver().findElement(By.id(EMAIL_ID));
+    }
+    public WebElement getForgotPassword() {
+        return AndroidDriverSetup.getAndroidDriver().findElement(By.cssSelector(ForgotPasswordCSS));
     }
 }

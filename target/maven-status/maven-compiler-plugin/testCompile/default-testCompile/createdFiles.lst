@@ -1,5 +1,6 @@
 step_defination\Android\LoginPage.class
 step_defination\Android\Scrollfunction.class
+step_defination\web\ForgotPasswordPage.class
 step_defination\web\AdminPage.class
 api\LocationFilter.class
 step_defination\Android\WelcomePage.class
@@ -11,3 +12,4 @@ step_defination\web\LoginPage.class
 MobileRunner.class
 step_defination\Android\HomePage.class
 step_defination\web\HomePage.class
+step_defination\web\AddSeniorPage.class
