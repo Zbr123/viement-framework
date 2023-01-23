@@ -5,20 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/android/ForgotPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/Android/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageMainWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/android/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/android/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageAddSeniorWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageAddSeniorWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/androidconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/androidconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/android/ForgotPasswordPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageAdminWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageAdminWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageLoginWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageLoginWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/Android/ForgotPasswordPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/Android/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/Android/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAddSeniorWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageAddSeniorWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-01-20T20-34-49_433.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/AdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/android/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageLoginWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageLoginWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-01-23T16-28-04_426.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/HomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/Android/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/AdminPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/AdminPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/MainPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +55,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="useMavenConfig" value="true" />
+        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -81,10 +99,10 @@
       <recent name="E:\Work\Co-Ventech\Vimient\Framework\src\test\resources\Features\vimient\android" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages.web" />
       <recent name="step_defination.Android" />
       <recent name="pages.android" />
       <recent name="step_defination.web" />
-      <recent name="pages.web" />
       <recent name="Features.vimient.android" />
     </key>
   </component>
@@ -94,7 +112,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: HomePage">
+  <component name="RunManager" selected="Cucumber Java.Feature: Login (1)">
     <configuration name="Feature: Home" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Home.feature" />
@@ -192,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Login (1)" />
         <item itemvalue="Cucumber Java.Feature: HomePage" />
         <item itemvalue="Cucumber Java.Feature: WelcomePage" />
         <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Feature: Home" />
-        <item itemvalue="Cucumber Java.Feature: Login (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +245,8 @@
       <workItem from="1674197544880" duration="1705000" />
       <workItem from="1674199285605" duration="17210000" />
       <workItem from="1674227292479" duration="1766000" />
-      <workItem from="1674458122859" duration="10015000" />
+      <workItem from="1674458122859" duration="10050000" />
+      <workItem from="1674488337239" duration="5789000" />
     </task>
     <servers />
   </component>

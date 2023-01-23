@@ -13,21 +13,21 @@ public class Page {
 
 
 //     Web
+    private final PageMainWeb pageMainWeb = new PageMainWeb (this);
+    protected PageMainWeb getPageMainWeb() { return pageMainWeb; }
+
     private final PageLoginWeb pageLoginWeb = new PageLoginWeb(this);
-    protected PageLoginWeb getLoginPage() {
+    protected PageLoginWeb getPageLoginWeb() {
         return pageLoginWeb;
    }
 
-    private final PageAdminWeb getPageAdmin = new PageAdminWeb(this);
+    private final PageAdminWeb getPageAdminWeb = new PageAdminWeb(this);
+    protected PageAdminWeb getPageAdminWeb() { return getPageAdminWeb; }
 
-    protected PageAdminWeb getPageAdmin() {
-        return getPageAdmin;
-    }
+    private final PageHomeWeb getPageHomeWeb = new PageHomeWeb(this);
 
-    private final PageHomeWeb getPageHome = new PageHomeWeb(this);
-
-    protected PageHomeWeb getPageHome() {
-        return getPageHome;
+    protected PageHomeWeb getPageHomeWeb() {
+        return getPageHomeWeb;
     }
 
     private final PageAddSeniorWeb getPageAddSenior = new PageAddSeniorWeb(this);
@@ -50,8 +50,8 @@ public class Page {
     private final HomePage pageHomeAndroid = new HomePage(this);
     protected HomePage getPageHomeAndroid() {return pageHomeAndroid;}
 
-    private final ForgotPasswordPageAndroid pageForgotPassword = new ForgotPasswordPageAndroid(this);
-    protected ForgotPasswordPageAndroid getAndroidPageForgotPassword() { return pageForgotPassword; }
+//    private final ForgotPasswordPageAndroid pageForgotPassword = new ForgotPasswordPageAndroid(this);
+//    protected ForgotPasswordPageAndroid getAndroidPageForgotPassword() { return pageForgotPassword; }
 
 
 }

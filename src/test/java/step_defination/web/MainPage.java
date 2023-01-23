@@ -6,7 +6,9 @@ import core.utils.AndroidCore.Initializer;
 import core.utils.BrowerConfig.WebConnector;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
 import pages.Page;
 
 import java.io.IOException;
@@ -36,6 +38,10 @@ public class MainPage extends Page {
     @When("[Main Page] User go the web portal and navigate to the login page")
     public static void webBrowser() {
         System.out.println("Vimient Web Page");
+    }
+    @Then("[Main Page] User sees user logged out successfully message at bottom")
+    public void userShouldSeeLoggedOutSuccessMessage() {
+        Assert.assertTrue(getPageMainWeb().getLoggedOutSuccessMessage().isDisplayed());
     }
 
 

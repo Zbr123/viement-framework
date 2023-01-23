@@ -8,22 +8,17 @@ import pages.Page;
 
 public class PageLoginWeb {
 
-    private String EMAIL_ID = "email" ;
-    private String PASSWORD_ID= "password";
-    private String LOGIN_BUTTON_CSS= "form > button";
-    private String ForgotPasswordCSS = "h6 > a";
+    private String emailID = "email" ;
+    private String passwordID= "password";
+    private String loginButtonCss= "form > button";
+    private String forgotPasswordCss = "h6 > a";
 
     public PageLoginWeb(Page page) {
     }
 
-    public WebElement getEmail() { return  WebConnector.driver.findElement(By.id(EMAIL_ID)); }
-    public WebElement getPassword() { return  WebConnector.driver.findElement(By.id(PASSWORD_ID)); }
-    public WebElement getLoginButton() { return  WebConnector.driver.findElement(By.cssSelector(LOGIN_BUTTON_CSS)); }
+    public WebElement getEmail() { return  WebConnector.driver.findElement(By.id(emailID)); }
+    public WebElement getPassword() { return  WebConnector.driver.findElement(By.id(passwordID)); }
+    public WebElement getLoginButton() { return  WebConnector.driver.findElement(By.cssSelector(loginButtonCss)); }
+    public WebElement getForgotPassword() { return WebConnector.driver.findElement(By.cssSelector(forgotPasswordCss));}
 
-    public WebElement getLoginButtonAndroid() {
-        return AndroidDriverSetup.getAndroidDriver().findElement(By.id(EMAIL_ID));
-    }
-    public WebElement getForgotPassword() {
-        return AndroidDriverSetup.getAndroidDriver().findElement(By.cssSelector(ForgotPasswordCSS));
-    }
 }

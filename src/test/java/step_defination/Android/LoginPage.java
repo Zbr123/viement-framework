@@ -25,7 +25,7 @@ public class LoginPage extends Page {
     }
 
     @And("^\\[Login Page] User clicks on forgot password$")
-    public void clickOnLoginButton()  {
+    public void clickOnForgotPasswordButton()  {
         getLoginPageAndroid().getforgotPasswordButton().click();
     }
 

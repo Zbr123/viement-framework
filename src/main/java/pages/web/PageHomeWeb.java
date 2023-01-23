@@ -7,19 +7,22 @@ import pages.Page;
 
 public class PageHomeWeb {
 
-    private String WelcomeHeader = "div:nth-child(1) > p > a" ;
+    private String welcomeHeading = "h2:nth-child(1)";
+    private String homeTabCss = "div:nth-child(1) > p > a" ;
+
 
 //    private String ProfileDropdown =  "div.MuiBox-root.css-0 > div > div > svg"
 
-    private String ProfileDropdownCSS =  ".MuiBox-root.css-u4p24i > div.MuiBox-root.css-0";
+    private String profileDropdownCss =  ".MuiBox-root.css-u4p24i > div.MuiBox-root.css-0";
 
-    private String LogoutButtonCSS = "nav > div:nth-child(2) > span";
+    private String logoutButtonCss = "nav > div:nth-child(2) > span";
 
     public PageHomeWeb(Page page) {
     }
 
-    public WebElement getWelcomeHeader() { return  WebConnector.driver.findElement(By.cssSelector(WelcomeHeader)); }
+    public WebElement getWelcomeHeading() { return  WebConnector.driver.findElement(By.cssSelector(welcomeHeading)); }
 
-    public WebElement getProfileDropdown() {return WebConnector.driver.findElement(By.cssSelector(ProfileDropdownCSS)); }
-    public WebElement getLogoutButton() {return WebConnector.driver.findElement(By.cssSelector(LogoutButtonCSS));}
+    public WebElement getProfileDropdown() {return WebConnector.driver.findElement(By.cssSelector(profileDropdownCss)); }
+    public WebElement getLogoutButton() {return WebConnector.driver.findElement(By.cssSelector(logoutButtonCss));}
+    public WebElement getHomeTab() {return WebConnector.driver.findElement(By.cssSelector(homeTabCss));}
 }

@@ -24,6 +24,7 @@ core\utils\AndroidCore\AndroidDriverSetup.class
 core\utils\EmailSender\EmailUtil.class
 pages\android\HomePage.class
 pages\android\BasePage.class
+pages\web\PageMainWeb.class
 core\utils\ConfigUtil.class
 core\utils\AndroidCore\AppiumServerRunner.class
 pages\web\PageHomeWeb.class
