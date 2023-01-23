@@ -20,8 +20,8 @@ public class PageAddSeniorWeb {
     public PageAddSeniorWeb(Page page) {
     }
 
-    public WebElement getSeniorFirstName() { return  WebConnector.driver.findElement(By.xpath(FirstNameXpath)); }
-//    public WebElement getSeniorFirstName() { return  WebConnector.driver.findElement(By.cssSelector(FirstNameCSS)); }
+//    public WebElement getSeniorFirstName() { return  WebConnector.driver.findElement(By.xpath(FirstNameXpath)); }
+    public WebElement getSeniorFirstName() { return  WebConnector.driver.findElement(By.cssSelector(FirstNameCSS)); }
     public WebElement getSeniorLastName() { return  WebConnector.driver.findElement(By.xpath(LastNameXpath)); }
 //    public WebElement getSeniorLastName() { return  WebConnector.driver.findElement(By.cssSelector(LastNameCSS)); }
     public WebElement getMobileNumber() { return  WebConnector.driver.findElement(By.xpath(MobileNumberXpath)); }

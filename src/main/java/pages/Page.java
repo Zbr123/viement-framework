@@ -50,5 +50,8 @@ public class Page {
     private final HomePage pageHomeAndroid = new HomePage(this);
     protected HomePage getPageHomeAndroid() {return pageHomeAndroid;}
 
+    private final ForgotPasswordPageAndroid pageForgotPassword = new ForgotPasswordPageAndroid(this);
+    protected ForgotPasswordPageAndroid getAndroidPageForgotPassword() { return pageForgotPassword; }
+
 
 }

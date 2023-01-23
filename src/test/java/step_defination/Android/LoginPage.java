@@ -19,9 +19,14 @@ public class LoginPage extends Page {
         getLoginPageAndroid().getPassword().sendKeys(password);
     }
 
-    @And("^\\[Login Page] User click on signIn button$")
+    @And("^\\[Login Page] User clicks on signIn button$")
     public void clickOnLoginButton()  {
         getLoginPageAndroid().getLoginButton().click();
+    }
+
+    @And("^\\[Login Page] User clicks on forgot password$")
+    public void clickOnLoginButton()  {
+        getLoginPageAndroid().getforgotPasswordButton().click();
     }
 
     @And("^\\[Login Page] App should open successfully$")
