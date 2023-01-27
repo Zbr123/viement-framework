@@ -24,7 +24,7 @@ public class AdminPage extends Page {
 
     @When("^\\[Admin Page]  User clicks on add user button$")
     public void clickOnAddUserTab() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         getPageAdminWeb().getAddUserTab().click();
     }
     @Then("[Admin Page] User should see admin tab in header")

@@ -29,4 +29,16 @@ public class AddSeniorPage extends Page {
         Thread.sleep(1000);
         getPageAddSenior().getMaleSelectButton().click();
     }
+    @When("^\\[Add Senior Page] User enters date of birth (.*)$")
+    public void enterDateOfBirth() throws InterruptedException {
+        Thread.sleep(1000);
+        getPageAddSenior().getAddSeniorDateOfBirth().click();
+    }
+
+    @When("^\\[Add Senior Page] User enters senior email address (.*)$")
+    public void enterSeniorEmail(String seniorEmail) throws InterruptedException {
+        Thread.sleep(1000);
+        getPageAddSenior().getSeniorEmail().sendKeys(seniorEmail);
+    }
+
 }

@@ -16,7 +16,7 @@ public class PageAdminWeb {
 
 //    private String ProfileDropdownCSS =  ".MuiBox-root.css-u4p24i > div.MuiBox-root.css-0";   not working
     private String logoutButtonCss = "nav > div:nth-child(2)";
-    private String addUserCss = "div:nth-child(3) > p";
+    private String addUserCss = "div:nth-child(3) > p > a";
 
     public PageAdminWeb(Page page) {
     }

@@ -41,3 +41,5 @@ Feature: Home Page
     And     [Add Senior Page] User enters mobile phone number 2359421681
     And     [Add Senior Page] User clicks on gender select dropdown
     And     [Add Senior Page] User clicks on male button
+    And     [Add Senior Page] User enters date of birth '05/16/1965'
+    And     [Add Senior Page] User enters senior email address 'ahsan.kahn+automation@vimient.com'
