@@ -8,6 +8,7 @@ core\utils\restAssured\TestUtil.class
 pages\android\WelcomePage.class
 core\utils\BsApiHelper.class
 core\utils\Wait.class
+pages\web\PageSchedulerWeb.class
 pages\ios\LoginPage.class
 core\utils\EmailSender\EmailUtil$1.class
 core\utils\restAssured\BaseTest.class
@@ -27,5 +28,6 @@ pages\android\BasePage.class
 pages\web\PageMainWeb.class
 core\utils\ConfigUtil.class
 core\utils\AndroidCore\AppiumServerRunner.class
+pages\web\PageSeniorDashboardWeb.class
 pages\web\PageHomeWeb.class
 core\utils\PropertyReader\PropertyFileReader.class

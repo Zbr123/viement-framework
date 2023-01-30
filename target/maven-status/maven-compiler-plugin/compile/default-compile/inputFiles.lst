@@ -15,6 +15,7 @@ E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\TestRailConnector\
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\AndroidCore\CapabilitiesGenerator.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageAddSeniorWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\AppiumHook\MobileConnector.java
+E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageSchedulerWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\android\BasePage.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageAdminWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\EmailSender\EmailUtil.java
@@ -30,6 +31,7 @@ E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\BsApiHelper.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageLoginWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageHomeWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\AndroidCore\AndroidDriverSetup.java
+E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageSeniorDashboardWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\AndroidCore\Wait.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\ios\LoginPage.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\TestRailConnector\TestRailData.java

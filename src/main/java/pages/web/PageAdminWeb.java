@@ -12,7 +12,7 @@ public class PageAdminWeb {
     private String toDoHeading = "div:nth-child(1) > h2";
 
 //    private String profileDropdownCss =  "header>div>div:nth-child(4)";   not working
-    private String profileDropdownCss =  "header>div:nth-child(2)>div>div>div"; //not working
+    private String profileDropdownCss =  "div > svg > path"; //not working
 
 //    private String ProfileDropdownCSS =  ".MuiBox-root.css-u4p24i > div.MuiBox-root.css-0";   not working
     private String logoutButtonCss = "nav > div:nth-child(2)";

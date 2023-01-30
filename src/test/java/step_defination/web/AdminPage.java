@@ -2,23 +2,25 @@ package step_defination.web;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
-import pages.Page;
+import pages.Page;;
 
 public class AdminPage extends Page {
     @When("^\\[Admin Page] User clicks on home button from admin tab$")
     public void clickOnHomeTab() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         getPageAdminWeb().getHomeTab().click();
     }
 
     @When("^\\[Admin Page] User clicks on profile dropdown from admin tab$")
-    public void userClicksOnProfileDropdownAdmin(){
+    public void userClicksOnProfileDropdownAdmin() throws InterruptedException {
+        Thread.sleep(3000);
         getPageAdminWeb().getProfileDropdownAdmin().click();
     }
     @When("^\\[Admin Page] User clicks on logout button from admin tab$")
     public void clickOnSignoutButton() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         getPageAdminWeb().getLogoutButton().click();
     }
 

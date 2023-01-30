@@ -39,6 +39,12 @@ public class Page {
     private final PageForgotPasswordWeb getPageForgotPassword = new PageForgotPasswordWeb(this);
     protected PageForgotPasswordWeb getPageForgotPassword() { return getPageForgotPassword; }
 
+    private final PageSeniorDashboardWeb getPageSeniorDashboard = new PageSeniorDashboardWeb(this);
+    protected PageSeniorDashboardWeb getPageSeniorDashboard() { return getPageSeniorDashboard; }
+
+    private final PageSchedulerWeb getPageScheduler = new PageSchedulerWeb(this);
+    protected PageSchedulerWeb getPageScheduler() { return getPageScheduler;}
+
     //Android
 
     private final LoginPage pageLoginAndroid = new LoginPage(this);

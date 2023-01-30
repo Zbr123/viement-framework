@@ -1,10 +1,8 @@
 package step_defination.web;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.testng.Assert;
 import pages.Page;
 
-public class LoginPage extends Page {
+public class WebLoginPage extends Page {
     @When("^\\[Web Login Page\\] User enters email address (.*)$")
     public void enterEmailAddress(String email) {
         getPageLoginWeb().getEmail().sendKeys(email);

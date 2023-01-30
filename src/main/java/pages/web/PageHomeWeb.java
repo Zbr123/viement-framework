@@ -16,6 +16,8 @@ public class PageHomeWeb {
     private String profileDropdownCss =  ".MuiBox-root.css-u4p24i > div.MuiBox-root.css-0";
 
     private String logoutButtonCss = "nav > div:nth-child(2) > span";
+    private String seniorListSearchTextboxCss = "form > div > input";
+    private String topSeniorAfterSearchCss = "tbody tr:nth-child(1)";
 
     public PageHomeWeb(Page page) {
     }
@@ -25,4 +27,6 @@ public class PageHomeWeb {
     public WebElement getProfileDropdown() {return WebConnector.driver.findElement(By.cssSelector(profileDropdownCss)); }
     public WebElement getLogoutButton() {return WebConnector.driver.findElement(By.cssSelector(logoutButtonCss));}
     public WebElement getHomeTab() {return WebConnector.driver.findElement(By.cssSelector(homeTabCss));}
+    public WebElement getSeniorNameInSearchTextbox() { return WebConnector.driver.findElement(By.cssSelector(seniorListSearchTextboxCss));}
+    public WebElement getTopSeniorAfterSearch() { return WebConnector.driver.findElement(By.cssSelector(seniorListSearchTextboxCss));}
 }

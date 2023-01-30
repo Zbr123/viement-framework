@@ -1,4 +1,3 @@
-step_defination\Android\LoginPage.class
 step_defination\Android\Scrollfunction.class
 step_defination\web\ForgotPasswordPage.class
 step_defination\web\AdminPage.class
@@ -7,9 +6,12 @@ step_defination\Android\WelcomePage.class
 step_defination\web\MainPage.class
 api\Cognito.class
 step_defination\Android\AndroidSetup.class
-api\Users.class
-step_defination\web\LoginPage.class
+step_defination\web\WebSeniorDashboardPage.class
 MobileRunner.class
 step_defination\Android\HomePage.class
-step_defination\web\HomePage.class
+step_defination\Android\LoginPage.class
+step_defination\web\WebHomePage.class
+api\Users.class
 step_defination\web\AddSeniorPage.class
+step_defination\web\RandomGenerator.class
+step_defination\web\WebLoginPage.class
