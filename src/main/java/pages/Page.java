@@ -25,10 +25,7 @@ public class Page {
     protected PageAdminWeb getPageAdminWeb() { return getPageAdminWeb; }
 
     private final PageHomeWeb getPageHomeWeb = new PageHomeWeb(this);
-
-    protected PageHomeWeb getPageHomeWeb() {
-        return getPageHomeWeb;
-    }
+    protected PageHomeWeb getPageHomeWeb() { return getPageHomeWeb; }
 
     private final PageAddSeniorWeb getPageAddSenior = new PageAddSeniorWeb(this);
     protected PageAddSeniorWeb getPageAddSenior() {
@@ -44,6 +41,9 @@ public class Page {
 
     private final PageSchedulerWeb getPageScheduler = new PageSchedulerWeb(this);
     protected PageSchedulerWeb getPageScheduler() { return getPageScheduler;}
+
+    private final PageWellnessSurveyWeb getPageWellnessSurvey = new PageWellnessSurveyWeb(this);
+    protected PageWellnessSurveyWeb getPageWellnessSurvey() { return getPageWellnessSurvey; }
 
     //Android
 

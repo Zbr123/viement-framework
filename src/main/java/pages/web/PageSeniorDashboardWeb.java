@@ -8,11 +8,13 @@ import pages.Page;
 public class PageSeniorDashboardWeb {
 
     private String schedulerTabCss = "div:nth-child(6) > button";
+    private String wellnessSurveyTabCss = "div:nth-child(5) button";
     public PageSeniorDashboardWeb(Page page) {
     }
-
-
     public WebElement getSchedulerTab() {
         { return WebConnector.driver.findElement(By.cssSelector(schedulerTabCss));}
+    }
+    public WebElement getWellnessSurveyTab() {
+        { return WebConnector.driver.findElement(By.cssSelector(wellnessSurveyTabCss));}
     }
 }

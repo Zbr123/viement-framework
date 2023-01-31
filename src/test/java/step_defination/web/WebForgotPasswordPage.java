@@ -2,7 +2,7 @@ package step_defination.web;
 import io.cucumber.java.en.When;
 import pages.Page;
 
-public class ForgotPasswordPage extends Page {
+public class WebForgotPasswordPage extends Page {
     @When("^\\[Forgot Password Page\\] User enters recovery email address(.*)$")
     public void enterRecoveryEmailAddress(String recoveryEmail) {
         getPageForgotPassword().getEnterRecoveryEmail().sendKeys(recoveryEmail);

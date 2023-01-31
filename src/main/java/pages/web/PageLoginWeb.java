@@ -12,6 +12,7 @@ public class PageLoginWeb {
     private String passwordID= "password";
     private String loginButtonCss= "form > button";
     private String forgotPasswordCss = "h6 > a";
+    private String loggedOutSuccessAlertXpath = "//*[@id=\"root\"]/div[1]";
 
     public PageLoginWeb(Page page) {
     }
@@ -20,5 +21,6 @@ public class PageLoginWeb {
     public WebElement getPassword() { return  WebConnector.driver.findElement(By.id(passwordID)); }
     public WebElement getLoginButton() { return  WebConnector.driver.findElement(By.cssSelector(loginButtonCss)); }
     public WebElement getForgotPassword() { return WebConnector.driver.findElement(By.cssSelector(forgotPasswordCss));}
+    public WebElement getUserLoggedOutSuccessAlert() { return WebConnector.driver.findElement(By.xpath(loggedOutSuccessAlertXpath));}
 
 }

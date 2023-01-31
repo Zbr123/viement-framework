@@ -1,5 +1,6 @@
 core\utils\BsLocalHelper.class
 pages\Page.class
+pages\web\PageWellnessSurveyWeb.class
 core\utils\BrowerConfig\WebConnector.class
 pages\web\PageAddSeniorWeb.class
 pages\web\PageAdminWeb.class

@@ -5,35 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageSchedulerWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageSeniorDashboardWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/RandomGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebSeniorDashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageWellnessSurveyWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebCallSchedulerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebWellnessSurveyPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageAddSeniorWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageAddSeniorWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageAdminWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageAdminWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/AddSeniorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/AddSeniorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/AdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageLoginWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageLoginWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageSchedulerWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageSchedulerWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageSeniorDashboardWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageSeniorDashboardWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/androidconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/androidconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/AddSeniorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebAddSeniorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebAdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/RandomGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/CommonFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebSeniorDashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebSeniorDashboardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAddSeniorWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageAddSeniorWeb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageLoginWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageLoginWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageSchedulerWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageSchedulerWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-01-27T17-27-52_827.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-01-30T22-47-36_559.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/AddSeniorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/AddSeniorPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/AdminPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/AdminPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/AddSeniorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/AdminPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/ForgotPasswordPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/RandomGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebSeniorDashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebSeniorDashboardPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +55,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/step_defination/web/AdminPage.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/step_defination/web/WebAdminPage.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,36 +81,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Work/Co-Ventech/Vimient/Framework/src/test/java/step_defination/web",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Settings.Markdown",
-    "spring.configuration.checksum": "fba7bfd69a8e5f436fd7cd373cf72fbc",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Work/Co-Ventech/Vimient/Framework/src/test/java/step_defination/web&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Markdown&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fba7bfd69a8e5f436fd7cd373cf72fbc&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Work\Co-Ventech\Vimient\Framework\src\test\java\step_defination\web" />
       <recent name="E:\Work\Co-Ventech\Vimient\Framework\src\test\resources\Features\vimient\android" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pages.web" />
       <recent name="step_defination.web" />
+      <recent name="pages.web" />
       <recent name="step_defination.Android" />
       <recent name="pages.android" />
       <recent name="Features.vimient.android" />
@@ -107,6 +118,7 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn compiler:testCompile" />
       <command value="mvn clean" />
       <command value="mvn test" />
     </option>
@@ -250,6 +262,8 @@
       <workItem from="1674819569650" duration="3074000" />
       <workItem from="1675072508706" duration="627000" />
       <workItem from="1675080090886" duration="18378000" />
+      <workItem from="1675136368109" duration="1787000" />
+      <workItem from="1675149082730" duration="28156000" />
     </task>
     <servers />
   </component>
