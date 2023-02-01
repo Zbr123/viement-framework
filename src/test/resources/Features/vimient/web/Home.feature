@@ -93,13 +93,13 @@ Feature: Home Page
     And     [Web Home Page] User clicks on the top senior after search
     And     [Web Senior Dashboard Page] User clicks on wellness survey tab
     Then    [Web Wellness Survey Page] User should see the wellness check-in survey heading
-    When    [Web Wellness Survey Page] User clicks on first c1 radio button
-    And     [Web Wellness Survey Page] User clicks on second c1 radio button
-    And     [Web Wellness Survey Page] User clicks on third c1 radio button
-    And     [Web Wellness Survey Page] User clicks on fourth c1 radio button
-    And     [Web Wellness Survey Page] User clicks on fifth c1 radio button
-    And     [Web Wellness Survey Page] User clicks on sixth c1 radio button
-    And     [Web Wellness Survey Page] User clicks on seventh c1 radio button
+    When    [Web Wellness Survey Page] User Select Relaxed/Calm radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Happy/Cheerful radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Rested/Energized radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Sense of Purpose radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Busy/Engaged radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Socially Active/Fulfilled radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Feeling Good/Content radio button on wellness survey form
     And     [Web Wellness Survey Page] User clicks on wellness survey reset button
 
   @vim-009 @Web
@@ -115,13 +115,14 @@ Feature: Home Page
     And     [Web Home Page] User clicks on the top senior after search
     And     [Web Senior Dashboard Page] User clicks on wellness survey tab
     Then    [Web Wellness Survey Page] User should see the wellness check-in survey heading
-    When    [Web Wellness Survey Page] User clicks on first c1 radio button
-    And     [Web Wellness Survey Page] User clicks on second c1 radio button
-    And     [Web Wellness Survey Page] User clicks on third c1 radio button
-    And     [Web Wellness Survey Page] User clicks on fourth c1 radio button
-    And     [Web Wellness Survey Page] User clicks on fifth c1 radio button
-    And     [Web Wellness Survey Page] User clicks on sixth c1 radio button
-    And     [Web Wellness Survey Page] User clicks on seventh c1 radio button
+    When    [Web Wellness Survey Page] User Select Relaxed/Calm radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Happy/Cheerful radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Rested/Energized radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Sense of Purpose radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Busy/Engaged radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Socially Active/Fulfilled radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Feeling Good/Content radio button on wellness survey form
+    And     [Web Wellness Survey Page] User clicks on wellness survey submit button
     And     [Web Wellness Survey Page] User clicks on wellness survey save button
     Then    [Web Wellness Survey Page] User should see limit reached alert popup
     When    [Web Wellness Survey Page] User clicks on alert popup okay button
@@ -139,11 +140,12 @@ Feature: Home Page
     And     [Web Home Page] User clicks on the top senior after search
     And     [Web Senior Dashboard Page] User clicks on wellness survey tab
     Then    [Web Wellness Survey Page] User should see the wellness check-in survey heading
-    When    [Web Wellness Survey Page] User clicks on first c1 radio button
-    And     [Web Wellness Survey Page] User clicks on second c1 radio button
-    And     [Web Wellness Survey Page] User clicks on third c1 radio button
-    And     [Web Wellness Survey Page] User clicks on fourth c1 radio button
-    And     [Web Wellness Survey Page] User clicks on fifth c1 radio button
-    And     [Web Wellness Survey Page] User clicks on sixth c1 radio button
-    And     [Web Wellness Survey Page] User clicks on seventh c1 radio button
+    When    [Web Wellness Survey Page] User Select Relaxed/Calm radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Happy/Cheerful radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Rested/Energized radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Sense of Purpose radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Busy/Engaged radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Socially Active/Fulfilled radio button on wellness survey form
+    And     [Web Wellness Survey Page] User Select Feeling Good/Content radio button on wellness survey form
     And     [Web Wellness Survey Page] User clicks on wellness survey submit button
+
