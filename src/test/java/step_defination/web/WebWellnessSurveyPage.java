@@ -1,4 +1,5 @@
 package step_defination.web;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
@@ -14,11 +15,10 @@ public class WebWellnessSurveyPage extends Page {
     public void userClicksOnWellnessSurveyResetButton() throws InterruptedException {
         Thread.sleep(500);
         getPageWellnessSurvey().getWellnessSurveyResetButton().click();
-        Thread.sleep(4000);
     }
-    @When("^\\[Web Wellness Survey Page] User clicks on wellness survey save button$")
+    @And("^\\[Web Wellness Survey Page] User clicks on wellness survey save button$")
     public void userClicksOnWellnessSurveySaveButton() throws InterruptedException {
-        Thread.sleep(500);
+        Thread.sleep(2000);
         getPageWellnessSurvey().getWellnessSurveySaveButton().click();
     }
     @Then("^\\[Web Wellness Survey Page] User should see limit reached alert popup$")
@@ -28,7 +28,7 @@ public class WebWellnessSurveyPage extends Page {
     }
     @When("^\\[Web Wellness Survey Page] User clicks on alert popup okay button$")
     public void userClicksOnWellnessSurveyAlertPopupOkayButton() throws InterruptedException {
-        Thread.sleep(500);
+        Thread.sleep(2000);
         getPageWellnessSurvey().getWellnessSurveyAlertPopupOkayButton().click();
     }
     @When("^\\[Web Wellness Survey Page] User clicks on wellness survey submit button$")

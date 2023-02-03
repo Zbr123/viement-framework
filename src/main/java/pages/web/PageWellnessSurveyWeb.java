@@ -37,7 +37,7 @@ public class PageWellnessSurveyWeb {
 
     public WebElement getWellnessSurveyLimitReachedAlertPopup() {
         {
-            return WebConnector.driver.findElement(By.cssSelector(wellnessSurveySaveButtonCss));
+            return WebConnector.driver.findElement(By.cssSelector(wellnessSurveyLimitReachedPopupCss));
         }
     }
 
