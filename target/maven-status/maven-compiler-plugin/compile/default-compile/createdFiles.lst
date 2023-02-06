@@ -2,8 +2,10 @@ core\utils\BsLocalHelper.class
 pages\Page.class
 pages\web\PageWellnessSurveyWeb.class
 core\utils\BrowerConfig\WebConnector.class
+pages\web\PageOnboardingInfoWeb.class
 pages\web\PageAddSeniorWeb.class
 pages\web\PageAdminWeb.class
+pages\web\PageProviderInfoSubTabWeb.class
 pages\android\LoginPage.class
 core\utils\restAssured\TestUtil.class
 pages\android\WelcomePage.class

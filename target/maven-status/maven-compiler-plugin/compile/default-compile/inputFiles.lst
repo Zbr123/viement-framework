@@ -12,9 +12,11 @@ E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\AppiumHook\emulato
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageForgotPasswordWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\AndroidCore\Initializer.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\restAssured\BaseTest.java
+E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageProviderInfoSubTabWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\TestRailConnector\TestRailRun.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\AndroidCore\CapabilitiesGenerator.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageAddSeniorWeb.java
+E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageOnboardingInfoWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\core\utils\AppiumHook\MobileConnector.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\web\PageSchedulerWeb.java
 E:\Work\Co-Ventech\Vimient\Framework\src\main\java\pages\android\BasePage.java

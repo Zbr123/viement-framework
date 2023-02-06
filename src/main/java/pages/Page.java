@@ -42,6 +42,12 @@ public class Page {
     private final PageSchedulerWeb getPageScheduler = new PageSchedulerWeb(this);
     protected PageSchedulerWeb getPageScheduler() { return getPageScheduler;}
 
+    private final PageOnboardingInfoWeb getPageOnboardingInfo = new PageOnboardingInfoWeb(this);
+    protected PageOnboardingInfoWeb getPageOnboardingInfo() { return getPageOnboardingInfo; }
+
+    private final PageProviderInfoSubTabWeb getPageProviderInfoSubTab = new PageProviderInfoSubTabWeb(this);
+    protected PageProviderInfoSubTabWeb getPageProviderInfoSubTab() { return getPageProviderInfoSubTab;}
+
     private final PageWellnessSurveyWeb getPageWellnessSurvey = new PageWellnessSurveyWeb(this);
     protected PageWellnessSurveyWeb getPageWellnessSurvey() { return getPageWellnessSurvey; }
 
