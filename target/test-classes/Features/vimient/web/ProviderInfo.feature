@@ -21,15 +21,18 @@ Feature: Provider Info
     And     [Web Provider Info SubTab Page] User enters doctor1 last name Dogar
     And     [Web Provider Info SubTab Page] User clicks on doctor1 specialty dropdown
     And     [Web Provider Info SubTab Page] User clicks on chiropractor
-    And     [Web Provider Info SubTab Page] User enters doctor1 contact phone 1593693571
-    And     [Web Provider Info SubTab Page] User enters doctor1 email address zubair.alam+doctor1@vimient.com
-    And     [Web Provider Info SubTab Page] User clicks on add doctor button
-    Then    [Web Provider Info SubTab Page] User should see doctor2 heading
+    And     [Web Provider Info SubTab Page] User enters doctor1 contact phone 15936
+    And     [Web Provider Info SubTab Page] User enters doctor1 email address zubair.alam+doctor
+#    And     [Web Provider Info SubTab Page] User clicks on add doctor button
+#    Then    [Web Provider Info SubTab Page] User should see doctor2 heading
     When    [Web Provider Info SubTab Page] User enters dentist1 practice name Dr
     And     [Web Provider Info SubTab Page] User enters dentist1 first name Ahsan
     And     [Web Provider Info SubTab Page] User enters dentist1 last name Chohan
     And     [Web Provider Info SubTab Page] User clicks on dentist1 specialty dropdown
     And     [Web Provider Info SubTab Page] User clicks on endodontist
     And     [Web Provider Info SubTab Page] User enters dentist1 contact phone 2593693571
-    And     [Web Provider Info SubTab Page] User enters dentist1 email address zubair.alam+doctor1@vimient.com
-    And     [Web Provider Info SubTab Page] User clicks on add dentist button
+    And     [Web Provider Info SubTab Page] User enters dentist1 email address zubair.alam+dentist1@vimient.com
+#    And     [Web Provider Info SubTab Page] User clicks on add dentist button
+#    Then    [Web Provider Info SubTab Page] User should see dentist2 heading
+    When    [Web Provider Info SubTab Page] User clicks on save button
+    Then    [Web Provider Info SubTab Page] User should see a saved successfully alert

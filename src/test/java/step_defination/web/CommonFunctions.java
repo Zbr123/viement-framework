@@ -1,5 +1,6 @@
 package step_defination.web;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import pages.Page;
 
 import java.sql.Time;
@@ -19,6 +20,16 @@ public class CommonFunctions extends Page {
         return randomInt;
     }
 
+    public String random5NumberSuffix(String previousNumbers) {
+        String randomNumber = RandomStringUtils.randomNumeric(5);
+        String mobileNumber = previousNumbers+randomNumber;
+        return mobileNumber;
+    }
+
+    public String random2NumberSuffix(){
+        String randomNumber = RandomStringUtils.randomNumeric(2);
+        return randomNumber;
+    }
     public String todaysDateInMMDDYYYY(){
         LocalDate dateObj = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");

@@ -18,7 +18,7 @@ public class PageSeniorDashboardWeb {
     public WebElement getWellnessSurveyTab() {
         { return WebConnector.driver.findElement(By.cssSelector(wellnessSurveyTabCss));}
     }
-    public WebElement getOnboardingInfoTab() {
+    public WebElement getOnboardingInfoTabCss() {
         { return WebConnector.driver.findElement(By.cssSelector(onboardingInfoTabCss));}
     }
 }

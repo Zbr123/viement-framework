@@ -2,11 +2,13 @@ package step_defination.web;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
 import pages.Page;
 
 public class WebProviderInfoSubTabPage extends Page {
 
+    CommonFunctions commonFunctions = new CommonFunctions();
     @Then("^\\[Web Provider Info SubTab Page] User should see the doctor1 heading$")
     public void userSeesDoctor1Heading() throws InterruptedException {
         Thread.sleep(2000);
@@ -42,12 +44,14 @@ public class WebProviderInfoSubTabPage extends Page {
     @And("^\\[Web Provider Info SubTab Page] User enters doctor1 contact phone (.*)$")
     public void userEntersDoctor1ContactPhone(String doctor1ContactPhone) throws InterruptedException {
         Thread.sleep(500);
-        getPageProviderInfoSubTab().getDoctor1ContactPhone().sendKeys(doctor1ContactPhone);
+        String phoneNumber = commonFunctions.random5NumberSuffix(doctor1ContactPhone);
+        getPageProviderInfoSubTab().getDoctor1ContactPhone().sendKeys(phoneNumber);
     }
     @And("^\\[Web Provider Info SubTab Page] User enters doctor1 email address (.*)$")
     public void userEntersDoctor1EmailAddress (String doctor1EmailAddress) throws InterruptedException {
         Thread.sleep(500);
-        getPageProviderInfoSubTab().getDoctor1EmailAddress().sendKeys(doctor1EmailAddress);
+        String number = commonFunctions.random2NumberSuffix();
+        getPageProviderInfoSubTab().getDoctor1EmailAddress().sendKeys(doctor1EmailAddress+number+"@vimient.com");
     }
     @And("^\\[Web Provider Info SubTab Page] User clicks on add doctor button$")
     public void userClicksOnAddDoctorButton () throws InterruptedException {
@@ -103,5 +107,15 @@ public class WebProviderInfoSubTabPage extends Page {
     public void userSeesDentist2Heading() throws InterruptedException {
         Thread.sleep(2000);
         Assert.assertTrue(getPageProviderInfoSubTab().getDentist2Heading().isDisplayed());
+    }
+    @When("^\\[Web Provider Info SubTab Page] User clicks on save button$")
+    public void userClicksOnProviderInfoSaveButton() throws InterruptedException {
+        Thread.sleep(200);
+        getPageProviderInfoSubTab().getProviderInfoSaveButton().click();
+    }
+    @Then("^\\[Web Provider Info SubTab Page] User should see a saved successfully alert$")
+    public void userSeesSuccessAlert() throws InterruptedException {
+        Thread.sleep(2000);
+        Assert.assertTrue(getPageProviderInfoSubTab().getSavedSuccessfullyAlert().isDisplayed());
     }
 }

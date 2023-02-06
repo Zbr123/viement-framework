@@ -14,7 +14,7 @@ public class WebSeniorDashboardPage extends Page {
     @When("^\\[Web Senior Dashboard Page] User clicks on onboarding info tab$")
     public void userClicksOnOnboardingInfoTab() throws InterruptedException {
         Thread.sleep(3000);
-        getPageSeniorDashboard().getOnboardingInfoTab().click();
+        getPageSeniorDashboard().getOnboardingInfoTabCss().click();
     }
     @When("^\\[Web Senior Dashboard Page] User clicks on wellness survey tab$")
     public void userClicksOnWellnessSurveyTab() throws InterruptedException {

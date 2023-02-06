@@ -26,8 +26,10 @@ public class PageProviderInfoSubTabWeb {
     private String dentist1SelectEndodontistCss = "ul li:nth-child(3)";
     private String dentist1ContactPhoneXpath = "/html/body/div[1]/div[1]/div/div[2]/div/div/div[4]/div/form/div[2]/div[1]/div/div[2]/div/div/div/div/div/div/div[5]/div/div/input";
     private String dentist1EmailAddressXpath = "/html/body/div[1]/div[1]/div/div[2]/div/div/div[4]/div/form/div[2]/div[1]/div/div[2]/div/div/div/div/div/div/div[6]/div/div/div/input";
-    private String addDentistButtonCss = "form > div:nth-child(2) button";
-    private String dentist2HeadingCss = "form > div:nth-child(4) h4";
+    private String addDentistButtonCss = "form > div:nth-child(1) button";
+    private String dentist2HeadingCss = "form > div:nth-child(2) h4";
+    private String saveButtonCss = "form > div:nth-child(3) > button:nth-child(2)";
+    private String providerInfoSavedSuccessfullyAlertXpath = "//*[@id=\"root\"]/div[1]";
     public PageProviderInfoSubTabWeb(Page page) {
     }
     public WebElement getProviderInfoSubTab() {
@@ -92,5 +94,11 @@ public class PageProviderInfoSubTabWeb {
     }
     public WebElement getDentist2Heading() {
         { return WebConnector.driver.findElement(By.cssSelector(dentist2HeadingCss));}
+    }
+    public WebElement getProviderInfoSaveButton() {
+        { return WebConnector.driver.findElement(By.cssSelector(saveButtonCss));}
+    }
+    public WebElement getSavedSuccessfullyAlert() {
+        { return WebConnector.driver.findElement(By.xpath(providerInfoSavedSuccessfullyAlertXpath));}
     }
 }
