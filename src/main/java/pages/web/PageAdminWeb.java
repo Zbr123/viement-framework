@@ -10,7 +10,7 @@ public class PageAdminWeb {
     private String homeTabCss = "div:nth-child(2) > p a";
     private String adminTabCss = "div:nth-child(1) > p > a";
     private String toDoHeading = "div:nth-child(1) > h2";
-    private String profileDropdownCss =  "header div:nth-child(4) div div";
+    private String profileDropdownCss =  "header div:nth-child(4) path";
     private String logoutButtonCss = "nav > div:nth-child(2)";
     private String addUserCss = "div:nth-child(3) > p > a";
 

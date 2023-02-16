@@ -15,6 +15,7 @@ step_defination\web\WebAddSeniorPage.class
 step_defination\Android\LoginPage.class
 step_defination\web\WebWellnessSurveyPage.class
 step_defination\web\WebHomePage.class
+step_defination\web\WebMedicalInfoSubTabPage.class
 step_defination\web\WebAdminPage.class
 api\Users.class
 step_defination\web\WebOnboardingInfoPage.class

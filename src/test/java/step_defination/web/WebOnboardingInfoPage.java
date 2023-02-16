@@ -20,4 +20,9 @@ public class WebOnboardingInfoPage extends Page {
         Thread.sleep(2000);
         Assert.assertTrue(getPageOnboardingInfo().getProviderInfoHeading().isDisplayed());
     }
+    @When("^\\[Web Onboarding Info Page] User clicks on medical info subtab$")
+    public void userClicksOnMedicalInfoSubTab() throws InterruptedException {
+        Thread.sleep(1000);
+        getPageOnboardingInfo().getMedicalInfoSubTab().click();
+    }
 }

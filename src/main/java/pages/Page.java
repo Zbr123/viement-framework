@@ -48,6 +48,9 @@ public class Page {
     private final PageProviderInfoSubTabWeb getPageProviderInfoSubTab = new PageProviderInfoSubTabWeb(this);
     protected PageProviderInfoSubTabWeb getPageProviderInfoSubTab() { return getPageProviderInfoSubTab;}
 
+    private final PageMedicalInfoSubTabWeb getPageMedicalInfoSubTab = new PageMedicalInfoSubTabWeb(this);
+    protected PageMedicalInfoSubTabWeb getPageMedicalInfoSubTab() { return getPageMedicalInfoSubTab;}
+
     private final PageWellnessSurveyWeb getPageWellnessSurvey = new PageWellnessSurveyWeb(this);
     protected PageWellnessSurveyWeb getPageWellnessSurvey() { return getPageWellnessSurvey; }
 

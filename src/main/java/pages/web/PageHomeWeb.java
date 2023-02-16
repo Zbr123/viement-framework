@@ -12,7 +12,7 @@ public class PageHomeWeb {
     private String profileDropdownCss =  "header div:nth-child(4) div div";
     private String logoutButtonCss = "nav > div:nth-child(2)";
     private String seniorListSearchTextboxCss = "form > div > input";
-    private String topSeniorAfterSearchCss = "tbody tr:nth-child(1)";
+    private String topSeniorAfterSearchCss = "tbody > tr:nth-child(1) > td:nth-child(3)";
 
     public PageHomeWeb(Page page) {
     }

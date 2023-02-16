@@ -10,6 +10,7 @@ public class PageOnboardingInfoWeb {
     private String profileInfoHeadingXpath= "//*[@id=\"tabpanel-0\"]/div/div[1]/span";
     private String providerInfoSubTabCss = "#tab-1";
     private String providerInfoHeadingXpath = "//*[@id=\"tabpanel-1\"]/div/div[1]/span";
+    private String medicalInfoSubTabCss = "#tab-2";
     public PageOnboardingInfoWeb(Page page) {
     }
     public WebElement getProfileInfoHeading() {
@@ -20,5 +21,8 @@ public class PageOnboardingInfoWeb {
     }
     public WebElement getProviderInfoHeading() {
         { return WebConnector.driver.findElement(By.xpath(providerInfoHeadingXpath));}
+    }
+    public WebElement getMedicalInfoSubTab() {
+        { return WebConnector.driver.findElement(By.cssSelector(medicalInfoSubTabCss));}
     }
 }

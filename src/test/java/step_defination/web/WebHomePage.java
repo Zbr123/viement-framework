@@ -33,7 +33,7 @@ public class WebHomePage extends Page {
     }
     @And("^\\[Web Home Page] User clicks on the top senior after search$")
     public void clickOnTopSeniorAfterSearch() throws InterruptedException {
-        Thread.sleep(6000);
+        Thread.sleep(4000);
         getPageHomeWeb().getTopSeniorAfterSearch().click();
     }
 }

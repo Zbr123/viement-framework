@@ -21,6 +21,7 @@ core\utils\AndroidCore\CapabilitiesGenerator.class
 core\utils\AndroidCore\Initializer.class
 core\utils\AndroidCore\Ssh.class
 core\AppiumServerTest.class
+pages\web\PageMedicalInfoSubTabWeb.class
 core\utils\BsDeviceHelper.class
 core\utils\AppiumHook\emulatorRunner.class
 core\utils\restAssured\RestAssuredUtil.class
