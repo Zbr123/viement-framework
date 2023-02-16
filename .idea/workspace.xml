@@ -5,33 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageMedicalInfoSubTabWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebMedicalInfoSubTabPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChromeDriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ChromeDriver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChromeDriver/chromedrivers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageAdminWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageAdminWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageOnboardingInfoWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageOnboardingInfoWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageSeniorDashboardWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageSeniorDashboardWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebOnboardingInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebOnboardingInfoPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebSeniorDashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebSeniorDashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageOnboardingInfoWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageOnboardingInfoWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-02-06T20-04-17_038.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebOnboardingInfoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebOnboardingInfoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-02-16T13-51-51_765.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebSeniorDashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebSeniorDashboardPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +92,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Login">
+  <component name="RunManager" selected="Cucumber Java.Feature: ProviderInfo">
     <configuration name="Feature: Home" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Home.feature" />
@@ -210,9 +190,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Login" />
-        <item itemvalue="Cucumber Java.Feature: Home" />
         <item itemvalue="Cucumber Java.Feature: ProviderInfo" />
+        <item itemvalue="Cucumber Java.Feature: Home" />
+        <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Feature: WellnessPlan" />
         <item itemvalue="Cucumber Java.Feature: MedicalInfo" />
       </list>
@@ -258,7 +238,8 @@
       <workItem from="1675686463261" duration="7430000" />
       <workItem from="1675748386202" duration="4654000" />
       <workItem from="1676532995715" duration="2424000" />
-      <workItem from="1676537253253" duration="894000" />
+      <workItem from="1676537253253" duration="1183000" />
+      <workItem from="1676569439536" duration="1937000" />
     </task>
     <servers />
   </component>

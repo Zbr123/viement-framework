@@ -9,7 +9,7 @@ public class PageSeniorDashboardWeb {
 
     private String schedulerTabCss = "div:nth-child(6) > button";
     private String wellnessSurveyTabCss = "div:nth-child(5) button";
-    private String onboardingInfoTabCss = "div:nth-child(1)>div>div>div:nth-child(1)>div:nth-child(2)>button>span";
+    private String onboardingInfoTabCss = "div>div>div>div:nth-child(2)>button>span:nth-child(1)";
 
     public PageSeniorDashboardWeb(Page page) {
     }
