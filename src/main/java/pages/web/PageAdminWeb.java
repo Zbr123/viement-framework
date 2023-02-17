@@ -17,7 +17,7 @@ public class PageAdminWeb {
     public PageAdminWeb(Page page) {
     }
 
-    public WebElement getHomeTab() { return  WebConnector.driver.findElement(By.cssSelector(homeTabCss)); }
+    public WebElement getHomeTab(String adminPageTabs) { return  WebConnector.driver.findElement(By.xpath(String.format("//p[contains(@class, 'MuiTypography-root') and contains(., '%s')]", adminPageTabs))); }
     public WebElement getProfileDropdownAdmin() { return WebConnector.driver.findElement(By.cssSelector(profileDropdownCss)); }
     public WebElement getLogoutButton() { return WebConnector.driver.findElement(By.cssSelector(logoutButtonCss)); }
     public WebElement getAddUserTab() { return WebConnector.driver.findElement(By.cssSelector(addUserCss)); }

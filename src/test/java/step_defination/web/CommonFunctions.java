@@ -30,6 +30,21 @@ public class CommonFunctions extends Page {
         String randomNumber = RandomStringUtils.randomNumeric(2);
         return randomNumber;
     }
+
+    public String providerInfoDoctorNumber(String doctorNumber){
+        int doctorNumberInt = Integer.parseInt(doctorNumber);
+        doctorNumberInt--;
+        String doctorNumberString = Integer.toString(doctorNumberInt);
+        String doctorResult = "doctor["+doctorNumberString+"].";
+        return doctorResult;
+    }
+    public String providerInfoDentistNumber(String dentistNumber){
+        int dentistNumberInt = Integer.parseInt(dentistNumber);
+        dentistNumberInt--;
+        String dentistNumberString = Integer.toString(dentistNumberInt);
+        String dentistResult = "doctor["+dentistNumberString+"].";
+        return dentistResult;
+    }
     public String todaysDateInMMDDYYYY(){
         LocalDate dateObj = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");

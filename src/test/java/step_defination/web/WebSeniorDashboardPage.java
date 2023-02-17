@@ -11,10 +11,10 @@ public class WebSeniorDashboardPage extends Page {
         Thread.sleep(4000);
         getPageSeniorDashboard().getSchedulerTab().click();
     }
-    @When("^\\[Web Senior Dashboard Page] User clicks on onboarding info tab$")
-    public void userClicksOnOnboardingInfoTab() throws InterruptedException {
-        Thread.sleep(15000);
-        getPageSeniorDashboard().getOnboardingInfoTab().click();
+    @When("^\\[Web Senior Dashboard Page] User clicks on (.*) tab$")
+    public void userClicksOnOnboardingInfoTab(String SeniorSubTabs) throws InterruptedException {
+        Thread.sleep(5000);
+        getPageSeniorDashboard().getOnboardingInfoTab(SeniorSubTabs).click();
     }
     @When("^\\[Web Senior Dashboard Page] User clicks on wellness survey tab$")
     public void userClicksOnWellnessSurveyTab() throws InterruptedException {

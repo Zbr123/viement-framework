@@ -9,11 +9,11 @@ public class PageSeniorDashboardWeb {
 
     private String schedulerTabCss = "div:nth-child(6) > button";
     private String wellnessSurveyTabCss = "div:nth-child(5) button";
-    private String onboardingInfoTabCss = "div>div>div>div:nth-child(2)>button>span:nth-child(1)";
+    private String onboardingInfoTabDynamic = "div>div>div>div:nth-child(2)>button>span:nth-child(1)";
 
     public PageSeniorDashboardWeb(Page page) {
     }
     public WebElement getSchedulerTab() {return WebConnector.driver.findElement(By.cssSelector(schedulerTabCss));}
     public WebElement getWellnessSurveyTab(){ return WebConnector.driver.findElement(By.cssSelector(wellnessSurveyTabCss));}
-    public WebElement getOnboardingInfoTab(){ return WebConnector.driver.findElement(By.cssSelector(onboardingInfoTabCss));}
+    public WebElement getOnboardingInfoTab(String SeniorSubTabs){ return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(@class, 'MuiButtonBase-root') and contains(., '%s')]", SeniorSubTabs)));}
 }

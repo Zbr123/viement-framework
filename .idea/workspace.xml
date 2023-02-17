@@ -6,12 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageAdminWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageAdminWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageOnboardingInfoWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageOnboardingInfoWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageProviderInfoSubTabWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageProviderInfoSubTabWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageSeniorDashboardWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageSeniorDashboardWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/CommonFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/CommonFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebAdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebAdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebOnboardingInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebOnboardingInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebProviderInfoSubTabPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebProviderInfoSubTabPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebSeniorDashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebSeniorDashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/ProviderInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/ProviderInfo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessPlan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessSurvey.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageOnboardingInfoWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageOnboardingInfoWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageProviderInfoSubTabWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageProviderInfoSubTabWeb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-02-16T13-51-51_765.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-02-16T23-12-46_550.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/WellnessPlan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/CommonFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/CommonFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebAdminPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebAdminPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebOnboardingInfoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebOnboardingInfoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebProviderInfoSubTabPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebProviderInfoSubTabPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebSeniorDashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebSeniorDashboardPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,25 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: MedicalInfo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" />
-      <option name="GLUE" value="step_defination.web step_defination.Android" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="vimientAutomationFramework" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: MedicalInfo" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Feature: ProviderInfo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/ProviderInfo.feature" />
@@ -188,13 +189,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: WellnessSurvey" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessSurvey.feature" />
+      <option name="GLUE" value="step_defination.web step_defination.Android" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="vimientAutomationFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: WellnessSurvey" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: ProviderInfo" />
+        <item itemvalue="Cucumber Java.Feature: WellnessSurvey" />
         <item itemvalue="Cucumber Java.Feature: Home" />
         <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Feature: WellnessPlan" />
-        <item itemvalue="Cucumber Java.Feature: MedicalInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +259,9 @@
       <workItem from="1675748386202" duration="4654000" />
       <workItem from="1676532995715" duration="2424000" />
       <workItem from="1676537253253" duration="1183000" />
-      <workItem from="1676569439536" duration="1937000" />
+      <workItem from="1676569439536" duration="2015000" />
+      <workItem from="1676620855510" duration="1165000" />
+      <workItem from="1676644420401" duration="14366000" />
     </task>
     <servers />
   </component>

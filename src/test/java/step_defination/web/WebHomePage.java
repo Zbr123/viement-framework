@@ -31,9 +31,9 @@ public class WebHomePage extends Page {
         Thread.sleep(4000);
         getPageHomeWeb().getSeniorNameInSearchTextbox().sendKeys(seniorNameForSearch);
     }
-    @And("^\\[Web Home Page] User clicks on the top senior after search$")
-    public void clickOnTopSeniorAfterSearch() throws InterruptedException {
+    @And("^\\[Web Home Page] User clicks on the top senior Zubair (.*) after search$")
+    public void clickOnTopSeniorAfterSearch(String seniorInList) throws InterruptedException {
         Thread.sleep(4000);
-        getPageHomeWeb().getTopSeniorAfterSearch().click();
+        getPageHomeWeb().getTopSeniorAfterSearch(seniorInList).click();
     }
 }

@@ -22,6 +22,6 @@ public class PageHomeWeb {
     public WebElement getProfileDropdownHome() {return WebConnector.driver.findElement(By.cssSelector(profileDropdownCss)); }
     public WebElement getLogoutButton() {return WebConnector.driver.findElement(By.cssSelector(logoutButtonCss));}
     public WebElement getHomeTab() {return WebConnector.driver.findElement(By.cssSelector(homeTabCss));}
-    public WebElement getSeniorNameInSearchTextbox() { return WebConnector.driver.findElement(By.cssSelector(seniorListSearchTextboxCss));}
-    public WebElement getTopSeniorAfterSearch() { return WebConnector.driver.findElement(By.cssSelector(topSeniorAfterSearchCss));}
+    public WebElement getSeniorNameInSearchTextbox() { return WebConnector.driver.findElement(By.cssSelector(String.format("input[type='text']")));}
+    public WebElement getTopSeniorAfterSearch(String seniorInList) { return WebConnector.driver.findElement(By.xpath(String.format("//td[contains(@class, 'MuiTableCell-root') and contains(., '%s')]", seniorInList)));}
 }

@@ -6,10 +6,10 @@ import org.testng.Assert;
 import pages.Page;
 
 public class WebAdminPage extends Page {
-    @When("^\\[Web Admin Page] User clicks on home button from admin tab$")
-    public void clickOnHomeTab() throws InterruptedException {
+    @When("^\\[Web Admin Page] User clicks on (.*) button from admin tab$")
+    public void clickOnHomeTab(String adminPageTabs) throws InterruptedException {
         Thread.sleep(3000);
-        getPageAdminWeb().getHomeTab().click();
+        getPageAdminWeb().getHomeTab(adminPageTabs).click();
     }
 
     @When("^\\[Web Admin Page] User clicks on profile dropdown from admin tab$")

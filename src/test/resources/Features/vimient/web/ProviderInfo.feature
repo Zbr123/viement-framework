@@ -7,32 +7,32 @@ Feature: Provider Info
     And     [Web Login Page] User enters password Srijan@12345
     And     [Web Login Page] User clicks on login button
     Then    [Web Home Page] User should see home tab in heading
-    When    [Web Admin Page] User clicks on home button from admin tab
+    When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zub
-    And     [Web Home Page] User clicks on the top senior after search
-    And     [Web Senior Dashboard Page] User clicks on onboarding info tab
+    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    And     [Web Senior Dashboard Page] User clicks on Onboarding Info tab
     Then    [Web Onboarding Info Page] User should see the profile info heading
-    When    [Web Onboarding Info Page] User clicks on provider info subtab
+    When    [Web Onboarding Info Page] User clicks on Provider Info subtab
     Then    [Web Provider Info SubTab Page] User should see the doctor1 heading
     And     [Web Provider Info SubTab Page] User should see the dentist1 heading
-    When    [Web Provider Info SubTab Page] User enters doctor1 practice name Doctor
-    And     [Web Provider Info SubTab Page] User enters doctor1 first name Zubair
-    And     [Web Provider Info SubTab Page] User enters doctor1 last name Dogar
-    And     [Web Provider Info SubTab Page] User clicks on doctor1 specialty dropdown
-    And     [Web Provider Info SubTab Page] User clicks on chiropractor
-    And     [Web Provider Info SubTab Page] User enters doctor1 contact phone 15936
-    And     [Web Provider Info SubTab Page] User enters doctor1 email address zubair.alam+doctor
-#    And     [Web Provider Info SubTab Page] User clicks on add doctor button
+    When    [Web Provider Info SubTab Page] User enters Doctor 1 practice name Doctor
+    And     [Web Provider Info SubTab Page] User enters Doctor 1 first name Zubair
+    And     [Web Provider Info SubTab Page] User enters Doctor 1 last name Dogar
+    And     [Web Provider Info SubTab Page] User clicks on Doctor 1 specialty dropdown
+    And     [Web Provider Info SubTab Page] User clicks on Doctor 1 speciality Chiropractor
+    And     [Web Provider Info SubTab Page] User enters Doctor 1 contact phone 15936
+    And     [Web Provider Info SubTab Page] User enters Doctor 1 email address zubair.alam+doctor
+#    And     [Web Provider Info SubTab Page] User clicks on Add Doctor button
 #    Then    [Web Provider Info SubTab Page] User should see doctor2 heading
-    When    [Web Provider Info SubTab Page] User enters dentist1 practice name Dr
-    And     [Web Provider Info SubTab Page] User enters dentist1 first name Ahsan
-    And     [Web Provider Info SubTab Page] User enters dentist1 last name Chohan
-    And     [Web Provider Info SubTab Page] User clicks on dentist1 specialty dropdown
-    And     [Web Provider Info SubTab Page] User clicks on endodontist
-    And     [Web Provider Info SubTab Page] User enters dentist1 contact phone 2593693571
-    And     [Web Provider Info SubTab Page] User enters dentist1 email address zubair.alam+dentist1@vimient.com
+    When    [Web Provider Info SubTab Page] User enters Dentist 1 practice name Dr
+    And     [Web Provider Info SubTab Page] User enters Dentist 1 first name Ahsan
+    And     [Web Provider Info SubTab Page] User enters Dentist 1 last name Chohan
+    And     [Web Provider Info SubTab Page] User clicks on Dentist 1 specialty dropdown
+    And     [Web Provider Info SubTab Page] User clicks on Dentist 1 speciality Endodontist
+    And     [Web Provider Info SubTab Page] User enters Dentist 1 contact phone 2593693571
+    And     [Web Provider Info SubTab Page] User enters Dentist 1 email address zubair.alam+dentist1@vimient.com
 #    And     [Web Provider Info SubTab Page] User clicks on add dentist button
 #    Then    [Web Provider Info SubTab Page] User should see dentist2 heading
-    When    [Web Provider Info SubTab Page] User clicks on save button
-    Then    [Web Provider Info SubTab Page] User should see a saved successfully alert
+    When    [Web Provider Info SubTab Page] User clicks on Save button
+    Then    [Web Provider Info SubTab Page] User should see a Saved Successfully alert
