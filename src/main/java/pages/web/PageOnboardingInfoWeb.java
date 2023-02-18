@@ -16,7 +16,7 @@ public class PageOnboardingInfoWeb {
     public WebElement getProfileInfoHeading() {
         { return WebConnector.driver.findElement(By.xpath(profileInfoHeadingXpath));}
     }
-    public WebElement getProviderInfoSubTab(String onboardingInfoSubTabs) {
+    public WebElement getOnboardingInfoSubTabs(String onboardingInfoSubTabs) {
         { return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", onboardingInfoSubTabs)));}
     }
     public WebElement getProviderInfoHeading() {

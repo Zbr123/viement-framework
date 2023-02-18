@@ -11,18 +11,18 @@ public class WebOnboardingInfoPage extends Page {
         Assert.assertTrue(getPageOnboardingInfo().getProfileInfoHeading().isDisplayed());
     }
     @When("^\\[Web Onboarding Info Page] User clicks on (.*) subtab$")
-    public void userClicksOnProviderInfoSubTab(String onboardingInfoSubTabs) throws InterruptedException {
+    public void userClicksOnProviderInfoSubTab(String seniorOnboardingInfoSubtab) throws InterruptedException {
         Thread.sleep(1000);
-        getPageOnboardingInfo().getProviderInfoSubTab(onboardingInfoSubTabs).click();
+        getPageOnboardingInfo().getOnboardingInfoSubTabs(seniorOnboardingInfoSubtab).click();
     }
     @Then("^\\[Web Onboarding Info Page] User should see the provider info heading$")
     public void userSeesProviderInfoHeading() throws InterruptedException {
         Thread.sleep(2000);
         Assert.assertTrue(getPageOnboardingInfo().getProviderInfoHeading().isDisplayed());
     }
-    @When("^\\[Web Onboarding Info Page] User clicks on medical info subtab$")
-    public void userClicksOnMedicalInfoSubTab() throws InterruptedException {
-        Thread.sleep(1000);
-        getPageOnboardingInfo().getMedicalInfoSubTab().click();
-    }
+//    @When("^\\[Web Onboarding Info Page] User clicks on medical info subtab$")
+//    public void userClicksOnMedicalInfoSubTab() throws InterruptedException {
+//        Thread.sleep(1000);
+//        getPageOnboardingInfo().getMedicalInfoSubTab().click();
+//    }
 }

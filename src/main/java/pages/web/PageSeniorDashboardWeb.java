@@ -15,5 +15,5 @@ public class PageSeniorDashboardWeb {
     }
     public WebElement getSchedulerTab() {return WebConnector.driver.findElement(By.cssSelector(schedulerTabCss));}
     public WebElement getWellnessSurveyTab(){ return WebConnector.driver.findElement(By.cssSelector(wellnessSurveyTabCss));}
-    public WebElement getOnboardingInfoTab(String SeniorSubTabs){ return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(@class, 'MuiButtonBase-root') and contains(., '%s')]", SeniorSubTabs)));}
+    public WebElement getSeniorDashTabs(String SeniorSubTabs){ return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(@class, 'MuiButtonBase-root') and contains(., '%s')]", SeniorSubTabs)));}
 }

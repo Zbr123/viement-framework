@@ -14,4 +14,10 @@ public class PageMedicalInfoSubTabWeb {
     public WebElement getMedicalHistoryHeading() {
         { return WebConnector.driver.findElement(By.cssSelector(medicalHistoryHeadingCss));}
     }
+    public WebElement getMedicalInfoDropdowns(String medicalInfoPageDropdowns) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@id, '%s')]", medicalInfoPageDropdowns)));}
+    }
+    public WebElement getMedicalInfoDropdownOptions(String medicalInfoPageDropdownOptions) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", medicalInfoPageDropdownOptions)));}
+    }
 }
