@@ -42,7 +42,7 @@ public class CommonFunctions extends Page {
         int dentistNumberInt = Integer.parseInt(dentistNumber);
         dentistNumberInt--;
         String dentistNumberString = Integer.toString(dentistNumberInt);
-        String dentistResult = "doctor["+dentistNumberString+"].";
+        String dentistResult = "dentist["+dentistNumberString+"].";
         return dentistResult;
     }
     public String todaysDateInMMDDYYYY(){

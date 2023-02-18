@@ -41,44 +41,38 @@ public class PageProviderInfoSubTabWeb {
     public WebElement getDentist1Heading() {
         { return WebConnector.driver.findElement(By.cssSelector(dentist1HeadingCss));}
     }
-    public WebElement getDoctor1PracticeName(String doctorPracticeNameLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", doctorPracticeNameLocator)));} //doctor[0].[provider_name]
+    public WebElement getDoctorNameInput(String doctorNameInput) {
+        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", doctorNameInput)));}
     }
-    public WebElement getDoctor1FirstName(String doctorFirstNameLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", doctorFirstNameLocator)));}
-    }
-    public WebElement getDoctor1LastName(String doctorLastNameLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", doctorLastNameLocator)));}
-    }
-    public WebElement getDoctor1SpecialtyDropdown(String doctorSpecialityDropdownLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("//div[contains(@id, 'mui-component-select-doctor[0].[speciality]')]", doctorSpecialityDropdownLocator)));}
+    public WebElement getDoctorSpecialtyDropdown(String doctorSpecialityDropdownLocator) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@id, '%s')]", doctorSpecialityDropdownLocator)));}
     }
     public WebElement getDoctor1SelectSpeciality(String doctorSpeciality) {
         { return WebConnector.driver.findElement(By.cssSelector(String.format("li[data-value='%s']", doctorSpeciality)));}
     }
-    public WebElement getDoctor1ContactPhone(String doctorContactLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", doctorContactLocator)));}
+    public WebElement getDoctorContact$EmailInput(String doctorContact$EmailInput) {
+        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", doctorContact$EmailInput)));}
     }
-    public WebElement getDoctor1EmailAddress(String doctorEmailAddressLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", doctorEmailAddressLocator)));}
-    }
+//    public WebElement getDoctor1EmailAddress(String doctorEmailAddressLocator) {
+//        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", doctorEmailAddressLocator)));}
+//    }
     public WebElement getAddDoctorButton(String addDoctor) {
         { return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(.,'%s')", addDoctor)));}
     }
     public WebElement getDoctor2Heading() {
         { return WebConnector.driver.findElement(By.cssSelector(doctor2HeadingCss));}
     }
-    public WebElement getDentist1PracticeName(String dentistPracticeNameLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", dentistPracticeNameLocator)));}
+    public WebElement getDentistNameInput(String dentistNameInput) {
+        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", dentistNameInput)));}
     }
-    public WebElement getDentist1FirstName(String dentistFirstNameLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", dentistFirstNameLocator)));}
-    }
-    public WebElement getDentist1LastName(String dentistLastNameLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", dentistLastNameLocator)));}
-    }
+//    public WebElement getDentist1FirstName(String dentistFirstNameInput) {
+//        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", dentistFirstNameLocator)));}
+//    }
+//    public WebElement getDentist1LastName(String dentistLastNameLocator) {
+//        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", dentistLastNameLocator)));}
+//    }
     public WebElement getDentist1SpecialtyDropdown(String dentistSpecialityDropdownLocator) {
-        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s']", dentistSpecialityDropdownLocator)));}
+        { return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@id, '%s')]", dentistSpecialityDropdownLocator)));}
     }
     public WebElement getDentist1Endodontist(String dentistSpeciality) {
         { return WebConnector.driver.findElement(By.cssSelector(String.format("li[data-value='%s']", dentistSpeciality)));}

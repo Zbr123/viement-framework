@@ -24,28 +24,28 @@ public class WebProviderInfoSubTabPage extends Page {
         String doctorPracticeNameLocator = commonFunctions.providerInfoDoctorNumber(doctorNumber)+"[provider_name]";
         System.out.println(doctorPracticeNameLocator);
         Thread.sleep(1000);
-        getPageProviderInfoSubTab().getDoctor1PracticeName(doctorPracticeNameLocator).sendKeys(doctor1PracticeName);
+        getPageProviderInfoSubTab().getDoctorNameInput(doctorPracticeNameLocator).sendKeys(doctor1PracticeName);
     }
     @And("^\\[Web Provider Info SubTab Page] User enters Doctor (.*) first name (.*)$")
     public void userEntersDoctor1FirstName(String doctorNumber, String doctor1FirstName) throws InterruptedException {
         String doctorFirstNameLocator = commonFunctions.providerInfoDoctorNumber(doctorNumber)+"[name.first_name]";
         System.out.println(doctorFirstNameLocator);
         Thread.sleep(1000);
-        getPageProviderInfoSubTab().getDoctor1FirstName(doctorFirstNameLocator).sendKeys(doctor1FirstName);
+        getPageProviderInfoSubTab().getDoctorNameInput(doctorFirstNameLocator).sendKeys(doctor1FirstName);
     }
     @And("^\\[Web Provider Info SubTab Page] User enters Doctor (.*) last name (.*)$")
     public void userEntersDoctor1LastName(String doctorNumber, String doctor1LastName) throws InterruptedException {
         String doctorLastNameLocator = commonFunctions.providerInfoDoctorNumber(doctorNumber)+"[name.last_name]";
         System.out.println(doctorLastNameLocator);
         Thread.sleep(1000);
-        getPageProviderInfoSubTab().getDoctor1LastName(doctorLastNameLocator).sendKeys(doctor1LastName);
+        getPageProviderInfoSubTab().getDoctorNameInput(doctorLastNameLocator).sendKeys(doctor1LastName);
     }
     @And("^\\[Web Provider Info SubTab Page] User clicks on Doctor (.*) specialty dropdown$")
     public void userClicksOnDoctor1Specialty(String doctorNumber) throws InterruptedException {
         Thread.sleep(1000);
-        String doctorSpecialityDropdownLocator = commonFunctions.providerInfoDoctorNumber(doctorNumber)+"[speciality]";
+        String doctorSpecialityDropdownLocator = "mui-component-select-"+commonFunctions.providerInfoDoctorNumber(doctorNumber)+"[speciality]";
         System.out.println(doctorSpecialityDropdownLocator);
-        getPageProviderInfoSubTab().getDoctor1SpecialtyDropdown(doctorSpecialityDropdownLocator).click();
+        getPageProviderInfoSubTab().getDoctorSpecialtyDropdown(doctorSpecialityDropdownLocator).click();
     }
     @And("^\\[Web Provider Info SubTab Page] User clicks on Doctor 1 speciality (.*)$")
     public void userClicksOnDoctorSpecialityChiropractor(String doctorSpeciality) throws InterruptedException {
@@ -58,7 +58,7 @@ public class WebProviderInfoSubTabPage extends Page {
         System.out.println(doctorContactLocator);
         Thread.sleep(500);
         String phoneNumber = commonFunctions.random5NumberSuffix(doctor1ContactPhone);
-        getPageProviderInfoSubTab().getDoctor1ContactPhone(doctorContactLocator).sendKeys(phoneNumber);
+        getPageProviderInfoSubTab().getDoctorContact$EmailInput(doctorContactLocator).sendKeys(phoneNumber);
     }
     @And("^\\[Web Provider Info SubTab Page] User enters Doctor (.*) email address (.*)$")
     public void userEntersDoctor1EmailAddress (String doctorNumber, String doctor1EmailAddress) throws InterruptedException {
@@ -66,7 +66,7 @@ public class WebProviderInfoSubTabPage extends Page {
         System.out.println(doctorEmailAddressLocator);
         Thread.sleep(500);
         String number = commonFunctions.random2NumberSuffix();
-        getPageProviderInfoSubTab().getDoctor1EmailAddress(doctorEmailAddressLocator).sendKeys(doctor1EmailAddress+number+"@vimient.com");
+        getPageProviderInfoSubTab().getDoctorContact$EmailInput(doctorEmailAddressLocator).sendKeys(doctor1EmailAddress+number+"@vimient.com");
     }
     @And("^\\[Web Provider Info SubTab Page] User clicks on (.*) button$")
     public void userClicksOnProviderInfoAddDoctor$SaveButton (String addDoctor) throws InterruptedException {
@@ -84,25 +84,26 @@ public class WebProviderInfoSubTabPage extends Page {
         String dentistPracticeNameLocator = commonFunctions.providerInfoDentistNumber(dentistNumber)+"[provider_name]";
         System.out.println(dentistPracticeNameLocator);
         Thread.sleep(1000);
-        getPageProviderInfoSubTab().getDentist1PracticeName(dentistPracticeNameLocator).sendKeys(dentist1PracticeName);
+        getPageProviderInfoSubTab().getDentistNameInput(dentistPracticeNameLocator).sendKeys(dentist1PracticeName);
     }
     @And("^\\[Web Provider Info SubTab Page] User enters Dentist (.*) first name (.*)$")
     public void userEntersDentist1FirstName(String dentistNumber, String dentist1FirstName) throws InterruptedException {
         String dentistFirstNameLocator = commonFunctions.providerInfoDentistNumber(dentistNumber)+"[provider_name]";
         System.out.println(dentistFirstNameLocator);
         Thread.sleep(500);
-        getPageProviderInfoSubTab().getDentist1FirstName(dentistFirstNameLocator).sendKeys(dentist1FirstName);
+        getPageProviderInfoSubTab().getDentistNameInput(dentistFirstNameLocator).sendKeys(dentist1FirstName);
     }
     @And("^\\[Web Provider Info SubTab Page] User enters Dentist (.*) last name (.*)$")
     public void userEntersDentist1LastName(String dentistNumber,String dentist1LastName) throws InterruptedException {
         String dentistLastNameLocator = commonFunctions.providerInfoDentistNumber(dentistNumber)+"[provider_name]";
         System.out.println(dentistLastNameLocator);
         Thread.sleep(500);
-        getPageProviderInfoSubTab().getDentist1LastName(dentistLastNameLocator).sendKeys(dentist1LastName);
+        getPageProviderInfoSubTab().getDentistNameInput(dentistLastNameLocator).sendKeys(dentist1LastName);
     }
     @And("^\\[Web Provider Info SubTab Page] User clicks on Dentist (.*) specialty dropdown$")
     public void userClicksOnDentist1SpecialtyDropdown(String dentistNumber) throws InterruptedException {
-        String dentistSpecialityDropdownLocator = commonFunctions.providerInfoDentistNumber(dentistNumber)+"[speciality]";
+        Thread.sleep(1000);
+        String dentistSpecialityDropdownLocator = "mui-component-select-"+commonFunctions.providerInfoDentistNumber(dentistNumber)+"[speciality]";
         System.out.println(dentistSpecialityDropdownLocator);
         Thread.sleep(500);
         getPageProviderInfoSubTab().getDentist1SpecialtyDropdown(dentistSpecialityDropdownLocator).click();
