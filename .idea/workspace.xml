@@ -7,11 +7,11 @@
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageProviderInfoSubTabWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageProviderInfoSubTabWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/CommonFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/CommonFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebProviderInfoSubTabPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebProviderInfoSubTabPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/ProviderInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/ProviderInfo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageProviderInfoSubTabWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageProviderInfoSubTabWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-02-17T23-48-34_429.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/CommonFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/CommonFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-02-18T17-08-47_747.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebProviderInfoSubTabPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebProviderInfoSubTabPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -264,7 +264,7 @@
       <workItem from="1676569439536" duration="2015000" />
       <workItem from="1676620855510" duration="1165000" />
       <workItem from="1676644420401" duration="14747000" />
-      <workItem from="1676718966440" duration="3286000" />
+      <workItem from="1676718966440" duration="7639000" />
     </task>
     <servers />
   </component>
