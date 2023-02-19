@@ -9,13 +9,11 @@ public class WebLoginPage extends Page {
     public void enterEmailAddress(String email) {
         getPageLoginWeb().getEmail().sendKeys(email);
     }
-
     @When("\\[Web Login Page\\] User enters password (.*)$")
     public void enterPassword(String password) throws InterruptedException {
         Thread.sleep(1000);
         getPageLoginWeb().getPassword().sendKeys(password);
     }
-
     @When("[Web Login Page] User clicks on login button")
     public void clickOnLoginButton() throws InterruptedException {
         Thread.sleep(1000);
@@ -31,6 +29,4 @@ public class WebLoginPage extends Page {
         Thread.sleep(1000);
         Assert.assertTrue(getPageLoginWeb().getUserLoggedOutSuccessAlert().isDisplayed());
     }
-
-
 }

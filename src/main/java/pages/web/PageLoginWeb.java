@@ -22,5 +22,4 @@ public class PageLoginWeb {
     public WebElement getLoginButton() { return  WebConnector.driver.findElement(By.cssSelector(loginButtonCss)); }
     public WebElement getForgotPassword() { return WebConnector.driver.findElement(By.cssSelector(forgotPasswordCss));}
     public WebElement getUserLoggedOutSuccessAlert() { return WebConnector.driver.findElement(By.xpath(loggedOutSuccessAlertXpath));}
-
 }
