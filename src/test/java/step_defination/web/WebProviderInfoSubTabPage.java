@@ -142,7 +142,7 @@ public class WebProviderInfoSubTabPage extends Page {
 //        getPageProviderInfoSubTab().getProviderInfoSaveButton(providerInfoSaveButton).click();
 //    }
     @Then("^\\[Web Provider Info SubTab Page] User should see a (.*) alert$")
-    public void userSeesSuccessAlert(String providerInfoSavedSuccessfullyAlert) throws InterruptedException {
+    public void userSeesProviderInfoPageSuccessAlert(String providerInfoSavedSuccessfullyAlert) throws InterruptedException {
         Thread.sleep(5000);
         String savedSuccessfullyAlertLocatorInput = "MuiAlert-message') and contains(., '"+providerInfoSavedSuccessfullyAlert;
         System.out.println(savedSuccessfullyAlertLocatorInput);

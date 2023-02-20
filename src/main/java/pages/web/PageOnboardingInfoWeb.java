@@ -11,10 +11,12 @@ public class PageOnboardingInfoWeb {
     private String providerInfoSubTabCss = "#tab-1";
     private String providerInfoHeadingXpath = "//*[@id=\"tabpanel-1\"]/div/div[1]/span";
     private String medicalInfoSubTabCss = "#tab-2";
+
     public PageOnboardingInfoWeb(Page page) {
     }
-    public WebElement getProfileInfoHeading() {
-        { return WebConnector.driver.findElement(By.xpath(profileInfoHeadingXpath));}
+
+    public WebElement getOnboardingInfoSubtabHeadings(String onboardingInfoSubtabHeadingLocatorInput) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//span[contains(., '%s')]", onboardingInfoSubtabHeadingLocatorInput)));}
     }
     public WebElement getOnboardingInfoSubTabs(String onboardingInfoSubTabs) {
         { return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", onboardingInfoSubTabs)));}

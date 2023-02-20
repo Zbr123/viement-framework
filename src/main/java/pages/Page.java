@@ -40,10 +40,10 @@ public class Page {
     protected PageSeniorDashboardWeb getPageSeniorDashboard() { return getPageSeniorDashboard; }
 
     private final PageSchedulerWeb getPageScheduler = new PageSchedulerWeb(this);
-    protected PageSchedulerWeb getPageScheduler() { return getPageScheduler;}
+    protected PageSchedulerWeb getPageScheduler() {return getPageScheduler;}
 
     private final PageOnboardingInfoWeb getPageOnboardingInfo = new PageOnboardingInfoWeb(this);
-    protected PageOnboardingInfoWeb getPageOnboardingInfo() { return getPageOnboardingInfo; }
+    protected PageOnboardingInfoWeb getPageOnboardingInfo() {return getPageOnboardingInfo;}
 
     private final PageProviderInfoSubTabWeb getPageProviderInfoSubTab = new PageProviderInfoSubTabWeb(this);
     protected PageProviderInfoSubTabWeb getPageProviderInfoSubTab() { return getPageProviderInfoSubTab;}
@@ -51,8 +51,11 @@ public class Page {
     private final PageMedicalInfoSubTabWeb getPageMedicalInfoSubTab = new PageMedicalInfoSubTabWeb(this);
     protected PageMedicalInfoSubTabWeb getPageMedicalInfoSubTab() { return getPageMedicalInfoSubTab;}
 
+    private final PageCareCircleSubTabWeb getPageCareCircleSubTab = new PageCareCircleSubTabWeb(this);
+    protected PageCareCircleSubTabWeb getPageCareCircleSubTab() {return getPageCareCircleSubTab;}
+
     private final PageWellnessSurveyWeb getPageWellnessSurvey = new PageWellnessSurveyWeb(this);
-    protected PageWellnessSurveyWeb getPageWellnessSurvey() { return getPageWellnessSurvey; }
+    protected PageWellnessSurveyWeb getPageWellnessSurvey() {return getPageWellnessSurvey;}
 
     //Android
 

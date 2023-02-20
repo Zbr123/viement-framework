@@ -20,4 +20,18 @@ public class PageMedicalInfoSubTabWeb {
     public WebElement getMedicalInfoDropdownOptions(String medicalInfoPageDropdownOptions) {
         {return WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", medicalInfoPageDropdownOptions)));}
     }
+    public WebElement getMedicalInfoDateInputs(String medicalInfoDateInputs) {
+        System.out.println("//input[contains(@id,'"+medicalInfoDateInputs+"')][contains(@placeholder, 'MM/DD/YYYY')]");
+        {return WebConnector.driver.findElement(By.xpath(String.format("//input[contains(@id, '%s')][contains(@placeholder, 'MM/DD/YYYY')]", medicalInfoDateInputs)));}
+    }
+    public WebElement getMedicalInfoTextInputs(String medicalInfoTextInputs) {
+//        System.out.println("input[id='"+medicalInfoTextInputs+"']");
+        {return WebConnector.driver.findElement(By.cssSelector(String.format("input[id='%s']", medicalInfoTextInputs)));}
+    }
+    public WebElement getMedicalInfoButtons(String medicalInfoButtons) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", medicalInfoButtons)));}
+    }
+    public WebElement getSavedSuccessfullyAlert(String medicalInfoSavedSuccessfullyAlert) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, '%s')]", medicalInfoSavedSuccessfullyAlert)));}
+    }
 }

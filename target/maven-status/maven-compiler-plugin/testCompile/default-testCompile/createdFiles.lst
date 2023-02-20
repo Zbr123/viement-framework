@@ -7,6 +7,7 @@ step_defination\web\WebProviderInfoSubTabPage.class
 api\Cognito.class
 step_defination\Android\AndroidSetup.class
 step_defination\web\WebCallSchedulerPage.class
+step_defination\web\WebCareCircleSubTabPage.class
 step_defination\web\WebSeniorDashboardPage.class
 MobileRunner.class
 step_defination\Android\HomePage.class

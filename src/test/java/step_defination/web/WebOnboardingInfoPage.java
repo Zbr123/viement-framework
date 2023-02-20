@@ -5,24 +5,19 @@ import org.testng.Assert;
 import pages.Page;
 
 public class WebOnboardingInfoPage extends Page {
-    @Then("^\\[Web Onboarding Info Page] User should see the profile info heading$")
-    public void userSeesProfileInfoHeading() throws InterruptedException {
+    @Then("^\\[Web Onboarding Info Page] User should see the (.*) heading$")
+    public void userSeesOnboardingInfoSubtabHeadings(String onboardingInfoSubtabHeadingLocatorInput) throws InterruptedException {
         Thread.sleep(2000);
-        Assert.assertTrue(getPageOnboardingInfo().getProfileInfoHeading().isDisplayed());
+        Assert.assertTrue(getPageOnboardingInfo().getOnboardingInfoSubtabHeadings(onboardingInfoSubtabHeadingLocatorInput).isDisplayed());
     }
     @When("^\\[Web Onboarding Info Page] User clicks on (.*) subtab$")
-    public void userClicksOnProviderInfoSubTab(String seniorOnboardingInfoSubtab) throws InterruptedException {
-        Thread.sleep(1000);
-        getPageOnboardingInfo().getOnboardingInfoSubTabs(seniorOnboardingInfoSubtab).click();
+    public void userClicksOnOnboardingInfoSubTabs(String onboardingInfoSubtabs) throws InterruptedException {
+        Thread.sleep(3000);
+        getPageOnboardingInfo().getOnboardingInfoSubTabs(onboardingInfoSubtabs).click();
     }
     @Then("^\\[Web Onboarding Info Page] User should see the provider info heading$")
     public void userSeesProviderInfoHeading() throws InterruptedException {
         Thread.sleep(2000);
         Assert.assertTrue(getPageOnboardingInfo().getProviderInfoHeading().isDisplayed());
     }
-//    @When("^\\[Web Onboarding Info Page] User clicks on medical info subtab$")
-//    public void userClicksOnMedicalInfoSubTab() throws InterruptedException {
-//        Thread.sleep(1000);
-//        getPageOnboardingInfo().getMedicalInfoSubTab().click();
-//    }
 }

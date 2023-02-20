@@ -3,6 +3,7 @@ pages\Page.class
 pages\web\PageWellnessSurveyWeb.class
 core\utils\BrowerConfig\WebConnector.class
 pages\web\PageOnboardingInfoWeb.class
+pages\web\PageCareCircleSubTabWeb.class
 pages\web\PageAddSeniorWeb.class
 pages\web\PageAdminWeb.class
 pages\web\PageProviderInfoSubTabWeb.class

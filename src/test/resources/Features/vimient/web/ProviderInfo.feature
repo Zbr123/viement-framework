@@ -1,7 +1,7 @@
 Feature: Provider Info
 
   @vim-001 @Web
-    Scenario: User is able to add provider info for a senior
+    Scenario: User is able to add Provider Info for a senior
     Given   [Main Page] User go the web portal and navigate to the login page
     When    [Web Login Page] User enters email address srijan-admin@srijan.net
     And     [Web Login Page] User enters password Srijan@12345
