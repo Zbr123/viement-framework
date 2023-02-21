@@ -33,7 +33,7 @@ Feature: WellnessPlan
     When    [Web Admin Page] User clicks on home button from admin tab
     Then    [Web Home Page] User should see the welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zub
-    And     [Web Home Page] User clicks on the top senior after search
+    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
     And     [Web Senior Dashboard Page] User clicks on wellness survey tab
     Then    [Web Wellness Survey Page] User should see the wellness check-in survey heading
     When    [Web Wellness Survey Page] User Select Relaxed/Calm radio button on wellness survey form
@@ -56,7 +56,7 @@ Feature: WellnessPlan
     When    [Web Admin Page] User clicks on home button from admin tab
     Then    [Web Home Page] User should see the welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zub
-    And     [Web Home Page] User clicks on the top senior after search
+    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
     And     [Web Senior Dashboard Page] User clicks on wellness survey tab
     Then    [Web Wellness Survey Page] User should see the wellness check-in survey heading
     When    [Web Wellness Survey Page] User Select Relaxed/Calm radio button on wellness survey form
