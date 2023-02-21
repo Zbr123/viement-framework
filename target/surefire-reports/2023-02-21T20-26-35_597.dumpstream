@@ -1,4 +1,4 @@
-# Created at 2023-02-21T19:26:05.395
+# Created at 2023-02-21T20:26:35.889
 Boot Manifest-JAR contains absolute paths in classpath 'E:\Work\Co-Ventech\Vimient\Framework\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 

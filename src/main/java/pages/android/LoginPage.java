@@ -10,6 +10,7 @@ import pages.Page;
 public class LoginPage {
 
     private String emailAddressXpath = "//android.widget.EditText[@content-desc=\"SignInScreen:EmailInput:email\"]";
+    private String emailAddressID = "SignInScreen:EmailInput:email";
     private String passwordXpath = "//android.widget.EditText[@content-desc=\"SignInScreen:PasswordInput:password\"]";
     private String loginButtonXpath = "//android.view.ViewGroup[@content-desc=\"SignInScreen:SignInButton:signinbutton\"]";
     private String forgotPasswordButtonXpath = "//android.widget.TextView[@content-desc=\"SignInScreen:ForgotPasswordText:forgotpasswordtext\"]";

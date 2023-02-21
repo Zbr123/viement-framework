@@ -14,4 +14,4 @@ Feature: Login
     Scenario: User should be able to reset password
     Given [Login Page] App should open successfully
     And   [Login Page] User clicks on forgot password
-    And   [Forgot Password Page] User enters androidEmail zubair.alam+56@vimient.com
+#    And   [Android Forgot Password Page] User enters androidEmail zubair.alam+56@vimient.com
