@@ -17,11 +17,23 @@ public class PageHomeWeb {
     public PageHomeWeb(Page page) {
     }
 
-    public WebElement getWelcomeHeading() { return  WebConnector.driver.findElement(By.cssSelector(welcomeHeading)); }
+    public WebElement getWelcomeHeading(String h2HeadingLocatorString) {
+        {return  WebConnector.driver.findElement(By.xpath(String.format("//h2[contains(., '%s')]", h2HeadingLocatorString)));}
+    }
 
-    public WebElement getProfileDropdownHome() {return WebConnector.driver.findElement(By.cssSelector(profileDropdownCss)); }
-    public WebElement getLogoutButton() {return WebConnector.driver.findElement(By.cssSelector(logoutButtonCss));}
-    public WebElement getHomeTab() {return WebConnector.driver.findElement(By.cssSelector(homeTabCss));}
-    public WebElement getSeniorNameInSearchTextbox() { return WebConnector.driver.findElement(By.cssSelector(String.format("input[type='text']")));}
-    public WebElement getTopSeniorAfterSearch(String seniorInList) { return WebConnector.driver.findElement(By.xpath(String.format("//td[contains(@class, 'MuiTableCell-root') and contains(., '%s')]", seniorInList)));}
+    public WebElement getProfileDropdownHome() {
+        {return WebConnector.driver.findElement(By.cssSelector(profileDropdownCss)); }
+    }
+    public WebElement getLogoutButton() {
+        {return WebConnector.driver.findElement(By.cssSelector(logoutButtonCss));}
+    }
+    public WebElement getHomeTab() {
+        {return WebConnector.driver.findElement(By.cssSelector(homeTabCss));}
+    }
+    public WebElement getSeniorNameInSearchTextbox() {
+        {return WebConnector.driver.findElement(By.cssSelector(String.format("input[type='text']")));}
+    }
+    public WebElement getTopSeniorAfterSearch(String seniorInList) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//td[contains(@class, 'MuiTableCell-root') and contains(., '%s')]", seniorInList)));}
+    }
 }

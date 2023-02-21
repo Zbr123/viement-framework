@@ -45,6 +45,7 @@ public class CommonFunctions extends Page {
         String dentistResult = "dentist["+dentistNumberString+"].";
         return dentistResult;
     }
+
     public String todaysDateInMMDDYYYY(){
         LocalDate dateObj = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");

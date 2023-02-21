@@ -7,23 +7,23 @@ Feature: Schedule Call
     And     [Web Login Page] User enters password Srijan@12345
     And     [Web Login Page] User clicks on login button
     Then    [Web Home Page] User should see home tab in heading
-    When    [Web Admin Page] User clicks on home button from admin tab
-    Then    [Web Home Page] User should see the welcome heading
-    When    [Web Home Page] User enters in the senior list search textbox Zub
+    When    [Web Admin Page] User clicks on Home button from admin tab
+    Then    [Web Home Page] User should see the Welcome heading
+    When    [Web Home Page] User enters in the senior list search textbox Zubair
     And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
-    And     [Web Senior Dashboard Page] User clicks on scheduler tab
-    And     [Web Scheduler Page] User clicks on who to call dropdown
-    And     [Web Scheduler Page] User clicks on first senior in list
-    And     [Web Scheduler Page] User clicks on assigned care agent dropdown
-    And     [Web Scheduler Page] User clicks on senior zubair dogar
-    And     [Web Scheduler Page] User clicks on call priority dropdown
-    And     [Web Scheduler Page] User clicks on high call priority
-    And     [Web Scheduler Page] User enters current date
-    And     [Web Scheduler Page] User enters ten minutes from current time
-    And     [Web Scheduler Page] User clicks on call duration dropdown
-    And     [Web Scheduler Page] User clicks on call duration first option
-    And     [Web Scheduler Page] User enters call reason Automation
-    And     [Web Scheduler Page] User clicks on call type dropdown
-    And     [Web Scheduler Page] User clicks on call type
-    And     [Web Scheduler Page] User clicks on schedule submit button
-    Then    [Web Scheduler Page] User should see a call schedule success alert message
+    And     [Web Senior Dashboard Page] User clicks on Scheduler tab
+    And     [Web Scheduler Page] User clicks on Who to call dropdown
+    And     [Web Scheduler Page] User clicks on Zubair - primary option in list
+    And     [Web Scheduler Page] User clicks on assignedCareAgent dropdown
+    And     [Web Scheduler Page] User clicks on Zubair Dogar option in list
+    And     [Web Scheduler Page] User clicks on callPriority dropdown
+    And     [Web Scheduler Page] User clicks on High option in list
+    And     [Web Scheduler Page] User enters in the Date textbox today's date in Date
+    And     [Web Scheduler Page] User enters in the Time textbox current time
+    And     [Web Scheduler Page] User clicks on callDuration dropdown
+    And     [Web Scheduler Page] User clicks on 15 min option in list
+    And     [Web Scheduler Page] User enters in the Call Reason textbox Automation Test
+    And     [Web Scheduler Page] User clicks on callType dropdown
+    And     [Web Scheduler Page] User clicks on Fall Detected option in list
+    And     [Web Scheduler Page] User clicks on Submit button
+    Then    [Web Scheduler Page] User should see a Call Scheduled Successfully alert

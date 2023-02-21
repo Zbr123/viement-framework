@@ -8,8 +8,8 @@ import pages.Page;
 public class WebSeniorDashboardPage extends Page {
 
     @When("^\\[Web Senior Dashboard Page] User clicks on (.*) tab$")
-    public void userClicksOnOnboardingInfoTab(String onboardingInfoTab) throws InterruptedException {
+    public void userClicksOnSeniorPageTabs(String seniorPageTabsLocatorString) throws InterruptedException {
         Thread.sleep(7000);
-        getPageSeniorDashboard().getSeniorDashTabs(onboardingInfoTab).click();
+        getPageSeniorDashboard().getSeniorPageTabs(seniorPageTabsLocatorString).click();
     }
 }

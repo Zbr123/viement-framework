@@ -31,7 +31,7 @@ public class PageMedicalInfoSubTabWeb {
     public WebElement getMedicalInfoButtons(String medicalInfoButtons) {
         {return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", medicalInfoButtons)));}
     }
-    public WebElement getSavedSuccessfullyAlert(String medicalInfoSavedSuccessfullyAlert) {
+    public WebElement getMedicalInfoSavedSuccessfullyAlert(String medicalInfoSavedSuccessfullyAlert) {
         {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, '%s')]", medicalInfoSavedSuccessfullyAlert)));}
     }
 }

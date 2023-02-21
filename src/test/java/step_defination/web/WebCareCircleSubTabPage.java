@@ -12,28 +12,53 @@ public class WebCareCircleSubTabPage extends Page {
 
     CommonFunctions commonFunctions = new CommonFunctions();
     @Then("^\\[Web Care Circle SubTab Page] User should see the (.*) heading$")
-    public void userSeesContact1Heading(String careCirclePageHeadings) throws InterruptedException {
+    public void userSeesContact1Heading(String careCirclePageHeadingsString) throws InterruptedException {
         Thread.sleep(3000);
-        Assert.assertTrue(getPageCareCircleSubTab().getCareCircleHeadings(careCirclePageHeadings).isDisplayed());
+        Assert.assertTrue(getPageCareCircleSubTab().getCareCircleHeadings(careCirclePageHeadingsString).isDisplayed());
     }
     @When("^\\[Web Care Circle SubTab Page] User enters (.*) in (.*) text box$")
-    public void userEntersCareCircleTextInputs(String textboxInput, String textboxInputLocator) throws InterruptedException {
-        Thread.sleep(1000);
-        if(Objects.equals(textboxInputLocator, "Mobile Phone")) {
+    public void userEntersCareCircleTextInputs(String textboxInput, String textboxInputLocatorString) throws InterruptedException {
+        Thread.sleep(500);
+        if(Objects.equals(textboxInputLocatorString, "Mobile Phone")) {
             String randomNumbers = RandomStringUtils.randomNumeric(5);
             String mobileNo = textboxInput + randomNumbers;
-            getPageCareCircleSubTab().getCareCircleTextboxInputs(textboxInputLocator).sendKeys(mobileNo);
+            getPageCareCircleSubTab().getCareCircleTextboxInputs(textboxInputLocatorString).sendKeys(mobileNo);
         }
-        getPageCareCircleSubTab().getCareCircleTextboxInputs(textboxInputLocator).sendKeys(textboxInput);
+        getPageCareCircleSubTab().getCareCircleTextboxInputs(textboxInputLocatorString).sendKeys(textboxInput);
     }
     @And("^\\[Web Care Circle SubTab Page] User clicks on (.*) dropdown$")
-    public void userClicksOnCareCircleDropdowns(String dropdownLocator) throws InterruptedException {
-        Thread.sleep(1000);
-        getPageCareCircleSubTab().getCareCircleDropdowns(dropdownLocator).click();
+    public void userClicksOnCareCircleDropdowns(String dropdownLocatorString) throws InterruptedException {
+        Thread.sleep(700);
+        getPageCareCircleSubTab().getCareCircleDropdowns(dropdownLocatorString).click();
     }
     @And("^\\[Web Care Circle SubTab Page] User clicks on (.*) option$")
-    public void userClicksOnCareCircleDropdownOptions(String dropdownOptionLocator) throws InterruptedException {
-        Thread.sleep(1000);
-        getPageCareCircleSubTab().getCareCircleDropdownOptions(dropdownOptionLocator).click();
+    public void userClicksOnCareCircleDropdownOptions(String dropdownOptionLocatorString) throws InterruptedException {
+        Thread.sleep(400);
+        getPageCareCircleSubTab().getCareCircleDropdownOptions(dropdownOptionLocatorString).click();
+    }
+    @And("^\\[Web Care Circle SubTab Page] User clicks on (.*) contact radioButton$")
+    public void clickOnCareCircleRadioButtons(String radioButtonLocatorString) throws InterruptedException {
+        Thread.sleep(500);
+        String[] radioButtonLocatorInputParts = radioButtonLocatorString.split(" ");
+        String radioButtonLocatorInputFirstPart = radioButtonLocatorInputParts[0];
+        System.out.println(radioButtonLocatorInputFirstPart);
+        getPageCareCircleSubTab().getCareCircleRadioButtons(radioButtonLocatorInputFirstPart).click();
+    }
+    @And("^\\[Web Care Circle SubTab Page] User clicks on (.*) check box$")
+    public void userClicksOnCheckBoxes(String checkBoxLocatorString) throws InterruptedException {
+        Thread.sleep(500);
+        getPageCareCircleSubTab().getCareCircleCheckBoxes(checkBoxLocatorString).click();
+    }
+    @And("^\\[Web Care Circle SubTab Page] User clicks on (.*) button$")
+    public void userClicksOnCareCircleButtons(String buttonLocatorString) throws InterruptedException {
+        Thread.sleep(500);
+        getPageCareCircleSubTab().getCareCircleButtons(buttonLocatorString).click();
+    }
+    @Then("^\\[Web Care Circle SubTab Page] User should see a (.*) alert$")
+    public void userSeesCareCircleSubtabSuccessAlert(String careCircleSavedSuccessfullyAlert) throws InterruptedException {
+        Thread.sleep(5000);
+        String savedSuccessfullyAlertLocatorString = "MuiAlert-message') and contains(., '"+careCircleSavedSuccessfullyAlert;
+        System.out.println(savedSuccessfullyAlertLocatorString);
+        Assert.assertTrue(getPageCareCircleSubTab().getCareCircleSavedSuccessfullyAlert(savedSuccessfullyAlertLocatorString).isDisplayed());
     }
 }

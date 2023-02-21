@@ -21,13 +21,13 @@ public class WebHomePage extends Page {
     public void userShouldSeeHomeTabInHeader(){
         Assert.assertTrue(getPageHomeWeb().getHomeTab().isDisplayed());
     }
-    @And("^\\[Web Home Page] User should see the welcome heading$")
-    public void userShouldSeeWelcomeHeading() throws InterruptedException {
+    @And("^\\[Web Home Page] User should see the (.*) heading$")
+    public void userShouldSeeWelcomeHeading(String h2HeadingLocatorString) throws InterruptedException {
         Thread.sleep(2000);
-        Assert.assertTrue(getPageHomeWeb().getWelcomeHeading().isDisplayed());
+        Assert.assertTrue(getPageHomeWeb().getWelcomeHeading(h2HeadingLocatorString).isDisplayed());
     }
     @When("^\\[Web Home Page] User enters in the senior list search textbox (.*)$")
-    public void enterSeniorNameInSearchTextbox(String seniorNameForSearch) throws InterruptedException {
+    public void userEntersSeniorNameInSearchTextbox(String seniorNameForSearch) throws InterruptedException {
         Thread.sleep(4000);
         getPageHomeWeb().getSeniorNameInSearchTextbox().sendKeys(seniorNameForSearch);
     }

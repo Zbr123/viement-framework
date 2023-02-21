@@ -68,10 +68,10 @@ public class WebMedicalInfoSubTabPage extends Page {
         getPageMedicalInfoSubTab().getMedicalInfoButtons(medicalInfoButtonsLocatorInput).click();
     }
     @Then("^\\[Web Medical Info SubTab Page] User should see a (.*) alert$")
-    public void userSeesSuccessAlert(String medicalInfoSavedSuccessfullyAlert) throws InterruptedException {
+    public void userSeesMedicalInfoSubtabSuccessAlert(String medicalInfoSavedSuccessfullyAlert) throws InterruptedException {
         Thread.sleep(5000);
         String savedSuccessfullyAlertLocatorInput = "MuiAlert-message') and contains(., '"+medicalInfoSavedSuccessfullyAlert;
         System.out.println(savedSuccessfullyAlertLocatorInput);
-        Assert.assertTrue(getPageMedicalInfoSubTab().getSavedSuccessfullyAlert(savedSuccessfullyAlertLocatorInput).isDisplayed());
+        Assert.assertTrue(getPageMedicalInfoSubTab().getMedicalInfoSavedSuccessfullyAlert(savedSuccessfullyAlertLocatorInput).isDisplayed());
     }
 }

@@ -24,49 +24,19 @@ public class PageSchedulerWeb {
     public PageSchedulerWeb(Page page) {
     }
 
-    public WebElement getWhoToCallDropdown() {
-        { return WebConnector.driver.findElement(By.xpath(whoToCallDropdownXpath));}
+    public WebElement getSchedulerDropdowns(String dropdownLocatorPartString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@id, '%s')]", dropdownLocatorPartString)));}
     }
-    public WebElement getFirstSeniorInList() {
-        { return WebConnector.driver.findElement(By.cssSelector(firstSeniorInListOfWhoToCallCss));}
+    public WebElement getSchedulerDropdownOption(String schedulerSubtabDropdownOptionsLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", schedulerSubtabDropdownOptionsLocatorString)));}
     }
-    public WebElement getAssignedCareAgentDropdown() {
-        { return WebConnector.driver.findElement(By.cssSelector(assignedCareAgentDropdownCss));}
+    public WebElement getSchedulerDateInputs(String schedulerSubtabDateInputLocatorString) {
+        {return WebConnector.driver.findElement(By.cssSelector(String.format("input[id='%s']", schedulerSubtabDateInputLocatorString)));}
     }
-    public WebElement getSeniorZubairDogar() {
-        { return WebConnector.driver.findElement(By.cssSelector(seniorZubairDogarCss));}
+    public WebElement getSchedulerButtons(String schedulerButtonLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", schedulerButtonLocatorString)));}
     }
-    public WebElement getCallPriorityDropdown() {
-        { return WebConnector.driver.findElement(By.cssSelector(callPriorityDropdownCss));}
-    }
-    public WebElement getHighCallPriority() {
-        { return WebConnector.driver.findElement(By.cssSelector(highCallPriorityCss));}
-    }
-    public WebElement getCallScheduledDate() {
-        { return WebConnector.driver.findElement(By.cssSelector(callScheduledDateInputBoxCss));}
-    }
-    public WebElement getCallScheduledTime() {
-        { return WebConnector.driver.findElement(By.cssSelector(callScheduledTimeInputBoxCss));}
-    }
-    public WebElement getCallDurationDropdown() {
-        { return WebConnector.driver.findElement(By.cssSelector(callDurationDropdownCss));}
-    }
-    public WebElement getCallDurationFirstOption() {
-        { return WebConnector.driver.findElement(By.cssSelector(callDurationFirstOptionCss));}
-    }
-    public WebElement getCallReason() {
-        { return WebConnector.driver.findElement(By.cssSelector(callReasonTextboxCss));}
-    }
-    public WebElement getCallTypeDropdown() {
-        { return WebConnector.driver.findElement(By.cssSelector(callTypeDropdownCss));}
-    }
-    public WebElement getCallTypeFallDetected() {
-        { return WebConnector.driver.findElement(By.cssSelector(callTypeFallDetectedCss));}
-    }
-    public WebElement getScheduleSubmitButton() {
-        { return WebConnector.driver.findElement(By.xpath(callScheduleSubmitButtonXpath));}
-    }
-    public WebElement getCallScheduledSuccessAlert() {
-        { return WebConnector.driver.findElement(By.xpath(callScheduledSuccessAlertXpath));}
+    public WebElement getSchedulerSavedSuccessfullyAlert(String savedSuccessfullyAlertLocatorInput) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, '%s')]", savedSuccessfullyAlertLocatorInput)));}
     }
 }

@@ -12,7 +12,7 @@ public class WebOnboardingInfoPage extends Page {
     }
     @When("^\\[Web Onboarding Info Page] User clicks on (.*) subtab$")
     public void userClicksOnOnboardingInfoSubTabs(String onboardingInfoSubtabs) throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         getPageOnboardingInfo().getOnboardingInfoSubTabs(onboardingInfoSubtabs).click();
     }
     @Then("^\\[Web Onboarding Info Page] User should see the provider info heading$")

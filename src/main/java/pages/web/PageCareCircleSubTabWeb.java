@@ -11,19 +11,28 @@ public class PageCareCircleSubTabWeb {
 
     }
 
-    public WebElement getCareCircleHeadings(String careCirclePageHeadings) {
-        {return WebConnector.driver.findElement(By.xpath(String.format("//h4[contains(., '%s')]", careCirclePageHeadings)));}
+    public WebElement getCareCircleHeadings(String careCirclePageHeadingsString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//h4[contains(., '%s')]", careCirclePageHeadingsString)));}
     }
-    public WebElement getCareCircleTextboxInputs(String careCircleTextboxInputLocator) {
-        {return WebConnector.driver.findElement(By.cssSelector(String.format("input[id='%s']", careCircleTextboxInputLocator)));}
+    public WebElement getCareCircleTextboxInputs(String careCircleTextboxInputLocatorString) {
+        {return WebConnector.driver.findElement(By.cssSelector(String.format("input[id='%s']", careCircleTextboxInputLocatorString)));}
     }
-    public WebElement getCareCircleDropdowns(String careCircleDropdownLocator) {
-        {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@id, '%s')]", careCircleDropdownLocator)));}
+    public WebElement getCareCircleDropdowns(String careCircleDropdownLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@id, '%s')]", careCircleDropdownLocatorString)));}
     }
-    public WebElement getCareCircleDropdownOptions(String careCircleDropdownOptionLocator) {
-        {return WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", careCircleDropdownOptionLocator)));}
+    public WebElement getCareCircleDropdownOptions(String careCircleDropdownOptionLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", careCircleDropdownOptionLocatorString)));}
     }
-    public WebElement getSavedSuccessfullyAlert(String medicalInfoSavedSuccessfullyAlert) {
-        {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, '%s')]", medicalInfoSavedSuccessfullyAlert)));}
+    public WebElement getCareCircleRadioButtons(String careCircleRadioButtonsLocatorString) {
+        {return WebConnector.driver.findElement(By.cssSelector(String.format("input[value='%s']", careCircleRadioButtonsLocatorString)));}
+    }
+    public WebElement getCareCircleCheckBoxes(String careCircleCheckBoxesLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//input[contains(@name, '%s')]", careCircleCheckBoxesLocatorString)));}
+    }
+    public WebElement getCareCircleButtons(String careCircleButtonsLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", careCircleButtonsLocatorString)));}
+    }
+    public WebElement getCareCircleSavedSuccessfullyAlert(String savedSuccessfullyAlertLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, '%s')]", savedSuccessfullyAlertLocatorString)));}
     }
 }
