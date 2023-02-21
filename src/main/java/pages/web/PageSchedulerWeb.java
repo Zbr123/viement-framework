@@ -27,10 +27,13 @@ public class PageSchedulerWeb {
     public WebElement getSchedulerDropdowns(String dropdownLocatorPartString) {
         {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@id, '%s')]", dropdownLocatorPartString)));}
     }
+    public WebElement getSchedulerDate$TimeInputs(String schedulerDate$TimeLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//input[@placeholder='%s']", schedulerDate$TimeLocatorString)));}
+    }
     public WebElement getSchedulerDropdownOption(String schedulerSubtabDropdownOptionsLocatorString) {
         {return WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", schedulerSubtabDropdownOptionsLocatorString)));}
     }
-    public WebElement getSchedulerDateInputs(String schedulerSubtabDateInputLocatorString) {
+    public WebElement getSchedulerInputBox(String schedulerSubtabDateInputLocatorString) {
         {return WebConnector.driver.findElement(By.cssSelector(String.format("input[id='%s']", schedulerSubtabDateInputLocatorString)));}
     }
     public WebElement getSchedulerButtons(String schedulerButtonLocatorString) {

@@ -18,11 +18,11 @@ Feature: Schedule Call
     And     [Web Scheduler Page] User clicks on Zubair Dogar option in list
     And     [Web Scheduler Page] User clicks on callPriority dropdown
     And     [Web Scheduler Page] User clicks on High option in list
-    And     [Web Scheduler Page] User enters in the Date textbox today's date in Date
-    And     [Web Scheduler Page] User enters in the Time textbox current time
+    And     [Web Scheduler Page] User enters today's date in the Date input box
+    And     [Web Scheduler Page] User enters current time in the Time input box
     And     [Web Scheduler Page] User clicks on callDuration dropdown
     And     [Web Scheduler Page] User clicks on 15 min option in list
-    And     [Web Scheduler Page] User enters in the Call Reason textbox Automation Test
+    And     [Web Scheduler Page] User enters in the callReason textbox Automation Test
     And     [Web Scheduler Page] User clicks on callType dropdown
     And     [Web Scheduler Page] User clicks on Fall Detected option in list
     And     [Web Scheduler Page] User clicks on Submit button

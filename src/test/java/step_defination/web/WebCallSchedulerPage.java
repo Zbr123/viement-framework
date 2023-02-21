@@ -9,10 +9,12 @@ import java.util.Objects;
 
 public class WebCallSchedulerPage extends Page {
     CommonFunctions commonFunctions = new CommonFunctions();
+    String inputBoxLocatorString;
+    String inputBoxData;
 
     @When("^\\[Web Scheduler Page] User clicks on (.*) dropdown$")
     public void userClicksOnSchedulerDropdowns(String schedulerSubtabDropdownsLocatorString) throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(1500);
         String dropdownLocatorPartString = null;
         if (Objects.equals(schedulerSubtabDropdownsLocatorString, "Who to call")) {
             String[] dropdownLocatorStringPart = schedulerSubtabDropdownsLocatorString.split(" ");
@@ -34,31 +36,27 @@ public class WebCallSchedulerPage extends Page {
         Thread.sleep(500);
         getPageScheduler().getSchedulerDropdownOption(schedulerSubtabDropdownOptionsLocatorString).click();
     }
-    @And("^\\[Web Scheduler Page] User enters in the (.*) textbox (.*)$")
-    public void userEntersSchedulerTextboxInputs(String schedulerSubtabDateInputLocatorString, String schedulerInputboxData) throws InterruptedException {
+    @And("^\\[Web Scheduler Page] User enters (.*) in the (.*) input box$")
+    public void userEntersSchedulerDate$Time(String schedulerDate$TimeInputboxData, String schedulerDate$TimeLocatorString) throws InterruptedException {
         Thread.sleep(500);
-        String inputBoxLocatorString = null;
-        String inputBoxData = null;
-        switch(schedulerSubtabDateInputLocatorString){
+        switch (schedulerDate$TimeLocatorString){
             case "Date":
-                inputBoxLocatorString = "mui-478";
+                inputBoxLocatorString = "MM/DD/YYYY";
                 inputBoxData = commonFunctions.todaysDateInMMDDYYYY();
-                System.out.println(inputBoxLocatorString);
             break;
             case "Time":
-                inputBoxLocatorString = "mui-479";
+                inputBoxLocatorString = "HH:MM";
                 inputBoxData = commonFunctions.currentTimeInHHMM();
-                System.out.println(inputBoxLocatorString);
-            break;
-            case "Call Reason":
-                inputBoxLocatorString = schedulerSubtabDateInputLocatorString;
-                inputBoxData = schedulerInputboxData;
-                System.out.println(inputBoxLocatorString);
             break;
         }
-//        System.out.println(inputBoxLocatorString);
+        getPageScheduler().getSchedulerDate$TimeInputs(inputBoxLocatorString).sendKeys(inputBoxData);
+    }
+    @And("^\\[Web Scheduler Page] User enters in the (.*) textbox (.*)$")
+    public void userEntersSchedulerTextboxInputs(String schedulerSubtabInputboxLocatorString, String schedulerInputboxData) throws InterruptedException {
+        Thread.sleep(500);
+        System.out.println(inputBoxLocatorString);
         System.out.println(inputBoxData);
-        getPageScheduler().getSchedulerDateInputs(inputBoxLocatorString).sendKeys(inputBoxData);
+        getPageScheduler().getSchedulerInputBox(schedulerSubtabInputboxLocatorString).sendKeys(schedulerInputboxData);
     }
 
     @And("^\\[Web Scheduler Page] User clicks on (.*) button$")
@@ -68,7 +66,7 @@ public class WebCallSchedulerPage extends Page {
     }
     @Then("^\\[Web Scheduler Page] User should see a (.*) alert$")
     public void userSeesSchedulerSubtabSuccessAlert(String schedulerSavedSuccessfullyAlert) throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(3000);
         String savedSuccessfullyAlertLocatorInput = "MuiAlert-message') and contains(., '"+schedulerSavedSuccessfullyAlert;
         System.out.println(savedSuccessfullyAlertLocatorInput);
         Assert.assertTrue(getPageScheduler().getSchedulerSavedSuccessfullyAlert(savedSuccessfullyAlertLocatorInput).isDisplayed());
