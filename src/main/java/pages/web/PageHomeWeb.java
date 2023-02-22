@@ -17,19 +17,19 @@ public class PageHomeWeb {
     public PageHomeWeb(Page page) {
     }
 
+    public WebElement getHomePageTabs(String homePageTabLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//p[contains(., '%s')]", homePageTabLocatorString)));}
+    }
     public WebElement getWelcomeHeading(String h2HeadingLocatorString) {
         {return  WebConnector.driver.findElement(By.xpath(String.format("//h2[contains(., '%s')]", h2HeadingLocatorString)));}
     }
-
-    public WebElement getProfileDropdownHome() {
+    public WebElement getHomePageProfileDropdownHome() {
         {return WebConnector.driver.findElement(By.cssSelector(profileDropdownCss)); }
     }
-    public WebElement getLogoutButton() {
-        {return WebConnector.driver.findElement(By.cssSelector(logoutButtonCss));}
+    public WebElement getHomePageProfileDropdownButtons(String homePageProfileDropdownButtonsLocatorString) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//h6[contains(., '%s')]", homePageProfileDropdownButtonsLocatorString)));}
     }
-    public WebElement getHomeTab() {
-        {return WebConnector.driver.findElement(By.cssSelector(homeTabCss));}
-    }
+
     public WebElement getSeniorNameInSearchTextbox() {
         {return WebConnector.driver.findElement(By.cssSelector(String.format("input[type='text']")));}
     }

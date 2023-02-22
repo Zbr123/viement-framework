@@ -6,10 +6,10 @@ import org.testng.Assert;
 import pages.Page;
 
 public class WebWellnessSurveyPage extends Page {
-    @When("^\\[Web Wellness Survey Page] User should see the wellness check-in survey heading$")
-    public void userSeesWellnessSurveyPageMainHeading() throws InterruptedException {
+    @When("^\\[Web Wellness Survey Page] User should see the (.*) heading$")
+    public void userSeesWellnessSurveyPageH3Heading(String wellnessSurveyPageH3HeadingsLocatorString) throws InterruptedException {
         Thread.sleep(4000);
-        getPageWellnessSurvey().getWellnessSurveyPageMainHeading().click();
+        getPageWellnessSurvey().getWellnessSurveyPageMainHeading(wellnessSurveyPageH3HeadingsLocatorString).click();
     }
     @When("^\\[Web Wellness Survey Page] User clicks on wellness survey reset button$")
     public void userClicksOnWellnessSurveyResetButton() throws InterruptedException {

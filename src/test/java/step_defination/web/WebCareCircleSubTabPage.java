@@ -56,7 +56,7 @@ public class WebCareCircleSubTabPage extends Page {
     }
     @Then("^\\[Web Care Circle SubTab Page] User should see a (.*) alert$")
     public void userSeesCareCircleSubtabSuccessAlert(String careCircleSavedSuccessfullyAlert) throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(3000);
         String savedSuccessfullyAlertLocatorString = "MuiAlert-message') and contains(., '"+careCircleSavedSuccessfullyAlert;
         System.out.println(savedSuccessfullyAlertLocatorString);
         Assert.assertTrue(getPageCareCircleSubTab().getCareCircleSavedSuccessfullyAlert(savedSuccessfullyAlertLocatorString).isDisplayed());

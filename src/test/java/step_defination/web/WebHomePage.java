@@ -7,24 +7,25 @@ import pages.Page;
 
 public class WebHomePage extends Page {
 
-    @When("^\\[Web Home Page] User clicks on profile dropdown from home page$")
-    public void clickOnProfileDropdownHome() throws InterruptedException {
+    @Then("^\\[Web Home Page] User should see (.*) tab in heading")
+    public void userShouldSeeHomePageTabs(String homePageTabLocatorString) throws InterruptedException {
         Thread.sleep(3000);
-        getPageHomeWeb().getProfileDropdownHome().click();
-    }
-    @When("^\\[Web Home Page] User clicks on logout button from home page$")
-    public void userClicksOnLogoutButton() throws InterruptedException {
-        Thread.sleep(1000);
-        getPageHomeWeb().getLogoutButton().click();
-    }
-    @Then("^\\[Web Home Page] User should see home tab in heading")
-    public void userShouldSeeHomeTabInHeader(){
-        Assert.assertTrue(getPageHomeWeb().getHomeTab().isDisplayed());
+        Assert.assertTrue(getPageHomeWeb().getHomePageTabs(homePageTabLocatorString).isDisplayed());
     }
     @And("^\\[Web Home Page] User should see the (.*) heading$")
-    public void userShouldSeeWelcomeHeading(String h2HeadingLocatorString) throws InterruptedException {
-        Thread.sleep(2000);
+    public void userShouldSeeHomePageH2Headings(String h2HeadingLocatorString) throws InterruptedException {
+        Thread.sleep(200);
         Assert.assertTrue(getPageHomeWeb().getWelcomeHeading(h2HeadingLocatorString).isDisplayed());
+    }
+    @When("^\\[Web Home Page] User clicks on profile dropdown from home page$")
+    public void userClicksOnHomePageProfileDropdown() throws InterruptedException {
+        Thread.sleep(3000);
+        getPageHomeWeb().getHomePageProfileDropdownHome().click();
+    }
+    @When("^\\[Web Home Page] User clicks on (.*) button from home page$")
+    public void userClicksOnHomePageLogout$ChangePasswordButtons(String homePageProfileDropdownButtonsLocatorString) throws InterruptedException {
+        Thread.sleep(1000);
+        getPageHomeWeb().getHomePageProfileDropdownButtons(homePageProfileDropdownButtonsLocatorString).click();
     }
     @When("^\\[Web Home Page] User enters in the senior list search textbox (.*)$")
     public void userEntersSeniorNameInSearchTextbox(String seniorNameForSearch) throws InterruptedException {

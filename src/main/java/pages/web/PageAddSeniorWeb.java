@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import pages.Page;
 
+import java.util.Objects;
+
 public class PageAddSeniorWeb {
 
     private String firstNameXpath = "//*[@id=\"First Name\"]" ;
@@ -31,14 +33,23 @@ public class PageAddSeniorWeb {
 
     }
 
-//    public WebElement getSeniorFirstName() { return  WebConnector.driver.findElement(By.xpath(FirstNameXpath)); }
-    public WebElement getSeniorFirstName() { return  WebConnector.driver.findElement(By.cssSelector(firstNameCss)); }
+    public WebElement getAddUserPageInputboxes(String addUserPageInputboxLocatorString) {
+        if(Objects.equals(addUserPageInputboxLocatorString, "MM/DD/YYYY")) {
+            {return  WebConnector.driver.findElement(By.cssSelector(String.format("input[placeholder='%s']", addUserPageInputboxLocatorString)));}
+        }
+        else
+        {return  WebConnector.driver.findElement(By.cssSelector(String.format("input[id='%s']", addUserPageInputboxLocatorString)));}
+    }
     public WebElement getSeniorLastName() { return  WebConnector.driver.findElement(By.xpath(lastNameXpath)); }
 //    public WebElement getSeniorLastName() { return  WebConnector.driver.findElement(By.cssSelector(LastNameCSS)); }
     public WebElement getMobileNumber() { return  WebConnector.driver.findElement(By.xpath(mobileNumberXpath)); }
 //public WebElement getMobileNumber() { return  WebConnector.driver.findElement(By.cssSelector(MobileNumberCSS)); }
-    public WebElement getGenderSelectDropdown() { return  WebConnector.driver.findElement(By.cssSelector(genderSelectDropdownCss)); }
-    public WebElement getMaleSelectButton() { return  WebConnector.driver.findElement(By.cssSelector(selectMaleButtonCss)); }
+    public WebElement getAddUserDropdowns(String addUserDropdownLocatorString) {
+        {return  WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@id, '%s')]", addUserDropdownLocatorString)));}
+    }
+    public WebElement getAddUserDropdownOptions(String addUserDropdownOptionLocatorString) {
+        {return  WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", addUserDropdownOptionLocatorString)));}
+    }
     public WebElement getAddSeniorDateOfBirth() { return  WebConnector.driver.findElement(By.xpath(seniorDateOfBirthXpath)); }
 //    public WebElement getDateOfBirth() { return  WebConnector.driver.findElement(By.cssSelector(AddSeniorDateOfBirthCss)); }
     public WebElement getSeniorEmail() { return WebConnector.driver.findElement(By.cssSelector(seniorEmailCss)); }
@@ -48,6 +59,10 @@ public class PageAddSeniorWeb {
     public WebElement getStateColoradoButton() { return WebConnector.driver.findElement(By.xpath(stateColoradoButtonXpath)); }
     public WebElement getSeniorCity() { return WebConnector.driver.findElement(By.cssSelector(seniorCityCss)); }
     public WebElement getSeniorZipcode() { return WebConnector.driver.findElement(By.cssSelector(seniorZipcodeCss)); }
-    public WebElement getCreateAccountButton() { return WebConnector.driver.findElement(By.xpath(createAccountButtonXpath)); }
-    public WebElement getAccountCreatedSuccessAlert() { return WebConnector.driver.findElement(By.cssSelector(accountCreatedSuccessAlertCss)); }
+    public WebElement getAddUserButtons(String addUserButtonLocatorString) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", addUserButtonLocatorString))); }
+    }
+    public WebElement getAccountCreatedSuccessAlert(String addUserSuccessAlertLocatorString1, String addUserSuccessAlertLocatorString2) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, 'MuiAlert-message') and contains(., 'Account created successfully!')]", addUserSuccessAlertLocatorString1, addUserSuccessAlertLocatorString2))); }
+    }
 }

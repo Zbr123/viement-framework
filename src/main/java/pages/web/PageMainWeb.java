@@ -13,7 +13,7 @@ public class PageMainWeb {
     }
 
 
-    public WebElement getLoggedOutSuccessMessage() {
-        { return WebConnector.driver.findElement(By.cssSelector(loggedOutSuccessMessageCss));}
+    public WebElement getLoggedOutSuccessMessage(String mainPageLoggedOutSuccessMessageLocatorString1, String mainPageLoggedOutSuccessMessageLocatorString2) {
+        {return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, '%s') and contains(., '%s')]", mainPageLoggedOutSuccessMessageLocatorString1, mainPageLoggedOutSuccessMessageLocatorString2)));}
     }
 }

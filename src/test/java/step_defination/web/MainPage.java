@@ -35,13 +35,15 @@ public class MainPage extends Page {
         }
     }
 
-    @When("[Main Page] User go the web portal and navigate to the login page")
+    @When("^\\[Main Page] User go the web portal and navigate to the login page$")
     public static void webBrowser() {
         System.out.println("Vimient Web Page");
     }
-    @Then("[Main Page] User sees user logged out successfully message at bottom")
-    public void userShouldSeeLoggedOutSuccessMessage() {
-        Assert.assertTrue(getPageMainWeb().getLoggedOutSuccessMessage().isDisplayed());
+    @Then("^\\[Main Page] User sees (.*) message at bottom$")
+    public void userShouldSeeMainPageLoggedOutSuccessMessage(String mainPageLoggedOutSuccessMessageLocatorString2) throws InterruptedException {
+        Thread.sleep(2000);
+        String mainPageLoggedOutSuccessMessageLocatorString1 = "MuiAlert-message";
+        Assert.assertTrue(getPageMainWeb().getLoggedOutSuccessMessage(mainPageLoggedOutSuccessMessageLocatorString1, mainPageLoggedOutSuccessMessageLocatorString2).isDisplayed());
     }
 
 

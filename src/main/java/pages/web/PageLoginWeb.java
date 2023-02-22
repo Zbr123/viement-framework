@@ -17,9 +17,13 @@ public class PageLoginWeb {
     public PageLoginWeb(Page page) {
     }
 
-    public WebElement getEmail() { return  WebConnector.driver.findElement(By.id(emailID)); }
-    public WebElement getPassword() { return  WebConnector.driver.findElement(By.id(passwordID)); }
-    public WebElement getLoginButton() { return  WebConnector.driver.findElement(By.cssSelector(loginButtonCss)); }
+    public WebElement getLoginPageInputbox(String loginPageInputboxLocatorString) {
+        {return  WebConnector.driver.findElement(By.cssSelector(String.format("input[id='%s']", loginPageInputboxLocatorString))); }
+    }
+    public WebElement getLoginPageButtons(String loginPageButtonLocatorString) {
+        {return  WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", loginPageButtonLocatorString))); }
+    }
+
     public WebElement getForgotPassword() { return WebConnector.driver.findElement(By.cssSelector(forgotPasswordCss));}
     public WebElement getUserLoggedOutSuccessAlert() { return WebConnector.driver.findElement(By.xpath(loggedOutSuccessAlertXpath));}
 }

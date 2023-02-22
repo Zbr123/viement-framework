@@ -17,9 +17,9 @@ public class PageWellnessSurveyWeb {
     public PageWellnessSurveyWeb(Page page) {
     }
 
-    public WebElement getWellnessSurveyPageMainHeading() {
+    public WebElement getWellnessSurveyPageMainHeading(String wellnessSurveyPageH3HeadingsLocatorString) {
         {
-            return WebConnector.driver.findElement(By.xpath(mainWellnessCheckInSurveyHeadingXpath));
+            return WebConnector.driver.findElement(By.xpath(String.format("//h3[contains(., '%s')]", wellnessSurveyPageH3HeadingsLocatorString)));
         }
     }
 

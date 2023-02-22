@@ -5,28 +5,20 @@ import org.testng.Assert;
 import pages.Page;
 
 public class WebLoginPage extends Page {
-    @When("^\\[Web Login Page\\] User enters email address (.*)$")
-    public void enterEmailAddress(String email) {
-        getPageLoginWeb().getEmail().sendKeys(email);
-    }
-    @When("\\[Web Login Page\\] User enters password (.*)$")
-    public void enterPassword(String password) throws InterruptedException {
+
+    @When("^\\[Web Login Page] User enters (.*) (.*)$")
+    public void userEntersLoginPageInputboxes(String loginPageInputboxLocatorString, String password) throws InterruptedException {
         Thread.sleep(1000);
-        getPageLoginWeb().getPassword().sendKeys(password);
+        getPageLoginWeb().getLoginPageInputbox(loginPageInputboxLocatorString).sendKeys(password);
     }
-    @When("[Web Login Page] User clicks on login button")
-    public void clickOnLoginButton() throws InterruptedException {
+    @When("^\\[Web Login Page] User clicks on (.*) button$")
+    public void clickOnLoginPageButtons(String loginPageButtonLocatorString) throws InterruptedException {
         Thread.sleep(1000);
-        getPageLoginWeb().getLoginButton().click();
+        getPageLoginWeb().getLoginPageButtons(loginPageButtonLocatorString).click();
     }
-    @When("[Web Login Page] User clicks on forgot your password")
+    @When("^\\[Web Login Page] User clicks on (.*) link$")
     public void clickOnForgotPassword() throws InterruptedException {
         Thread.sleep(1000);
         getPageLoginWeb().getForgotPassword().click();
-    }
-    @Then("^\\[Web Login Page] User should see user logged out success alert$")
-    public void userSeesUserLoggedOutSuccessAlert()throws InterruptedException {
-        Thread.sleep(1000);
-        Assert.assertTrue(getPageLoginWeb().getUserLoggedOutSuccessAlert().isDisplayed());
     }
 }

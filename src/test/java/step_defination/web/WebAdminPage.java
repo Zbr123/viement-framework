@@ -6,21 +6,33 @@ import org.testng.Assert;
 import pages.Page;
 
 public class WebAdminPage extends Page {
-    @When("^\\[Web Admin Page] User clicks on (.*) button from admin tab$")
-    public void clickOnHomeTab(String adminPageTabs) throws InterruptedException {
-        Thread.sleep(3000);
-        getPageAdminWeb().getHomeTab(adminPageTabs).click();
-    }
 
-    @When("^\\[Web Admin Page] User clicks on profile dropdown from admin tab$")
-    public void userClicksOnProfileDropdownAdmin() throws InterruptedException {
-        Thread.sleep(3000);
-        getPageAdminWeb().getProfileDropdownAdmin().click();
+    @Then("^\\[Web Admin Page] User should see (.*) tab in the header$")
+    public void userShouldSeeAdminPageTabs(String adminPageTabLocatorString) throws InterruptedException {
+        Thread.sleep(2000);
+        Assert.assertTrue(getPageAdminWeb().getAdminPageTabs(adminPageTabLocatorString).isDisplayed());
     }
-    @When("^\\[Web Admin Page] User clicks on logout button from admin tab$")
-    public void clickOnSignoutButton() throws InterruptedException {
+    @And("^\\[Web Admin Page] User should see (.*) heading$")
+    public void userShouldSeeAdminPageHeadings(String adminPageHeadingLocatorString) throws InterruptedException {
+        Thread.sleep(2000);
+        Assert.assertTrue(getPageAdminWeb().getAdminPageHeadings(adminPageHeadingLocatorString).isDisplayed());
+    }
+    @When("^\\[Web Admin Page] User clicks on (.*) button from admin tab$")
+    public void userClicksOnAdminPageTabs(String adminPageTabLocatorString) throws InterruptedException {
         Thread.sleep(3000);
-        getPageAdminWeb().getLogoutButton().click();
+        getPageAdminWeb().getAdminPageTabs(adminPageTabLocatorString).click();
+    }
+    @When("^\\[Web Admin Page] User clicks on Profile dropdown from Admin page$")
+    public void userClicksOnAdminPageProfileDropdown() throws InterruptedException {
+        Thread.sleep(3000);
+//        String profileDropdownLocatorString = "M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z";
+//        getPageAdminWeb().getAdminPageProfileDropdown(profileDropdownLocatorString).click();
+        getPageAdminWeb().getAdminPageProfileDropdown().click();
+    }
+    @When("^\\[Web Admin Page] User clicks on (.*) button from Admin page$")
+    public void userClicksOnAdminPageLogout$ChangePasswordButtons(String adminPageProfileDropdownButtonsLocatorString) throws InterruptedException {
+        Thread.sleep(1000);
+        getPageAdminWeb().getAdminPageProfileDropdownButtons(adminPageProfileDropdownButtonsLocatorString).click();
     }
 
     @When("^\\[Web Admin Page]  User clicks on add user button$")
@@ -28,12 +40,5 @@ public class WebAdminPage extends Page {
         Thread.sleep(3000);
         getPageAdminWeb().getAddUserTab().click();
     }
-    @Then("[Web Admin Page] User should see admin tab in header")
-    public void userShouldSeeAdminTabInHeader() {
-        Assert.assertTrue(getPageAdminWeb().getAdminTab().isDisplayed());
-    }
-    @And("[Web Admin Page] User should see todo heading")
-    public void userShouldSeeToDoHeading() {
-        Assert.assertTrue(getPageAdminWeb().getToDoHeading().isDisplayed());
-    }
+
 }
