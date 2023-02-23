@@ -12,6 +12,7 @@ step_defination\web\WebSeniorDashboardPage.class
 MobileRunner.class
 step_defination\Android\HomePage.class
 step_defination\web\WebForgotPasswordPage.class
+step_defination\web\WebForgotPasswordVerificationPage.class
 step_defination\web\WebAddSeniorPage.class
 step_defination\Android\LoginPage.class
 step_defination\web\WebWellnessSurveyPage.class

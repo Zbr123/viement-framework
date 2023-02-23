@@ -16,9 +16,9 @@ public class WebLoginPage extends Page {
         Thread.sleep(1000);
         getPageLoginWeb().getLoginPageButtons(loginPageButtonLocatorString).click();
     }
-    @When("^\\[Web Login Page] User clicks on (.*) link$")
+    @When("^\\[Web Login Page] User clicks on Forgot your password link$")
     public void clickOnForgotPassword() throws InterruptedException {
         Thread.sleep(1000);
-        getPageLoginWeb().getForgotPassword().click();
+        getPageLoginWeb().getLoginPageForgotPassword().click();
     }
 }

@@ -24,6 +24,8 @@ public class PageLoginWeb {
         {return  WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", loginPageButtonLocatorString))); }
     }
 
-    public WebElement getForgotPassword() { return WebConnector.driver.findElement(By.cssSelector(forgotPasswordCss));}
+    public WebElement getLoginPageForgotPassword() {
+        { return WebConnector.driver.findElement(By.cssSelector(forgotPasswordCss));}
+    }
     public WebElement getUserLoggedOutSuccessAlert() { return WebConnector.driver.findElement(By.xpath(loggedOutSuccessAlertXpath));}
 }
