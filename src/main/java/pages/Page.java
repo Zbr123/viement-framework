@@ -35,9 +35,6 @@ public class Page {
     private final PageForgotPasswordWeb getPageForgotPassword = new PageForgotPasswordWeb(this);
     protected PageForgotPasswordWeb getPageForgotPassword() {return getPageForgotPassword;}
 
-    private final PageForgotPasswordVerificationWeb getPageForgotPasswordVerification = new PageForgotPasswordVerificationWeb(this);
-    protected PageForgotPasswordVerificationWeb getPageForgotPasswordVerification() {return getPageForgotPasswordVerification;}
-
     private final PageSeniorDashboardWeb getPageSeniorDashboard = new PageSeniorDashboardWeb(this);
     protected PageSeniorDashboardWeb getPageSeniorDashboard() { return getPageSeniorDashboard; }
 

@@ -46,5 +46,7 @@ Feature: Login
     Then    [Web Forgot Password Page] User should see the Forgot Password heading
     When    [Web Forgot Password Page] User enters recovery email address zubair.alam+1@vimient.com
     And     [Web Forgot Password Page] User clicks on Reset Password button
-    Then    [Web Forgot Password Verification Page] User should see the Success heading
+    Then    [Web Forgot Password Page] User should see the Success alert
     And     [Web Forgot Password Page] User clicks on cross button to close the alert
+    Then    [Web Forgot Password Page] User should see the One Time Password inputbox
+    And     [Web Forgot Password Page] User should see the Enter One Time Password heading
