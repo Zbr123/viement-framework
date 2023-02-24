@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageForgotPasswordVerificationWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebForgotPasswordVerificationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageForgotPasswordWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageForgotPasswordWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageLoginWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageLoginWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebForgotPasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageForgotPasswordWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageForgotPasswordWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageLoginWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageLoginWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-02-22T17-42-35_418.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebForgotPasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebForgotPasswordPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebLoginPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,28 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Work/Co-Ventech/Vimient/Framework/src/test/resources/Features/vimient/web&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fba7bfd69a8e5f436fd7cd373cf72fbc&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Work/Co-Ventech/Vimient/Framework/src/test/resources/Features/vimient/web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "spring.configuration.checksum": "fba7bfd69a8e5f436fd7cd373cf72fbc",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Work\Co-Ventech\Vimient\Framework\src\test\resources\Features\vimient\web" />
@@ -277,7 +263,8 @@
       <workItem from="1676957288017" duration="9324000" />
       <workItem from="1676970653317" duration="19320000" />
       <workItem from="1677045972414" duration="21764000" />
-      <workItem from="1677142957624" duration="6033000" />
+      <workItem from="1677142957624" duration="6297000" />
+      <workItem from="1677235392700" duration="3000000" />
     </task>
     <servers />
   </component>
