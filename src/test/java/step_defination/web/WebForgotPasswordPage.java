@@ -9,7 +9,7 @@ public class WebForgotPasswordPage extends Page {
 
     @Then("^\\[Web Forgot Password Page] User should see the (.*) heading$")
     public void userSeesForgotPasswordPageH1Headings(String forgotPasswordPageHeadingLocatorString) throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(500);
         Assert.assertTrue(getPageForgotPassword().getForgotPasswordH1Heading(forgotPasswordPageHeadingLocatorString).isDisplayed());
     }
     @When("^\\[Web Forgot Password Page] User enters recovery email address (.*)$")
