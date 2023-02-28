@@ -18,45 +18,37 @@ public class PageWellnessSurveyWeb {
     }
 
     public WebElement getWellnessSurveyPageMainHeading(String wellnessSurveyPageH3HeadingsLocatorString) {
-        {
             return WebConnector.driver.findElement(By.xpath(String.format("//h3[contains(., '%s')]", wellnessSurveyPageH3HeadingsLocatorString)));
-        }
     }
-
     public WebElement getWellnessSurveyResetButton() {
-        {
             return WebConnector.driver.findElement(By.cssSelector(wellnessSurveyResetButtonCss));
-        }
     }
 
     public WebElement getWellnessSurveySaveButton() {
-        {
             return WebConnector.driver.findElement(By.cssSelector(wellnessSurveySaveButtonCss));
-        }
     }
 
     public WebElement getWellnessSurveyLimitReachedAlertPopup() {
-        {
             return WebConnector.driver.findElement(By.cssSelector(wellnessSurveyLimitReachedPopupCss));
-        }
     }
 
     public WebElement getWellnessSurveyAlertPopupOkayButton() {
-        {
             return WebConnector.driver.findElement(By.xpath(wellnessSurveyLimitReachedPopupOkayButtonXpath));
-        }
     }
-
-    public WebElement getWellnessSurveySubmitButton() {
-        {
-            return WebConnector.driver.findElement(By.cssSelector(wellnessSurveySubmitButtonCss));
-        }
+    public WebElement getWellnessSurveyButtons(String SubmitButtonLocatorString) {
+            return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", SubmitButtonLocatorString)));
     }
-
     public WebElement getRadioButtonLocator(String ButtonName) {
-        {
             return WebConnector.driver.findElement(By.cssSelector(String.format("input[value='%s']",ButtonName)));
-        }
+    }
+    public WebElement getAnswerRadioButtonLocator(String answerRadioButton, String questionFieldLocatorString) {
+        return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s'][value='%s']",questionFieldLocatorString, answerRadioButton)));
+    }
+    public WebElement getCommentInput(String resultLocator) {
+        return WebConnector.driver.findElement(By.cssSelector(String.format("textarea[name='%s']", resultLocator)));
+    }
+    public WebElement getWellnessSurveySuccessAlert(String successAlertLocatorString) {
+        return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, 'MuiAlert-message') and contains(., '%s')]",successAlertLocatorString)));
     }
 }
 

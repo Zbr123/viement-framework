@@ -45,7 +45,13 @@ public class CommonFunctions extends Page {
         String dentistResult = "dentist["+dentistNumberString+"].";
         return dentistResult;
     }
-
+    public String lowerCaseAnyString(String str){
+        return str.toLowerCase();
+    }
+    public String replaceSpaceWithUnderscore(String str){
+        String result = lowerCaseAnyString(str);
+        return result.replaceAll(" ", "_");
+    }
     public String todaysDateInMMDDYYYY(){
         LocalDate dateObj = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");

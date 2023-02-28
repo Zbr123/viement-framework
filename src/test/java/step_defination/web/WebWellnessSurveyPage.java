@@ -8,7 +8,7 @@ import pages.Page;
 public class WebWellnessSurveyPage extends Page {
     @When("^\\[Web Wellness Survey Page] User should see the (.*) heading$")
     public void userSeesWellnessSurveyPageH3Heading(String wellnessSurveyPageH3HeadingsLocatorString) throws InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(2000);
         getPageWellnessSurvey().getWellnessSurveyPageMainHeading(wellnessSurveyPageH3HeadingsLocatorString).click();
     }
     @When("^\\[Web Wellness Survey Page] User clicks on wellness survey reset button$")
@@ -31,14 +31,67 @@ public class WebWellnessSurveyPage extends Page {
         Thread.sleep(2000);
         getPageWellnessSurvey().getWellnessSurveyAlertPopupOkayButton().click();
     }
-    @When("^\\[Web Wellness Survey Page] User clicks on wellness survey submit button$")
-    public void userClicksOnWellnessSurveySubmitButton() throws InterruptedException {
+    @When("^\\[Web Wellness Survey Page] User clicks on Wellness Survey (.*) button$")
+    public void userClicksOnWellnessSurveyButtons(String SubmitButtonLocatorString) throws InterruptedException {
         Thread.sleep(500);
-        getPageWellnessSurvey().getWellnessSurveySubmitButton().click();
+        getPageWellnessSurvey().getWellnessSurveyButtons(SubmitButtonLocatorString).click();
     }
-    @When("^\\[Web Wellness Survey Page] User Select (.*) radio button on wellness survey form$")
+    @When("^\\[Web Wellness Survey Page] User Select (.*) radio button$")
     public void userClicksOnXxxRadioButtonOnWellnessSurveyForm(String ButtonName) throws InterruptedException {
         Thread.sleep(500);
         getPageWellnessSurvey().getRadioButtonLocator(ButtonName).click();
+    }
+    @And("^\\[Web Wellness Survey Page] User Select (.*) answer/option for (.*)$")
+    public void userClicksOnAnswerRadioButtons(String answerRadioButton, String questionFieldLocatorString) throws InterruptedException {
+        Thread.sleep(500);
+        String resultLocator = null;
+        switch(questionFieldLocatorString) {
+            case "relax":           resultLocator = "answer."+questionFieldLocatorString+".value";
+                break;
+            case "happiness":       resultLocator = "answer."+questionFieldLocatorString+".value";
+                break;
+            case "energy":          resultLocator = "answer."+questionFieldLocatorString+".value";
+                break;
+            case "purpose":         resultLocator = "answer."+questionFieldLocatorString+".value";
+                break;
+            case "engagement":      resultLocator = "answer."+questionFieldLocatorString+".value";
+                break;
+            case "social":          resultLocator = "answer."+questionFieldLocatorString+".value";
+                break;
+            case "comfort":         resultLocator = "answer."+questionFieldLocatorString+".value";
+                break;
+            default:
+                break;
+        }
+        getPageWellnessSurvey().getAnswerRadioButtonLocator(answerRadioButton, resultLocator).click();
+    }
+    @And("^\\[Web Wellness Survey Page] User inputs (.*) in the comment for (.*)")
+    public void userEntersComment(String commentInput, String questionFieldLocatorString) throws InterruptedException {
+        Thread.sleep(500);
+        String resultLocator = null;
+        switch(questionFieldLocatorString) {
+            case "relax":           resultLocator = "answer."+questionFieldLocatorString+".comment";
+                break;
+            case "happiness":       resultLocator = "answer."+questionFieldLocatorString+".comment";
+                break;
+            case "energy":          resultLocator = "answer."+questionFieldLocatorString+".comment";
+                break;
+            case "purpose":         resultLocator = "answer."+questionFieldLocatorString+".comment";
+                break;
+            case "engagement":      resultLocator = "answer."+questionFieldLocatorString+".comment";
+                break;
+            case "social":          resultLocator = "answer."+questionFieldLocatorString+".comment";
+                break;
+            case "comfort":         resultLocator = "answer."+questionFieldLocatorString+".comment";
+                break;
+            default:
+                break;
+        }
+        getPageWellnessSurvey().getCommentInput(resultLocator).sendKeys(commentInput);
+    }
+    @Then("^\\[Web Wellness Survey Page] User should see the (.*) alert$")
+    public void userSeesWellnessSurveySuccessAlert(String successAlertLocatorString) throws InterruptedException {
+        Thread.sleep(2000);
+        Assert.assertTrue(getPageWellnessSurvey().getWellnessSurveySuccessAlert(successAlertLocatorString).isDisplayed());
     }
 }

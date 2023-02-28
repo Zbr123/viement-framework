@@ -29,12 +29,12 @@ public class WebHomePage extends Page {
     }
     @When("^\\[Web Home Page] User enters in the senior list search textbox (.*)$")
     public void userEntersSeniorNameInSearchTextbox(String seniorNameForSearch) throws InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(3000);
         getPageHomeWeb().getSeniorNameInSearchTextbox().sendKeys(seniorNameForSearch);
     }
     @And("^\\[Web Home Page] User clicks on the top senior Zubair (.*) after search$")
     public void clickOnTopSeniorAfterSearch(String seniorInList) throws InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(3000);
         getPageHomeWeb().getTopSeniorAfterSearch(seniorInList).click();
     }
 }

@@ -9,7 +9,12 @@ public class WebSeniorDashboardPage extends Page {
 
     @When("^\\[Web Senior Dashboard Page] User clicks on (.*) tab$")
     public void userClicksOnSeniorPageTabs(String seniorPageTabsLocatorString) throws InterruptedException {
-        Thread.sleep(7000);
+        Thread.sleep(1000);
         getPageSeniorDashboard().getSeniorPageTabs(seniorPageTabsLocatorString).click();
+    }
+    @Then("^\\[Web Senior Dashboard Page] User should see the (.*) heading$")
+    public void userSeesSeniorNameHeading(String seniorPageNameHeadingLocatorString) throws InterruptedException {
+        Thread.sleep(3000);
+        Assert.assertTrue(getPageSeniorDashboard().getSeniorPageH3Headings(seniorPageNameHeadingLocatorString).isDisplayed());
     }
 }

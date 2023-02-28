@@ -36,3 +36,4 @@ core\utils\AndroidCore\AppiumServerRunner.class
 pages\web\PageSeniorDashboardWeb.class
 pages\web\PageHomeWeb.class
 core\utils\PropertyReader\PropertyFileReader.class
+pages\web\PageHolisticAssessmentsWeb.class

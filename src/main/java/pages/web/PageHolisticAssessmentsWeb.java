@@ -1,0 +1,27 @@
+package pages.web;
+
+import core.utils.BrowerConfig.WebConnector;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import pages.Page;
+
+public class PageHolisticAssessmentsWeb {
+
+
+
+    public PageHolisticAssessmentsWeb(Page page) {
+    }
+
+    public WebElement getHolisticAssessmentTabHeadings(String assessmentsTabHeadingLocatorString) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//span[contains(., '%s')]", assessmentsTabHeadingLocatorString)));}
+    }
+    public WebElement getHolisticAssessmentRadioButtonOptions(String radioButtonOption, String radioButtonid) {
+        { return WebConnector.driver.findElement(By.cssSelector(String.format("input[name='%s'][value='%s']", radioButtonid, radioButtonOption)));}
+    }
+    public WebElement getHolisticAssessmentButtons(String buttonLocatorString) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", buttonLocatorString)));}
+    }
+    public WebElement getHolisticAssessmentSuccessAlert(String successAlertLocatorString) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//h3[contains(., '%s')]", successAlertLocatorString)));}
+    }
+}

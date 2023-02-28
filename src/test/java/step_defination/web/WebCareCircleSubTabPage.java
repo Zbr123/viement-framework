@@ -16,15 +16,17 @@ public class WebCareCircleSubTabPage extends Page {
         Thread.sleep(3000);
         Assert.assertTrue(getPageCareCircleSubTab().getCareCircleHeadings(careCirclePageHeadingsString).isDisplayed());
     }
-    @When("^\\[Web Care Circle SubTab Page] User enters (.*) in (.*) text box$")
-    public void userEntersCareCircleTextInputs(String textboxInput, String textboxInputLocatorString) throws InterruptedException {
+    @When("^\\[Web Care Circle SubTab Page] User enters (.*) in (.*) input box in contact 1$")
+    public void userEntersCareCircleContact1TextInputs(String textboxInput, String textboxInputLocatorString) throws InterruptedException {
         Thread.sleep(500);
+//        String lowerCaseTextboxInputLocatorString = "caregivers[0].[basic_info."+commonFunctions.replaceSpaceWithUnderscore(textboxInputLocatorString)+"]";
+//        System.out.println(lowerCaseTextboxInputLocatorString);
         if(Objects.equals(textboxInputLocatorString, "Mobile Phone")) {
             String randomNumbers = RandomStringUtils.randomNumeric(5);
             String mobileNo = textboxInput + randomNumbers;
-            getPageCareCircleSubTab().getCareCircleTextboxInputs(textboxInputLocatorString).sendKeys(mobileNo);
+            getPageCareCircleSubTab().getCareCircleContact1TextboxInputs(textboxInputLocatorString).sendKeys(mobileNo);
         }
-        getPageCareCircleSubTab().getCareCircleTextboxInputs(textboxInputLocatorString).sendKeys(textboxInput);
+        getPageCareCircleSubTab().getCareCircleContact1TextboxInputs(textboxInputLocatorString).sendKeys(textboxInput);
     }
     @And("^\\[Web Care Circle SubTab Page] User clicks on (.*) dropdown$")
     public void userClicksOnCareCircleDropdowns(String dropdownLocatorString) throws InterruptedException {
@@ -61,4 +63,14 @@ public class WebCareCircleSubTabPage extends Page {
         System.out.println(savedSuccessfullyAlertLocatorString);
         Assert.assertTrue(getPageCareCircleSubTab().getCareCircleSavedSuccessfullyAlert(savedSuccessfullyAlertLocatorString).isDisplayed());
     }
+//    @When("^\\[Web Care Circle SubTab Page] User enters (.*) in (.*) input box in contact 2$")
+//    public void userEntersCareCircleContact2TextInputs(String textboxInput, String textboxInputLocatorString) throws InterruptedException {
+//        Thread.sleep(500);
+//        if(Objects.equals(textboxInputLocatorString, "Mobile Phone")) {
+//            String randomNumbers = RandomStringUtils.randomNumeric(5);
+//            String mobileNo = textboxInput + randomNumbers;
+//            getPageCareCircleSubTab().getCareCircleContac1TextboxInputs(textboxInputLocatorString).sendKeys(mobileNo);
+//        }
+//        getPageCareCircleSubTab().getCareCircleTextboxInputs(textboxInputLocatorString).sendKeys(textboxInput);
+//    }
 }

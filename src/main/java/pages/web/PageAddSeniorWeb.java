@@ -63,6 +63,6 @@ public class PageAddSeniorWeb {
         { return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", addUserButtonLocatorString))); }
     }
     public WebElement getAccountCreatedSuccessAlert(String addUserSuccessAlertLocatorString1, String addUserSuccessAlertLocatorString2) {
-        { return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, 'MuiAlert-message') and contains(., 'Account created successfully!')]", addUserSuccessAlertLocatorString1, addUserSuccessAlertLocatorString2))); }
+        { return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, 'MuiAlert-message') and contains(., '%s'')]", addUserSuccessAlertLocatorString1, addUserSuccessAlertLocatorString2))); }
     }
 }

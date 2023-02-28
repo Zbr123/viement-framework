@@ -5,6 +5,7 @@ step_defination\web\MainPage.class
 step_defination\web\CommonFunctions.class
 step_defination\web\WebProviderInfoSubTabPage.class
 api\Cognito.class
+step_defination\web\WebHolisticAssessmentsPage.class
 step_defination\Android\AndroidSetup.class
 step_defination\web\WebCallSchedulerPage.class
 step_defination\web\WebCareCircleSubTabPage.class

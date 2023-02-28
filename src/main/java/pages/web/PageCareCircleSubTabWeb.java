@@ -14,7 +14,7 @@ public class PageCareCircleSubTabWeb {
     public WebElement getCareCircleHeadings(String careCirclePageHeadingsString) {
         {return WebConnector.driver.findElement(By.xpath(String.format("//h4[contains(., '%s')]", careCirclePageHeadingsString)));}
     }
-    public WebElement getCareCircleTextboxInputs(String careCircleTextboxInputLocatorString) {
+    public WebElement getCareCircleContact1TextboxInputs(String careCircleTextboxInputLocatorString) {
         {return WebConnector.driver.findElement(By.cssSelector(String.format("input[id='%s']", careCircleTextboxInputLocatorString)));}
     }
     public WebElement getCareCircleDropdowns(String careCircleDropdownLocatorString) {

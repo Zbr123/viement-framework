@@ -1,7 +1,7 @@
 Feature: Home Page
 
     @vim-001 @Web
-    Scenario: home page redirection
+    Scenario: User is able to redirect to Home page
     Given   [Main Page] User go the web portal and navigate to the login page
     When    [Web Login Page] User enters email srijan-admin@srijan.net
     And     [Web Login Page] User enters password Srijan@12345

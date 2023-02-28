@@ -56,6 +56,9 @@ public class Page {
     private final PageWellnessSurveyWeb getPageWellnessSurvey = new PageWellnessSurveyWeb(this);
     protected PageWellnessSurveyWeb getPageWellnessSurvey() {return getPageWellnessSurvey;}
 
+    private final PageHolisticAssessmentsWeb getPageHolisticAssessments = new PageHolisticAssessmentsWeb(this);
+    protected PageHolisticAssessmentsWeb getPageHolisticAssessments() {return getPageHolisticAssessments;}
+
     //Android
 
     private final LoginPage pageLoginAndroid = new LoginPage(this);
