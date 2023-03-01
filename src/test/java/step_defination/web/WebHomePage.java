@@ -16,6 +16,7 @@ public class WebHomePage extends Page {
     public void userShouldSeeHomePageH2Headings(String h2HeadingLocatorString) throws InterruptedException {
         Thread.sleep(200);
         Assert.assertTrue(getPageHomeWeb().getWelcomeHeading(h2HeadingLocatorString).isDisplayed());
+        Thread.sleep(3000);
     }
     @When("^\\[Web Home Page] User clicks on profile dropdown from home page$")
     public void userClicksOnHomePageProfileDropdown() throws InterruptedException {

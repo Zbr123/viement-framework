@@ -59,6 +59,11 @@ public class CommonFunctions extends Page {
         System.out.println(date);
         return date;
     }
+    public String decrementStringNumber(String stringNumber){
+        int intNumber = Integer.parseInt(stringNumber);
+        intNumber--;
+        return Integer.toString(intNumber);
+    }
 
     public String currentTimeInHHMM(){
         Date date = new Date();

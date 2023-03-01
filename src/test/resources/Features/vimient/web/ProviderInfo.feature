@@ -10,8 +10,8 @@ Feature: Provider Info
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation45 after search
-    Then    [Web Senior Dashboard Page] User should see the Zubair Automation45 heading
+    And     [Web Home Page] User clicks on the top senior Zubair Automation84 after search
+    Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Onboarding Info tab
     Then    [Web Onboarding Info Page] User should see the Profile Info heading
     When    [Web Onboarding Info Page] User clicks on Provider Info subtab

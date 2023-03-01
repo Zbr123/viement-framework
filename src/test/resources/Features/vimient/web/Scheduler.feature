@@ -1,7 +1,7 @@
 Feature: Schedule Call
 
   @vim-001 @Web
-  Scenario: User is able to Schedule a call for senior
+  Scenario: Admin is able to Schedule a call for senior
     Given   [Main Page] User go the web portal and navigate to the login page
     When    [Web Login Page] User enters email srijan-admin@srijan.net
     And     [Web Login Page] User enters password Srijan@12345
@@ -11,7 +11,7 @@ Feature: Schedule Call
     Then    [Web Home Page] User should see the Welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zubair
     And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
-    Then    [Web Senior Dashboard Page] User should see the Zubair Automation00 heading
+    Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Scheduler tab
     And     [Web Scheduler Page] User clicks on Who to call dropdown
     And     [Web Scheduler Page] User clicks on Zubair - primary option in list

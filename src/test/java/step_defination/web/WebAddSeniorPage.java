@@ -60,9 +60,9 @@ public class WebAddSeniorPage extends Page {
         getPageAddSenior().getAddUserButtons(addUserButtonLocatorString).click();
     }
     @Then("^\\[Web Add Senior Page] User should see the (.*) alert message in green below$")
-    public void userShouldSeeAccountCreatedSuccessAlert(String addUserSuccessAlertLocatorString2) throws InterruptedException {
+    public void userShouldSeeAccountCreatedSuccessAlert(String addUserSuccessAlertLocatorString) throws InterruptedException {
         Thread.sleep(3000);
-        String addUserSuccessAlertLocatorString1 = "MuiAlert-message";
-        Assert.assertTrue(getPageAddSenior().getAccountCreatedSuccessAlert(addUserSuccessAlertLocatorString1, addUserSuccessAlertLocatorString2).isDisplayed());
+//        String addUserSuccessAlertLocatorString1 = "MuiAlert-message";
+        Assert.assertTrue(getPageAddSenior().getAccountCreatedSuccessAlert(addUserSuccessAlertLocatorString).isDisplayed());
     }
 }

@@ -7,8 +7,6 @@ import pages.Page;
 
 public class PageHolisticAssessmentsWeb {
 
-
-
     public PageHolisticAssessmentsWeb(Page page) {
     }
 
@@ -23,5 +21,8 @@ public class PageHolisticAssessmentsWeb {
     }
     public WebElement getHolisticAssessmentSuccessAlert(String successAlertLocatorString) {
         { return WebConnector.driver.findElement(By.xpath(String.format("//h3[contains(., '%s')]", successAlertLocatorString)));}
+    }
+    public WebElement getAssessmentSidetabs(String assessmentsSidetabLocatorString) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", assessmentsSidetabLocatorString)));}
     }
 }

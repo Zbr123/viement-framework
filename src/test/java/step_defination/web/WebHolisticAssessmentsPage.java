@@ -12,12 +12,12 @@ public class WebHolisticAssessmentsPage extends Page {
         Assert.assertTrue(getPageHolisticAssessments().getHolisticAssessmentTabHeadings(assessmentsTabHeadingLocatorString).isDisplayed());
     }
     @When("^\\[Web Holistic Assessment Page] User clicks on (.*) option in (.*)$")
-    public void userClicksOnOnboardingInfoSubTabs(String radioButtonOption, String radioButtonid) throws InterruptedException {
-        Thread.sleep(500);
+    public void userClicksOnHolisticAssessmentRadiobuttons(String radioButtonOption, String radioButtonid) throws InterruptedException {
+        Thread.sleep(100);
         getPageHolisticAssessments().getHolisticAssessmentRadioButtonOptions(radioButtonOption, radioButtonid).click();
     }
     @And("^\\[Web Holistic Assessment Page] User clicks on (.*) button$")
-    public void userClicksOnOnboardingInfoSubTabs(String buttonLocatorString) throws InterruptedException {
+    public void userClicksOnHolisticAssessmentButtons(String buttonLocatorString) throws InterruptedException {
         Thread.sleep(500);
         getPageHolisticAssessments().getHolisticAssessmentButtons(buttonLocatorString).click();
     }
@@ -26,9 +26,9 @@ public class WebHolisticAssessmentsPage extends Page {
         Thread.sleep(2000);
         Assert.assertTrue(getPageHolisticAssessments().getHolisticAssessmentSuccessAlert(successAlertLocatorString).isDisplayed());
     }
-//    @Then("^\\[Web Onboarding Info Page] User should see the provider info heading$")
-//    public void userSeesProviderInfoHeading() throws InterruptedException {
-//        Thread.sleep(2000);
-//        Assert.assertTrue(getPageOnboardingInfo().getProviderInfoHeading().isDisplayed());
-//    }
+    @When("^\\[Web Holistic Assessment Page] User clicks on (.*) side-tab$")
+    public void userClicksOnADLAssessmentSidetab(String assessmentsSidetabLocatorString) throws InterruptedException {
+        Thread.sleep(500);
+        getPageHolisticAssessments().getAssessmentSidetabs(assessmentsSidetabLocatorString).click();
+    }
 }

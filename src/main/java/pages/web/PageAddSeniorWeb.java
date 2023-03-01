@@ -40,29 +40,16 @@ public class PageAddSeniorWeb {
         else
         {return  WebConnector.driver.findElement(By.cssSelector(String.format("input[id='%s']", addUserPageInputboxLocatorString)));}
     }
-    public WebElement getSeniorLastName() { return  WebConnector.driver.findElement(By.xpath(lastNameXpath)); }
-//    public WebElement getSeniorLastName() { return  WebConnector.driver.findElement(By.cssSelector(LastNameCSS)); }
-    public WebElement getMobileNumber() { return  WebConnector.driver.findElement(By.xpath(mobileNumberXpath)); }
-//public WebElement getMobileNumber() { return  WebConnector.driver.findElement(By.cssSelector(MobileNumberCSS)); }
     public WebElement getAddUserDropdowns(String addUserDropdownLocatorString) {
         {return  WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@id, '%s')]", addUserDropdownLocatorString)));}
     }
     public WebElement getAddUserDropdownOptions(String addUserDropdownOptionLocatorString) {
         {return  WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", addUserDropdownOptionLocatorString)));}
     }
-    public WebElement getAddSeniorDateOfBirth() { return  WebConnector.driver.findElement(By.xpath(seniorDateOfBirthXpath)); }
-//    public WebElement getDateOfBirth() { return  WebConnector.driver.findElement(By.cssSelector(AddSeniorDateOfBirthCss)); }
-    public WebElement getSeniorEmail() { return WebConnector.driver.findElement(By.cssSelector(seniorEmailCss)); }
-    public WebElement getSeniorAddress() { return WebConnector.driver.findElement(By.cssSelector(seniorAddressCss)); }
-//    public WebElement getStateSelectDropdown() { return WebConnector.driver.findElement(By.cssSelector(stateSelectDropDownCss)); }
-    public WebElement getStateSelectDropdown() { return WebConnector.driver.findElement(By.xpath(stateSelectDropDownXpath)); }
-    public WebElement getStateColoradoButton() { return WebConnector.driver.findElement(By.xpath(stateColoradoButtonXpath)); }
-    public WebElement getSeniorCity() { return WebConnector.driver.findElement(By.cssSelector(seniorCityCss)); }
-    public WebElement getSeniorZipcode() { return WebConnector.driver.findElement(By.cssSelector(seniorZipcodeCss)); }
     public WebElement getAddUserButtons(String addUserButtonLocatorString) {
         { return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", addUserButtonLocatorString))); }
     }
-    public WebElement getAccountCreatedSuccessAlert(String addUserSuccessAlertLocatorString1, String addUserSuccessAlertLocatorString2) {
-        { return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, 'MuiAlert-message') and contains(., '%s'')]", addUserSuccessAlertLocatorString1, addUserSuccessAlertLocatorString2))); }
+    public WebElement getAccountCreatedSuccessAlert(String addUserSuccessAlertLocatorString) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//div[contains(@class, 'MuiAlert-message') and contains(., '%s')]", addUserSuccessAlertLocatorString))); }
     }
 }

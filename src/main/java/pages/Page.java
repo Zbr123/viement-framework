@@ -59,6 +59,16 @@ public class Page {
     private final PageHolisticAssessmentsWeb getPageHolisticAssessments = new PageHolisticAssessmentsWeb(this);
     protected PageHolisticAssessmentsWeb getPageHolisticAssessments() {return getPageHolisticAssessments;}
 
+    private final PageLawtonBrodyADLWeb getPageLawtonBrodyADL = new PageLawtonBrodyADLWeb(this);
+    protected PageLawtonBrodyADLWeb getPageLawtonBrodyADL() {return getPageLawtonBrodyADL;}
+
+    private final PageKatzADLWeb getPageKatzADL = new PageKatzADLWeb(this);
+    protected PageKatzADLWeb getPageKatzADL() {return getPageKatzADL;}
+
+    private final PageCaregiverStrainAssessmentWeb getPageCaregiverStrainAssessment = new PageCaregiverStrainAssessmentWeb(this);
+    protected PageCaregiverStrainAssessmentWeb getPageCaregiverStrainAssessment() {return getPageCaregiverStrainAssessment;}
+
+
     //Android
 
     private final LoginPage pageLoginAndroid = new LoginPage(this);
