@@ -5,45 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageCaregiverStrainAssessmentWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageKatzADLWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageLawtonBrodyADLWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebCaregiverStrainAssessmentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebKatzIndexOfIndependenceInADL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebLawtonBrodyADLPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CaregiverStrainAssessment.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Lawton-BrodyADL.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageAddSeniorWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageAddSeniorWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageHolisticAssessmentsWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageHolisticAssessmentsWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/CommonFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/CommonFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebAddSeniorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebAddSeniorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHolisticAssessmentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHolisticAssessmentsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/ProviderInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/ProviderInfo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Scheduler.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Scheduler.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessSurvey.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessSurvey.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAddSeniorWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageAddSeniorWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHolisticAssessmentsWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageHolisticAssessmentsWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-02-28T19-18-26_019.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/HolisticAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/HolisticAssessment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Scheduler.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Scheduler.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/WellnessSurvey.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/WellnessSurvey.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/CommonFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/CommonFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebAddSeniorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebAddSeniorPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHolisticAssessmentsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHolisticAssessmentsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +116,45 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: MedicalInfo">
+  <component name="RunManager" selected="Cucumber Java.Feature: Home">
+    <configuration name="Feature: HolisticAssessment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" />
+      <option name="GLUE" value="step_defination.web step_defination.Android" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="vimientAutomationFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: HolisticAssessment" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Home" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Home.feature" />
+      <option name="GLUE" value="step_defination.web step_defination.Android" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="vimientAutomationFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Home" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: Lawton-BrodyADL" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Lawton-BrodyADL.feature" />
@@ -211,51 +212,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Scheduler" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Scheduler.feature" />
-      <option name="GLUE" value="step_defination.web step_defination.Android" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="vimientAutomationFramework" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Scheduler" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: WellnessSurvey" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessSurvey.feature" />
-      <option name="GLUE" value="step_defination.web step_defination.Android" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="vimientAutomationFramework" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: WellnessSurvey" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Home" />
+        <item itemvalue="Cucumber Java.Feature: HolisticAssessment" />
         <item itemvalue="Cucumber Java.Feature: MedicalInfo" />
         <item itemvalue="Cucumber Java.Feature: Lawton-BrodyADL" />
         <item itemvalue="Cucumber Java.Feature: ProviderInfo" />
-        <item itemvalue="Cucumber Java.Feature: WellnessSurvey" />
-        <item itemvalue="Cucumber Java.Feature: Scheduler" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +280,8 @@
       <workItem from="1677235392700" duration="8759000" />
       <workItem from="1677309095157" duration="4123000" />
       <workItem from="1677565330974" duration="22629000" />
-      <workItem from="1677650228123" duration="28244000" />
+      <workItem from="1677650228123" duration="28952000" />
+      <workItem from="1677748386779" duration="4760000" />
     </task>
     <servers />
   </component>
