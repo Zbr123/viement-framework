@@ -52,6 +52,7 @@ public class Cognito extends BaseTest {
                 .body("application_code", equalTo(200))
                 .body("message", equalTo("Authenticated"))
                 .body("error", equalTo(false));
+        System.out.println(res.body());
 
         jwtToken = res.getBody().jsonPath().get("data[0].jwt").toString();
     }

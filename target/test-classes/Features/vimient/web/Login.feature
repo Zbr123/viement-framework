@@ -17,7 +17,7 @@ Feature: Login
     And     [Web Login Page] User clicks on Log In button
     Then    [Web Home Page] User should see Home tab in heading
     And     [Web Home Page] User should see the Welcome heading
-#
+
   @vim-003 @Web
   Scenario: Verify that Admin can successfully logout
     Given [Main Page] User go the web portal and navigate to the login page
