@@ -14,7 +14,7 @@ public class PageKatzADLWeb {
         return WebConnector.driver.findElement(By.xpath(String.format("//span[contains(., '%s')]", headingsLocatorString)));
     }
     public WebElement getKatzADLOptionsRadioButtons(String radioButtonsLocatorString){
-        return WebConnector.driver.findElement(By.cssSelector(String.format("input[value='%s']", radioButtonsLocatorString)));
+        return WebConnector.driver.findElement(By.cssSelector(String.format("span[datatestid='%s']", radioButtonsLocatorString)));
     }
     public WebElement getKatzADLButtons(String buttonsLocatorString){
         return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", buttonsLocatorString)));

@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/Cognito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/Cognito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-02T18-05-22_209.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/Cognito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/Cognito.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageKatzADLWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageKatzADLWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-03T20-01-03_637.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +120,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Cognito.loginUser">
+  <component name="RunManager" selected="Cucumber Java.Feature: KatzIndexOfIndependenceInADL">
     <configuration name="Feature: HolisticAssessment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" />
@@ -159,14 +159,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: MedicalInfo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: KatzIndexOfIndependenceInADL" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" />
       <option name="GLUE" value="step_defination.web step_defination.Android" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="vimientAutomationFramework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: MedicalInfo" />
+      <option name="SUGGESTED_NAME" value="Feature: KatzIndexOfIndependenceInADL" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -215,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: KatzIndexOfIndependenceInADL" />
         <item itemvalue="TestNG.Cognito.loginUser" />
         <item itemvalue="TestNG.Cognito" />
         <item itemvalue="Cucumber Java.Feature: Home" />
         <item itemvalue="Cucumber Java.Feature: HolisticAssessment" />
-        <item itemvalue="Cucumber Java.Feature: MedicalInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +283,9 @@
       <workItem from="1677565330974" duration="22629000" />
       <workItem from="1677650228123" duration="28952000" />
       <workItem from="1677748386779" duration="4883000" />
-      <workItem from="1677842570907" duration="7399000" />
+      <workItem from="1677842570907" duration="7445000" />
+      <workItem from="1677862648413" duration="1741000" />
+      <workItem from="1678083585245" duration="7258000" />
     </task>
     <servers />
   </component>
