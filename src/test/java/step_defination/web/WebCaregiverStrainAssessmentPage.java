@@ -47,4 +47,9 @@ public class WebCaregiverStrainAssessmentPage extends Page {
         Thread.sleep(500);
         getPageCaregiverStrainAssessment().getCGAssessmentCloseIcon().click();
     }
+    @And("^\\[Web Caregiver Strain Assessment Page] User should see an (.*) Tag on top right corner of page$")
+    public void userClicksOnCGAssessmentIncompleteTag(String incompleteTagLocatorString) throws InterruptedException {
+        Thread.sleep(1000);
+        getPageCaregiverStrainAssessment().getCGAssessmentIncompleteTag(incompleteTagLocatorString).click();
+    }
 }

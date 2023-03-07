@@ -31,4 +31,14 @@ public class WebHolisticAssessmentsPage extends Page {
         Thread.sleep(500);
         getPageHolisticAssessments().getAssessmentSidetabs(assessmentsSidetabLocatorString).click();
     }
+    @And("^\\[Web Holistic Assessment Page] User clicks on the close icon$")
+    public void userClicksOnCGAssessmentCloseIcon() throws InterruptedException {
+        Thread.sleep(500);
+        getPageHolisticAssessments().getHolisticAssessmentCloseIcon().click();
+    }
+    @And("^\\[Web Holistic Assessment Page] User should see the (.*) tag at the right top corner of page$")
+    public void userSeesHolisticAssessmentIncompleteTag(String incompleteTagLocatorString) throws InterruptedException {
+        Thread.sleep(1000);
+        getPageHolisticAssessments().getHolisticAssessmentIncompleteTag(incompleteTagLocatorString).click();
+    }
 }

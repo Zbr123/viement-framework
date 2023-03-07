@@ -14,6 +14,12 @@ Feature: Holistic Assessment
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
     Then    [Web Holistic Assessment Page] User should see the Holistic Assessment heading
+
+    When    [Web Holistic Assessment Page] User clicks on Reset button
+    And     [Web Holistic Assessment Page] User clicks on OK button
+    Then    [Web Holistic Assessment Page] User should see the 'Holistic assessment has been reset successfully' alert
+    When    [Web Caregiver Strain Assessment Page] User clicks on the close icon
+
     When    [Web Holistic Assessment Page] User clicks on never option in eating0
     And     [Web Holistic Assessment Page] User clicks on sometimes option in eating1
     And     [Web Holistic Assessment Page] User clicks on always option in sleepingS0
@@ -62,6 +68,12 @@ Feature: Holistic Assessment
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
     Then    [Web Holistic Assessment Page] User should see the Holistic Assessment heading
+
+    When     [Web Holistic Assessment Page] User clicks on Reset button
+    And     [Web Holistic Assessment Page] User clicks on OK button
+    Then    [Web Holistic Assessment Page] User should see the 'Holistic assessment has been reset successfully' alert
+    When    [Web Caregiver Strain Assessment Page] User clicks on the close icon
+
     When    [Web Holistic Assessment Page] User clicks on never option in eating0
     And     [Web Holistic Assessment Page] User clicks on sometimes option in eating1
     And     [Web Holistic Assessment Page] User clicks on always option in sleepingS0
@@ -109,6 +121,12 @@ Feature: Holistic Assessment
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
     Then    [Web Holistic Assessment Page] User should see the Holistic Assessment heading
+
+    When     [Web Holistic Assessment Page] User clicks on Reset button
+    And     [Web Holistic Assessment Page] User clicks on OK button
+    Then    [Web Holistic Assessment Page] User should see the 'Holistic assessment has been reset successfully' alert
+    When    [Web Caregiver Strain Assessment Page] User clicks on the close icon
+
     When    [Web Holistic Assessment Page] User clicks on never option in eating0
     And     [Web Holistic Assessment Page] User clicks on sometimes option in eating1
     And     [Web Holistic Assessment Page] User clicks on always option in sleepingS0
@@ -141,3 +159,37 @@ Feature: Holistic Assessment
     And     [Web Holistic Assessment Page] User clicks on never option in spiritualSurvey5
     And     [Web Holistic Assessment Page] User clicks on Submit button
     Then    [Web Holistic Assessment Page] User should see the 'Holistic assessment has been submitted successfully' alert
+
+  @vim-004 @Web
+  Scenario: User is able to see an Incomplete tag when submitting incomplete holistic assessment
+    Given   [Main Page] User go the web portal and navigate to the login page
+    When    [Web Login Page] User enters email zubair.alam+55@vimient.com
+    And     [Web Login Page] User enters password Vista!@#135!@#
+    And     [Web Login Page] User clicks on Log In button
+    Then    [Web Home Page] User should see Home tab in heading
+    When    [Web Admin Page] User clicks on Home button from admin tab
+    Then    [Web Home Page] User should see the Welcome heading
+    When    [Web Home Page] User enters in the senior list search textbox Zubair
+    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    Then    [Web Senior Dashboard Page] User should see the Dashboard heading
+    And     [Web Senior Dashboard Page] User clicks on Assessments tab
+    Then    [Web Holistic Assessment Page] User should see the Holistic Assessment heading
+
+    When    [Web Holistic Assessment Page] User clicks on Reset button
+    And     [Web Holistic Assessment Page] User clicks on OK button
+    Then    [Web Holistic Assessment Page] User should see the 'Holistic assessment has been reset successfully' alert
+    When    [Web Holistic Assessment Page] User clicks on the close icon
+
+    When    [Web Holistic Assessment Page] User clicks on sometimes option in eating1
+    And     [Web Holistic Assessment Page] User clicks on sometimes option in sleepingS1
+    And     [Web Holistic Assessment Page] User clicks on sometimes option in emotionalSurvey0
+    And     [Web Holistic Assessment Page] User clicks on never option in emotionalSurvey5
+    And     [Web Holistic Assessment Page] User clicks on sometimes option in intellectualSurvey0
+    And     [Web Holistic Assessment Page] User clicks on never option in intellectualSurvey4
+    And     [Web Holistic Assessment Page] User clicks on never option in physicalSurvey0
+    And     [Web Holistic Assessment Page] User clicks on never option in physicalSurvey3
+    And     [Web Holistic Assessment Page] User clicks on never option in spiritualSurvey0
+    And     [Web Holistic Assessment Page] User clicks on never option in spiritualSurvey3
+    And     [Web Holistic Assessment Page] User clicks on never option in spiritualSurvey5
+    And     [Web Holistic Assessment Page] User clicks on Submit button
+    Then    [Web Holistic Assessment Page] User should see the Incomplete tag at the right top corner of page

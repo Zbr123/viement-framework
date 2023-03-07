@@ -6,11 +6,108 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageKatzADLWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageKatzADLWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageCaregiverStrainAssessmentWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageCaregiverStrainAssessmentWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageHolisticAssessmentsWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageHolisticAssessmentsWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageLawtonBrodyADLWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageLawtonBrodyADLWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebCaregiverStrainAssessmentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebCaregiverStrainAssessmentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHolisticAssessmentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHolisticAssessmentsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebLawtonBrodyADLPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebLawtonBrodyADLPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CaregiverStrainAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CaregiverStrainAssessment.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-03T20-01-03_637.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Lawton-BrodyADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Lawton-BrodyADL.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/AppiumServerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/AndroidDriverSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/AppiumServerRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/CapabilitiesGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/Initializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/Ssh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AppiumHook/emulatorRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/BrowerConfig/WebConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/BsApiHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/BsDeviceHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/BsLocalHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/ConfigUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/EmailSender/EmailUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/EmailSender/EmailUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/PropertyReader/PropertyFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/Wait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/restAssured/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/restAssured/RestAssuredUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/restAssured/TestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/WelcomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ios/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAddSeniorWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageCareCircleSubTabWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageCaregiverStrainAssessmentWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageForgotPasswordWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHolisticAssessmentsWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageLawtonBrodyADLWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageLoginWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageMainWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageMedicalInfoSubTabWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageOnboardingInfoWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageProviderInfoSubTabWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageSchedulerWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageWellnessSurveyWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-06T12-48-52_658.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/HomePage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/WelcomePage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/AddSenior.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CareCircle.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CaregiverStrainAssessment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/HolisticAssessment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Home.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Lawton-BrodyADL.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Scheduler.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/WellnessSurvey.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MobileRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/Cognito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/LocationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/extent-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/extent.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/AndroidSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/Scrollfunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/WelcomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/CommonFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebAddSeniorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebAdminPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebCallSchedulerPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebCareCircleSubTabPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebCaregiverStrainAssessmentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebForgotPasswordPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHolisticAssessmentsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebKatzIndexOfIndependenceInADL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebLawtonBrodyADLPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebLoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebMedicalInfoSubTabPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebOnboardingInfoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebProviderInfoSubTabPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebSeniorDashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebWellnessSurveyPage.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,15 +217,15 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: KatzIndexOfIndependenceInADL">
-    <configuration name="Feature: HolisticAssessment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: Lawton-BrodyADL">
+    <configuration name="Feature: CaregiverStrainAssessment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CaregiverStrainAssessment.feature" />
       <option name="GLUE" value="step_defination.web step_defination.Android" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="vimientAutomationFramework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: HolisticAssessment" />
+      <option name="SUGGESTED_NAME" value="Feature: CaregiverStrainAssessment" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -140,14 +237,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Home" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: HolisticAssessment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Home.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" />
       <option name="GLUE" value="step_defination.web step_defination.Android" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="vimientAutomationFramework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Home" />
+      <option name="SUGGESTED_NAME" value="Feature: HolisticAssessment" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -178,19 +275,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cognito" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Lawton-BrodyADL" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Lawton-BrodyADL.feature" />
+      <option name="GLUE" value="step_defination.web step_defination.Android" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="vimientAutomationFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Lawton-BrodyADL" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.Cognito" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Lawton-BrodyADL" />
+        <item itemvalue="Cucumber Java.Feature: HolisticAssessment" />
+        <item itemvalue="Cucumber Java.Feature: CaregiverStrainAssessment" />
         <item itemvalue="Cucumber Java.Feature: KatzIndexOfIndependenceInADL" />
         <item itemvalue="TestNG.Cognito.loginUser" />
-        <item itemvalue="TestNG.Cognito" />
-        <item itemvalue="Cucumber Java.Feature: Home" />
-        <item itemvalue="Cucumber Java.Feature: HolisticAssessment" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +384,8 @@
       <workItem from="1677748386779" duration="4883000" />
       <workItem from="1677842570907" duration="7445000" />
       <workItem from="1677862648413" duration="1741000" />
-      <workItem from="1678083585245" duration="7258000" />
+      <workItem from="1678083585245" duration="7289000" />
+      <workItem from="1678167347854" duration="8895000" />
     </task>
     <servers />
   </component>

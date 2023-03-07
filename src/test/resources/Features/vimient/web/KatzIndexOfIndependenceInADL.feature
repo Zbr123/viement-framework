@@ -96,4 +96,4 @@ Feature: Katz Index of Independence in ADL
     When    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
     And     [Web Holistic Assessment Page] User clicks on Katz Index of Independence in ADL side-tab
     Then    [Web Katz Index of Independence in ADL Page] User should see the Katz Index of Independence in ADL heading
-    When
+    When    [Web Katz Index of Independence in ADL Page] User clicks on View link

@@ -25,4 +25,10 @@ public class PageHolisticAssessmentsWeb {
     public WebElement getAssessmentSidetabs(String assessmentsSidetabLocatorString) {
         { return WebConnector.driver.findElement(By.xpath(String.format("//li[contains(., '%s')]", assessmentsSidetabLocatorString)));}
     }
+    public WebElement getHolisticAssessmentCloseIcon() {
+        { return WebConnector.driver.findElement(By.cssSelector(String.format("path[d='M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z']")));}
+    }
+    public WebElement getHolisticAssessmentIncompleteTag(String incompleteTagLocatorString) {
+        { return WebConnector.driver.findElement(By.xpath(String.format("//p[contains(., '%s')]", incompleteTagLocatorString)));}
+    }
 }
