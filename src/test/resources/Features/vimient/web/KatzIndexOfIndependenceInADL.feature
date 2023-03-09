@@ -17,6 +17,12 @@ Feature: Katz Index of Independence in ADL
     When    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
     And     [Web Holistic Assessment Page] User clicks on Katz Index of Independence in ADL side-tab
     Then    [Web Katz Index of Independence in ADL Page] User should see the Katz Index of Independence in ADL heading
+
+    When    [Web Katz Index of Independence in ADL Page] User clicks on Reset button
+    And     [Web Katz Index of Independence in ADL Page] User clicks on OK button
+    Then    [Web Katz Index of Independence in ADL Page] User should see the 'Katz-Index of Independence assessment has been reset successfully' alert
+    When    [Web Katz Index of Independence in ADL Page] User clicks on close icon
+
     When    [Web Katz Index of Independence in ADL Page] User clicks on 'Bathes self completely or needs help in bathing only a single part of the body such as the back, genital area or disabled extremity. NO supervision, direction or personal assistance.undefined' option radiobutton
     And     [Web Katz Index of Independence in ADL Page] User clicks on 'Needs help with dressing self or needs to be completely dressed. WITH supervision, direction, personal assistance or total care.undefined' option radiobutton
     And     [Web Katz Index of Independence in ADL Page] User clicks on 'Goes to toilet, gets on and off, arranges clothes, cleans genital area without help. NO supervision, direction or personal assistance.undefined' option radiobutton
@@ -44,6 +50,12 @@ Feature: Katz Index of Independence in ADL
     When    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
     And     [Web Holistic Assessment Page] User clicks on Katz Index of Independence in ADL side-tab
     Then    [Web Katz Index of Independence in ADL Page] User should see the Katz Index of Independence in ADL heading
+
+    When    [Web Katz Index of Independence in ADL Page] User clicks on Reset button
+    And     [Web Katz Index of Independence in ADL Page] User clicks on OK button
+    Then    [Web Katz Index of Independence in ADL Page] User should see the 'Katz-Index of Independence assessment has been reset successfully' alert
+    When    [Web Katz Index of Independence in ADL Page] User clicks on close icon
+
     When    [Web Katz Index of Independence in ADL Page] User clicks on 'Bathes self completely or needs help in bathing only a single part of the body such as the back, genital area or disabled extremity. NO supervision, direction or personal assistance.undefined' option radiobutton
     And     [Web Katz Index of Independence in ADL Page] User clicks on 'Needs help with dressing self or needs to be completely dressed. WITH supervision, direction, personal assistance or total care.undefined' option radiobutton
     And     [Web Katz Index of Independence in ADL Page] User clicks on 'Goes to toilet, gets on and off, arranges clothes, cleans genital area without help. NO supervision, direction or personal assistance.undefined' option radiobutton
@@ -70,6 +82,12 @@ Feature: Katz Index of Independence in ADL
     When    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
     And     [Web Holistic Assessment Page] User clicks on Katz Index of Independence in ADL side-tab
     Then    [Web Katz Index of Independence in ADL Page] User should see the Katz Index of Independence in ADL heading
+
+    When    [Web Katz Index of Independence in ADL Page] User clicks on Reset button
+    And     [Web Katz Index of Independence in ADL Page] User clicks on OK button
+    Then    [Web Katz Index of Independence in ADL Page] User should see the 'Katz-Index of Independence assessment has been reset successfully' alert
+    When    [Web Katz Index of Independence in ADL Page] User clicks on close icon
+
     When    [Web Katz Index of Independence in ADL Page] User clicks on 'Bathes self completely or needs help in bathing only a single part of the body such as the back, genital area or disabled extremity. NO supervision, direction or personal assistance.undefined' option radiobutton
     And     [Web Katz Index of Independence in ADL Page] User clicks on 'Needs help with dressing self or needs to be completely dressed. WITH supervision, direction, personal assistance or total care.undefined' option radiobutton
     And     [Web Katz Index of Independence in ADL Page] User clicks on 'Goes to toilet, gets on and off, arranges clothes, cleans genital area without help. NO supervision, direction or personal assistance.undefined' option radiobutton
@@ -96,4 +114,4 @@ Feature: Katz Index of Independence in ADL
     When    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
     And     [Web Holistic Assessment Page] User clicks on Katz Index of Independence in ADL side-tab
     Then    [Web Katz Index of Independence in ADL Page] User should see the Katz Index of Independence in ADL heading
-    When    [Web Katz Index of Independence in ADL Page] User clicks on View link
+#    When    [Web Katz Index of Independence in ADL Page] User clicks on View link

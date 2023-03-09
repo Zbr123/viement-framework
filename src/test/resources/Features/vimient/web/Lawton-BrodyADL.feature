@@ -49,6 +49,9 @@ Feature: Lawton-Brody ADL
     And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
+    Then    [Web Lawton-Brody ADL Page] User should see the Holistic Assessment heading
+    And    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
+    And     [Web Holistic Assessment Page] User clicks on Lawton-Brody ADL side-tab
     Then    [Web Lawton-Brody ADL Page] User should see the Lawton-Brody ADL heading
 
     When     [Web Lawton-Brody ADL Page] User clicks on Reset button
@@ -56,9 +59,6 @@ Feature: Lawton-Brody ADL
     Then    [Web Lawton-Brody ADL Page] User should see the 'Lawton-Brody assessment has been reset successfully' alert
     When    [Web Lawton-Brody ADL Page] User clicks on the close icon
 
-    And    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
-    And     [Web Holistic Assessment Page] User clicks on Lawton-Brody ADL side-tab
-    Then    [Web Lawton-Brody ADL Page] User should see the Lawton-Brody ADL heading
     When    [Web Lawton-Brody ADL Page] User clicks on 'Does not use telephone at all.undefined' option radiobutton
     And     [Web Lawton-Brody ADL Page] User clicks on 'Completely unable to shop.undefined' option radiobutton
     And     [Web Lawton-Brody ADL Page] User clicks on 'Needs to have meals prepared and served.undefined' option radiobutton
@@ -74,15 +74,18 @@ Feature: Lawton-Brody ADL
   Scenario: User is able to fill a new Lawton-Brody ADL for a senior(Testing Save button)
     Given   [Main Page] User go the web portal and navigate to the login page
     When    [Web Login Page] User enters email zubair.alam+55@vimient.com
-#    And     [Web Login Page] User enters password Vista!@#135!@#
+    And     [Web Login Page] User enters password Vista!@#135!@#
     And     [Web Login Page] User clicks on Log In button
     Then    [Web Home Page] User should see Home tab in heading
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    And     [Web Home Page] User clicks on the top senior Zubair Automation02 after search
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
+    Then    [Web Lawton-Brody ADL Page] User should see the Holistic Assessment heading
+    And    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
+    And     [Web Holistic Assessment Page] User clicks on Lawton-Brody ADL side-tab
     Then    [Web Lawton-Brody ADL Page] User should see the Lawton-Brody ADL heading
 
     When     [Web Lawton-Brody ADL Page] User clicks on Reset button
@@ -90,9 +93,6 @@ Feature: Lawton-Brody ADL
     Then    [Web Lawton-Brody ADL Page] User should see the 'Lawton-Brody assessment has been reset successfully' alert
     When    [Web Lawton-Brody ADL Page] User clicks on the close icon
 
-    And    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
-    And     [Web Holistic Assessment Page] User clicks on Lawton-Brody ADL side-tab
-    Then    [Web Lawton-Brody ADL Page] User should see the Lawton-Brody ADL heading
     When    [Web Lawton-Brody ADL Page] User clicks on 'Does not use telephone at all.undefined' option radiobutton
     And     [Web Lawton-Brody ADL Page] User clicks on 'Completely unable to shop.undefined' option radiobutton
     And     [Web Lawton-Brody ADL Page] User clicks on 'Needs to have meals prepared and served.undefined' option radiobutton
@@ -117,6 +117,9 @@ Feature: Lawton-Brody ADL
     And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
+    Then    [Web Lawton-Brody ADL Page] User should see the Holistic Assessment heading
+    And    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
+    And     [Web Holistic Assessment Page] User clicks on Lawton-Brody ADL side-tab
     Then    [Web Lawton-Brody ADL Page] User should see the Lawton-Brody ADL heading
 
     When     [Web Lawton-Brody ADL Page] User clicks on Reset button
@@ -124,9 +127,6 @@ Feature: Lawton-Brody ADL
     Then    [Web Lawton-Brody ADL Page] User should see the 'Lawton-Brody assessment has been reset successfully' alert
     When    [Web Lawton-Brody ADL Page] User clicks on the close icon
 
-    And    [Web Holistic Assessment Page] User clicks on ADL Assessment side-tab
-    And     [Web Holistic Assessment Page] User clicks on Lawton-Brody ADL side-tab
-    Then    [Web Lawton-Brody ADL Page] User should see the Lawton-Brody ADL heading
     When    [Web Lawton-Brody ADL Page] User clicks on 'Does not use telephone at all.undefined' option radiobutton
     And     [Web Lawton-Brody ADL Page] User clicks on 'Needs to have meals prepared and served.undefined' option radiobutton
     And     [Web Lawton-Brody ADL Page] User clicks on 'Needs help with all home maintenance tasks.undefined' option radiobutton

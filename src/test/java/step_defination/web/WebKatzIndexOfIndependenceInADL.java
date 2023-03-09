@@ -27,4 +27,9 @@ public class WebKatzIndexOfIndependenceInADL extends Page {
         Thread.sleep(2000);
         Assert.assertTrue(getPageKatzADL().getKatzADLSuccessAlert(successAlertLocatorString).isDisplayed());
     }
+    @When("^\\[Web Katz Index of Independence in ADL Page] User clicks on close icon$")
+    public void userClicksOnKatzADLCloseIcon() throws InterruptedException {
+        Thread.sleep(200);
+        getPageKatzADL().getKatzADLCloseIcon().click();
+    }
 }
