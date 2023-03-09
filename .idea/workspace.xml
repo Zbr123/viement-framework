@@ -7,15 +7,11 @@
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageKatzADLWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageKatzADLWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageLawtonBrodyADLWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageLawtonBrodyADLWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebKatzIndexOfIndependenceInADL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebKatzIndexOfIndependenceInADL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Lawton-BrodyADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Lawton-BrodyADL.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageLawtonBrodyADLWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageLawtonBrodyADLWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-07T18-55-56_516.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-09T14-02-45_060.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Lawton-BrodyADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Lawton-BrodyADL.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebKatzIndexOfIndependenceInADL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebKatzIndexOfIndependenceInADL.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -296,7 +292,7 @@
       <workItem from="1678083585245" duration="7289000" />
       <workItem from="1678167347854" duration="9605000" />
       <workItem from="1678340771042" duration="691000" />
-      <workItem from="1678346160519" duration="5196000" />
+      <workItem from="1678346160519" duration="11956000" />
     </task>
     <servers />
   </component>

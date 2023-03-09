@@ -32,4 +32,14 @@ public class WebKatzIndexOfIndependenceInADL extends Page {
         Thread.sleep(200);
         getPageKatzADL().getKatzADLCloseIcon().click();
     }
+    @When("^\\[Web Katz Index of Independence in ADL Page] User clicks on View link$")
+    public void userClicksOnKatzADLViewLink() throws InterruptedException {
+        Thread.sleep(200);
+        getPageKatzADL().getKatzADLViewLink();
+    }
+    @Then("^\\[Web Katz Index of Independence in ADL Page] User should see the (.*) button$")
+    public void userSeesKatzADLButtons(String buttonsLocatorString) throws InterruptedException {
+        Thread.sleep(2000);
+        Assert.assertTrue(getPageKatzADL().getKatzADLButtons(buttonsLocatorString).isDisplayed());
+    }
 }
