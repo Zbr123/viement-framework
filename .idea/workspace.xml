@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageKatzADLWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageKatzADLWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebKatzIndexOfIndependenceInADL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebKatzIndexOfIndependenceInADL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-09T14-02-45_060.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebKatzIndexOfIndependenceInADL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebKatzIndexOfIndependenceInADL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CaregiverStrainAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CaregiverStrainAssessment.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +286,12 @@
       <workItem from="1678083585245" duration="7289000" />
       <workItem from="1678167347854" duration="9605000" />
       <workItem from="1678340771042" duration="691000" />
-      <workItem from="1678346160519" duration="11956000" />
+      <workItem from="1678346160519" duration="12508000" />
+      <workItem from="1678460848706" duration="1468000" />
+      <workItem from="1678882254595" duration="962000" />
+      <workItem from="1678883229037" duration="34000" />
+      <workItem from="1678883272913" duration="2033000" />
+      <workItem from="1679049268733" duration="697000" />
     </task>
     <servers />
   </component>
