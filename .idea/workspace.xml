@@ -5,38 +5,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/android/WellnessSignsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/Android/WellnessSignsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserstack.err" beforeDir="false" afterPath="$PROJECT_DIR$/browserstack.err" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/android/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/android/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/android/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/android/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/android/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/android/WelcomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APK/Vim-Test-090323V(1.1.5.3207).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APK/Vim-Test-27032023V2(1.1.6.3250).apk" beforeDir="false" afterPath="$PROJECT_DIR$/APK/vim-test.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APK/vim-stage.apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/config/androidconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/androidconfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/Android/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/Android/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/Android/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/Android/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/Android/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/Android/WelcomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/WelcomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/android/WelcomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/android/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/android/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/WelcomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/android/WelcomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-09T16-07-26_903.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/WelcomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/WelcomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CaregiverStrainAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CaregiverStrainAssessment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/Android/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/Android/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/WelcomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/Android/WelcomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/AppiumServerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/AndroidDriverSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/AppiumServerRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/CapabilitiesGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/Initializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AndroidCore/Ssh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/AppiumHook/emulatorRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/BrowerConfig/WebConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/BsApiHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/BsDeviceHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/BsLocalHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/ConfigUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/EmailSender/EmailUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/EmailSender/EmailUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/PropertyReader/PropertyFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/Wait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/restAssured/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/restAssured/RestAssuredUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/restAssured/TestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/android/WelcomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ios/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAddSeniorWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageAdminWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageCareCircleSubTabWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageCaregiverStrainAssessmentWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageForgotPasswordWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHolisticAssessmentsWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageKatzADLWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageLawtonBrodyADLWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageLoginWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageMainWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageMedicalInfoSubTabWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageOnboardingInfoWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageProviderInfoSubTabWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageSchedulerWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageWellnessSurveyWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-30T17-23-36_187-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-30T17-23-36_187-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/HomePage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/WelcomePage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/AddSenior.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CareCircle.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CaregiverStrainAssessment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/HolisticAssessment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Home.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Lawton-BrodyADL.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Scheduler.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/WellnessSurvey.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MobileRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/Cognito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/LocationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/extent-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/extent.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/AndroidSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/Scrollfunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/WelcomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/CommonFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebAddSeniorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebAdminPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebCallSchedulerPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebCareCircleSubTabPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebCaregiverStrainAssessmentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebForgotPasswordPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHolisticAssessmentsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebKatzIndexOfIndependenceInADL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebLawtonBrodyADLPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebLoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebMedicalInfoSubTabPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebOnboardingInfoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebProviderInfoSubTabPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebSeniorDashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebWellnessSurveyPage.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,28 +144,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Work/Co-Ventech/Vimient/Framework/src/test/resources/Features/vimient/web&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fba7bfd69a8e5f436fd7cd373cf72fbc&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "browserstackIntegration",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Work/Co-Ventech/Vimient/Framework/src/test/resources/Features/vimient/web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "spring.configuration.checksum": "fba7bfd69a8e5f436fd7cd373cf72fbc",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Work\Co-Ventech\Vimient\Framework\src\test\resources\Features\vimient\web" />
@@ -317,7 +387,8 @@
       <workItem from="1678883229037" duration="34000" />
       <workItem from="1678883272913" duration="2033000" />
       <workItem from="1679049268733" duration="697000" />
-      <workItem from="1680167427924" duration="13905000" />
+      <workItem from="1680167427924" duration="14169000" />
+      <workItem from="1680189421059" duration="1144000" />
     </task>
     <servers />
   </component>
@@ -334,6 +405,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/utils/AndroidCore/AndroidDriverSetup.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/utils/AndroidCore/AndroidDriverSetup.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

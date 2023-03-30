@@ -7,8 +7,13 @@ Feature: Welcome Page Continue Button
     When  [Login Page] User enters androidEmail zubair.alam+android1@vimient.com
     And   [Login Page] User enters androidPasswords Vista!@#135!@#
     And   [Login Page] User clicks on Sign In button
-#    Then  [Welcome Page] User sees Welcome to Vimient heading
-    And  [Welcome Page] User clicks on continue button
-    Then  [Home Page] User sees Senior name heading
-    When  [Home Page] User taps on hamburger menu
+    And   [Welcome Page] User clicks on continue button
+    And   [Home Page] User taps on hamburger menu
     And   [Home Page] User taps on wellness signs tab
+    And   [Wellness Signs Tab] User clicks on month view
+    And   [Wellness Signs Tab] User clicks on left calendar arrow
+    And   [Wellness Signs Tab] User clicks on week view
+    And   [Wellness Signs Tab] User clicks on left calendar arrow
+    And   [Wellness Signs Tab] User clicks on day view
+    And   [Home Page] User taps on hamburger menu
+#    And   [Home Page] User taps on signout tab

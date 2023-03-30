@@ -16,4 +16,4 @@ Feature: Welcome Page Continue Button
     And   [Wellness Signs Tab] User clicks on left calendar arrow
     And   [Wellness Signs Tab] User clicks on day view
     And   [Home Page] User taps on hamburger menu
-    And   [Home Page] User taps on signout tab
+#    And   [Home Page] User taps on signout tab

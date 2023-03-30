@@ -29,6 +29,7 @@ pages\web\PageCaregiverStrainAssessmentWeb.class
 core\utils\AppiumHook\emulatorRunner.class
 core\utils\restAssured\RestAssuredUtil.class
 core\utils\AndroidCore\AndroidDriverSetup.class
+pages\android\WellnessSignsPage.class
 pages\web\PageKatzADLWeb.class
 core\utils\EmailSender\EmailUtil.class
 pages\android\HomePage.class
