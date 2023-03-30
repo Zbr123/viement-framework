@@ -12,7 +12,9 @@ public class LoginPage {
     private String emailAddressXpath = "//android.widget.EditText[@content-desc=\"SignInScreen:EmailInput:email\"]";
     private String emailAddressID = "SignInScreen:EmailInput:email";
     private String passwordXpath = "//android.widget.EditText[@content-desc=\"SignInScreen:PasswordInput:password\"]";
-    private String loginButtonXpath = "//android.view.ViewGroup[@content-desc=\"SignInScreen:SignInButton:signinbutton\"]";
+//    private String signInButtonID = "SignInScreen:SignInButton:signinbutton";
+    private String signInButtonXpath = "//android.view.ViewGroup[@content-desc=\"SignInScreen:SignInButton:signinbutton\"]";
+//    private String signInButtonXpath = "//*[@class = 'android.view.ViewGroup' and @resource-id = 'WelcomeScreen:OnContinueButton:oncontinuebutton' and (@text = '' or . = '')]";
     private String forgotPasswordButtonXpath = "//android.widget.TextView[@content-desc=\"SignInScreen:ForgotPasswordText:forgotpasswordtext\"]";
 
     public LoginPage(Page page) {
@@ -26,8 +28,8 @@ public class LoginPage {
         return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(passwordXpath));
     }
 
-    public WebElement getLoginButton() {
-        return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(loginButtonXpath));
+    public WebElement getSigninButton() {
+        return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(signInButtonXpath));
     }
     public WebElement getforgotPasswordButton() {
         return AndroidDriverSetup.getAndroidDriver().findElement(By.xpath(forgotPasswordButtonXpath));
