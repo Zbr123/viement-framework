@@ -8,12 +8,13 @@ Feature: Welcome Page Continue Button
     And   [Login Page] User enters androidPasswords Vista!@#135!@#
     And   [Login Page] User clicks on Sign In button
     And   [Welcome Page] User clicks on continue button
-    And   [Home Page] User taps on hamburger menu
+    And   [Home Page] User taps on hamburger menu icon
     And   [Home Page] User taps on wellness signs tab
     And   [Wellness Signs Tab] User clicks on month view
     And   [Wellness Signs Tab] User clicks on left calendar arrow
     And   [Wellness Signs Tab] User clicks on week view
     And   [Wellness Signs Tab] User clicks on left calendar arrow
     And   [Wellness Signs Tab] User clicks on day view
-    And   [Home Page] User taps on hamburger menu
+    And   [Home Page] User taps on hamburger menu icon
 #    And   [Home Page] User taps on signout tab
+  #please fix
