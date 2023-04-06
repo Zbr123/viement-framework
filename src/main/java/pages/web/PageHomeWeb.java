@@ -21,7 +21,7 @@ public class PageHomeWeb {
         {return WebConnector.driver.findElement(By.xpath(String.format("//p[contains(., '%s')]", homePageTabLocatorString)));}
     }
     public WebElement getWelcomeHeading(String h2HeadingLocatorString) {
-        {return  WebConnector.driver.findElement(By.xpath(String.format("//h2[contains(., '%s')]", h2HeadingLocatorString)));}
+        {return  WebConnector.driver.findElement(By.xpath(String.format("//span[contains(., '%s')]", h2HeadingLocatorString)));}
     }
     public WebElement getHomePageProfileDropdownHome() {
         {return WebConnector.driver.findElement(By.cssSelector(profileDropdownCss)); }

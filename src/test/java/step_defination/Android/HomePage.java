@@ -34,7 +34,7 @@ public class HomePage extends Page {
         Thread.sleep(8000);
         Assert.assertTrue(getPageHomeAndroid().getSeniorNameHeading().isDisplayed());
     }
-    @When("^\\[Home Page] User taps on hamburger menu$")
+    @When("^\\[Home Page] User taps on hamburger menu icon$")
     public void userClicksOnHamburgerMenu() {
         getPageHomeAndroid().getHamburgerMenu().click();
     }

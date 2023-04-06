@@ -26,6 +26,6 @@ public class PageSeniorDashboardWeb {
         return WebConnector.driver.findElement(By.xpath(String.format("//button[contains(., '%s')]", seniorPageTabsLocatorString)));
     }
     public WebElement getSeniorPageH3Headings(String seniorPageNameHeadingLocatorString) {
-        return WebConnector.driver.findElement(By.xpath(String.format("//h3[contains(., '%s')]", seniorPageNameHeadingLocatorString)));
+        return WebConnector.driver.findElement(By.xpath(String.format("//span[contains(., '%s')]", seniorPageNameHeadingLocatorString)));
     }
 }
