@@ -6,19 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageSeniorDashboardWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageSeniorDashboardWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/androidconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/androidconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/Android/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/Android/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Scheduler.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Scheduler.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageHomeWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/web/PageSeniorDashboardWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-30T20-27-30_544-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-03-30T20-27-30_544-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/WelcomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/android/WelcomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Scheduler.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Scheduler.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/Android/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/Android/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessSurvey.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessSurvey.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +112,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Scheduler">
+  <component name="RunManager" selected="Cucumber Java.Feature: MedicalInfo">
     <configuration name="Feature: HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/android/HomePage.feature" />
@@ -144,9 +132,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/android/Login.feature" />
       <option name="GLUE" value="step_defination.web step_defination.Android" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="vimientAutomationFramework" />
@@ -163,14 +151,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: MedicalInfo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/android/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" />
       <option name="GLUE" value="step_defination.web step_defination.Android" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="vimientAutomationFramework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="SUGGESTED_NAME" value="Feature: MedicalInfo" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -222,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: MedicalInfo" />
         <item itemvalue="Cucumber Java.Feature: Scheduler" />
         <item itemvalue="Cucumber Java.Feature: WelcomePage" />
         <item itemvalue="Cucumber Java.Feature: HomePage" />
         <item itemvalue="Cucumber Java.Feature: Login" />
-        <item itemvalue="Cucumber Java.Feature: Login (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +293,8 @@
       <workItem from="1680189421059" duration="1265000" />
       <workItem from="1680190722286" duration="1520000" />
       <workItem from="1680267857119" duration="166000" />
-      <workItem from="1680760835346" duration="6364000" />
+      <workItem from="1680760835346" duration="7348000" />
+      <workItem from="1680846993857" duration="5702000" />
     </task>
     <servers />
   </component>

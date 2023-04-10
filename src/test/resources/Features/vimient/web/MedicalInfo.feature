@@ -9,8 +9,8 @@ Feature: Medical Info
     Then    [Web Home Page] User should see Home tab in heading
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
-    When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation83 after search
+    When    [Web Home Page] User enters in the senior list search textbox Ahsan
+    And     [Web Home Page] User clicks on the top senior Ahsan Veer after search
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Onboarding Info tab
     Then    [Web Onboarding Info Page] User should see the Profile Info heading
