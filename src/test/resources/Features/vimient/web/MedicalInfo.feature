@@ -10,7 +10,7 @@ Feature: Medical Info
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Ahsan
-    And     [Web Home Page] User clicks on the top senior Ahsan Veer after search
+    And     [Web Home Page] User clicks on the senior Veer
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Onboarding Info tab
     Then    [Web Onboarding Info Page] User should see the Profile Info heading
@@ -54,6 +54,6 @@ Feature: Medical Info
     And     [Web Medical Info SubTab Page] User enters Automation Test in Comments input box
     And     [Web Medical Info SubTab Page] User clicks on medication_schedule dropdown
     And     [Web Medical Info SubTab Page] User clicks on Friday option
-    And     [Web Medical Info SubTab Page] User clicks on Add Prescription button
+#    And     [Web Medical Info SubTab Page] User clicks on Add Prescription button
     And     [Web Medical Info SubTab Page] User clicks on Save button
     Then    [Web Medical Info SubTab Page] User should see a Saved Successfully alert

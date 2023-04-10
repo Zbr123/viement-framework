@@ -34,6 +34,6 @@ public class PageHomeWeb {
         {return WebConnector.driver.findElement(By.cssSelector(String.format("input[type='text']")));}
     }
     public WebElement getTopSeniorAfterSearch(String seniorInList) {
-        {return WebConnector.driver.findElement(By.xpath(String.format("//td[contains(@class, 'MuiTableCell-root') and contains(., '%s')]", seniorInList)));}
+        {return WebConnector.driver.findElement(By.xpath(String.format("//td[contains(., '%s')]", seniorInList)));}
     }
 }

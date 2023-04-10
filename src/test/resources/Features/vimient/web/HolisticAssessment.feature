@@ -10,7 +10,7 @@ Feature: Holistic Assessment
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    And     [Web Home Page] User clicks on the senior Veer
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
     Then    [Web Holistic Assessment Page] User should see the Holistic Assessment heading
@@ -64,7 +64,7 @@ Feature: Holistic Assessment
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    And     [Web Home Page] User clicks on the senior Veer
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
     Then    [Web Holistic Assessment Page] User should see the Holistic Assessment heading
@@ -117,7 +117,7 @@ Feature: Holistic Assessment
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    And     [Web Home Page] User clicks on the senior Veer
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
     Then    [Web Holistic Assessment Page] User should see the Holistic Assessment heading
@@ -170,7 +170,7 @@ Feature: Holistic Assessment
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
     When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    And     [Web Home Page] User clicks on the senior Veer
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Assessments tab
     Then    [Web Holistic Assessment Page] User should see the Holistic Assessment heading
