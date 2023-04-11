@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/web/PageHomeWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CareCircle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CareCircle.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CaregiverStrainAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/CaregiverStrainAssessment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/HolisticAssessment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Lawton-BrodyADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/Lawton-BrodyADL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/MedicalInfo.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +295,8 @@
       <workItem from="1680267857119" duration="166000" />
       <workItem from="1680760835346" duration="7348000" />
       <workItem from="1680846993857" duration="5702000" />
-      <workItem from="1681110540377" duration="4931000" />
+      <workItem from="1681110540377" duration="5575000" />
+      <workItem from="1681187495826" duration="3307000" />
     </task>
     <servers />
   </component>
