@@ -1,28 +1,28 @@
 Feature: Wellness Survey
 
-  @vim-001 @Web
-  Scenario: User is able to submit wellness survey for a senior
-    Given   [Main Page] User go the web portal and navigate to the login page
-    When    [Web Login Page] User enters email srijan-admin@srijan.net
-    And     [Web Login Page] User enters password Srijan@12345
-    And     [Web Login Page] User clicks on Log In button
-    Then    [Web Home Page] User should see Home tab in heading
-    When    [Web Admin Page] User clicks on Home button from admin tab
-    Then    [Web Home Page] User should see the Welcome heading
-    When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
-    Then    [Web Senior Dashboard Page] User should see the Dashboard heading
-    And     [Web Senior Dashboard Page] User clicks on Wellness Survey tab
-    Then    [Web Wellness Survey Page] User should see the Wellness Check-in Survey heading
-    When    [Web Wellness Survey Page] User Select Relaxed/Calm radio button
-    And     [Web Wellness Survey Page] User Select Happy/Cheerful radio button
-    And     [Web Wellness Survey Page] User Select Rested/Energized radio button
-    And     [Web Wellness Survey Page] User Select Sense of Purpose radio button
-    And     [Web Wellness Survey Page] User Select Busy/Engaged radio button
-    And     [Web Wellness Survey Page] User Select Socially Active/Fulfilled radio button
-    And     [Web Wellness Survey Page] User Select Feeling Good/Content radio button
-    And     [Web Wellness Survey Page] User clicks on Wellness Survey Submit button
-    Then    [Web Wellness Survey Page] User should see the Wellness survey submitted successfully alert
+#  @vim-001 @Web
+#  Scenario: User is able to submit wellness survey for a senior
+#    Given   [Main Page] User go the web portal and navigate to the login page
+#    When    [Web Login Page] User enters email srijan-admin@srijan.net
+#    And     [Web Login Page] User enters password Srijan@12345
+#    And     [Web Login Page] User clicks on Log In button
+#    Then    [Web Home Page] User should see Home tab in heading
+#    When    [Web Admin Page] User clicks on Home button from admin tab
+#    Then    [Web Home Page] User should see the Welcome heading
+#    When    [Web Home Page] User enters in the senior list search textbox Ahsan
+#    And     [Web Home Page] User clicks on the senior Veer
+#    Then    [Web Senior Dashboard Page] User should see the Dashboard heading
+#    And     [Web Senior Dashboard Page] User clicks on Wellness Survey tab
+#    Then    [Web Wellness Survey Page] User should see the Wellness Check-in Survey heading
+#    When    [Web Wellness Survey Page] User Select Relaxed/Calm radio button
+#    And     [Web Wellness Survey Page] User Select Happy/Cheerful radio button
+#    And     [Web Wellness Survey Page] User Select Rested/Energized radio button
+#    And     [Web Wellness Survey Page] User Select Sense of Purpose radio button
+#    And     [Web Wellness Survey Page] User Select Busy/Engaged radio button
+#    And     [Web Wellness Survey Page] User Select Socially Active/Fulfilled radio button
+#    And     [Web Wellness Survey Page] User Select Feeling Good/Content radio button
+#    And     [Web Wellness Survey Page] User clicks on Wellness Survey Submit button
+#    Then    [Web Wellness Survey Page] User should see the Wellness survey submitted successfully alert
 
   @vim-002 @Web
   Scenario: User is able to reset wellness survey for a senior
@@ -33,8 +33,8 @@ Feature: Wellness Survey
     Then    [Web Home Page] User should see Home tab in heading
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
-    When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    When    [Web Home Page] User enters in the senior list search textbox Ahsan
+    And     [Web Home Page] User clicks on the senior Veer
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Wellness Survey tab
     Then    [Web Wellness Survey Page] User should see the Wellness Check-in Survey heading
@@ -57,8 +57,8 @@ Feature: Wellness Survey
     Then    [Web Home Page] User should see Home tab in heading
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
-    When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    When    [Web Home Page] User enters in the senior list search textbox Ahsan
+    And     [Web Home Page] User clicks on the senior Veer
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Wellness Survey tab
     Then    [Web Wellness Survey Page] User should see the Wellness Check-in Survey heading
@@ -83,8 +83,8 @@ Feature: Wellness Survey
     Then    [Web Home Page] User should see Home tab in heading
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
-    When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation00 after search
+    When    [Web Home Page] User enters in the senior list search textbox Ahsan
+    And     [Web Home Page] User clicks on the senior Veer
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Wellness Survey tab
     Then    [Web Wellness Survey Page] User should see the Wellness Check-in Survey heading

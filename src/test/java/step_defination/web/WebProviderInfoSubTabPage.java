@@ -24,6 +24,7 @@ public class WebProviderInfoSubTabPage extends Page {
         String doctorPracticeNameLocator = commonFunctions.providerInfoDoctorNumber(doctorNumber)+"[provider_name]";
         System.out.println(doctorPracticeNameLocator);
         Thread.sleep(1000);
+        getPageProviderInfoSubTab().getDoctorNameInput(doctorPracticeNameLocator).clear();
         getPageProviderInfoSubTab().getDoctorNameInput(doctorPracticeNameLocator).sendKeys(doctor1PracticeName);
     }
     @And("^\\[Web Provider Info SubTab Page] User enters Doctor (.*) first name (.*)$")
@@ -31,6 +32,7 @@ public class WebProviderInfoSubTabPage extends Page {
         String doctorFirstNameLocator = commonFunctions.providerInfoDoctorNumber(doctorNumber)+"[name.first_name]";
         System.out.println(doctorFirstNameLocator);
         Thread.sleep(1000);
+        getPageProviderInfoSubTab().getDoctorNameInput(doctorFirstNameLocator).clear();
         getPageProviderInfoSubTab().getDoctorNameInput(doctorFirstNameLocator).sendKeys(doctor1FirstName);
     }
     @And("^\\[Web Provider Info SubTab Page] User enters Doctor (.*) last name (.*)$")
@@ -38,6 +40,7 @@ public class WebProviderInfoSubTabPage extends Page {
         String doctorLastNameLocator = commonFunctions.providerInfoDoctorNumber(doctorNumber)+"[name.last_name]";
         System.out.println(doctorLastNameLocator);
         Thread.sleep(1000);
+        getPageProviderInfoSubTab().getDoctorNameInput(doctorLastNameLocator).clear();
         getPageProviderInfoSubTab().getDoctorNameInput(doctorLastNameLocator).sendKeys(doctor1LastName);
     }
     @And("^\\[Web Provider Info SubTab Page] User clicks on Doctor (.*) specialty dropdown$")

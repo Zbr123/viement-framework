@@ -3,14 +3,14 @@ Feature: Provider Info
   @vim-001 @Web
     Scenario: User is able to add Provider Info for a senior
     Given   [Main Page] User go the web portal and navigate to the login page
-    When    [Web Login Page] User enters email srijan-admin@srijan.net
-    And     [Web Login Page] User enters password Srijan@12345
+    When    [Web Login Page] User enters email zubair.alam+55@vimient.com
+    And     [Web Login Page] User enters password Vista!@#135!@#
     And     [Web Login Page] User clicks on Log In button
     Then    [Web Home Page] User should see Home tab in heading
     When    [Web Admin Page] User clicks on Home button from admin tab
     Then    [Web Home Page] User should see the Welcome heading
-    When    [Web Home Page] User enters in the senior list search textbox Zubair
-    And     [Web Home Page] User clicks on the top senior Zubair Automation84 after search
+    When    [Web Home Page] User enters in the senior list search textbox Ahsan
+    And     [Web Home Page] User clicks on the senior Veer
     Then    [Web Senior Dashboard Page] User should see the Dashboard heading
     And     [Web Senior Dashboard Page] User clicks on Onboarding Info tab
     Then    [Web Onboarding Info Page] User should see the Profile Info heading

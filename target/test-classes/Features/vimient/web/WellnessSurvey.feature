@@ -1,4 +1,4 @@
-Feature: WellnessPlan
+Feature: Wellness Survey
 
   @vim-001 @Web
   Scenario: User is able to submit wellness survey for a senior
