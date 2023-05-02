@@ -6,23 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6062d6-8958-4e19-b644-1b9987f93149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChromeDriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ChromeDriver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/web/WebProviderInfoSubTabPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/web/WebProviderInfoSubTabPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/AddSenior.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/AddSenior.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/ProviderInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/ProviderInfo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessSurvey.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/vimient/web/WellnessSurvey.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-04-06T12-10-13_339-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-04-06T12-10-13_339-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CareCircle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CareCircle.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CaregiverStrainAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/CaregiverStrainAssessment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/HolisticAssessment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/HolisticAssessment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/KatzIndexOfIndependenceInADL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Lawton-BrodyADL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/Lawton-BrodyADL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/MedicalInfo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/ProviderInfo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/WellnessSurvey.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/vimient/web/WellnessSurvey.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebProviderInfoSubTabPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_defination/web/WebProviderInfoSubTabPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +307,8 @@
       <workItem from="1682514604571" duration="626000" />
       <workItem from="1682573891784" duration="1968000" />
       <workItem from="1682597660836" duration="1170000" />
-      <workItem from="1682673555576" duration="2174000" />
+      <workItem from="1682673555576" duration="2226000" />
+      <workItem from="1683008798259" duration="2343000" />
     </task>
     <servers />
   </component>
